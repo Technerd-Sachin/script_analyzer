@@ -1,0 +1,62 @@
+{
+  "suite": "scanned",
+  "started": "2026-10-19T14:59:59",
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "scripts": {
+    "s01_last_message:scanned": {
+      "cer": 0.0,
+      "elements_text": 6,
+      "elements_scan": 6,
+      "episodes_scan": 1,
+      "ocr_conf": 1.0,
+      "overall_scan": 2.5,
+      "overall_text": 2.9,
+      "overall_within_0.7": true,
+      "band_scan": "U/A 7+",
+      "band_text": "U/A 7+",
+      "same_band": true
+    },
+    "s05_hinglish_revenge:scanned": {
+      "cer": 0.0062,
+      "elements_text": 136,
+      "elements_scan": 135,
+      "episodes_scan": 5,
+      "ocr_conf": 0.969,
+      "overall_scan": 5.1,
+      "overall_text": 4.2,
+      "overall_within_0.7": false,
+      "band_scan": "U/A 16+",
+      "band_text": "U/A 16+",
+      "same_band": true
+    },
+    "s06_hindi_devanagari:scanned": {
+      "cer": 0.0299,
+      "elements_text": 52,
+      "elements_scan": 50,
+      "episodes_scan": 2,
+      "ocr_conf": 0.944,
+      "overall_scan": 4.5,
+      "overall_text": 4.2,
+      "overall_within_0.7": true,
+      "band_scan": "U/A 13+",
+      "band_text": "U/A 13+",
+      "same_band": true
+    },
+    "s07_season_20_pages:scanned": {
+      "error": "413 PDF has 29 pages; the limit is 20"
+    }
+  },
+  "aggregate": {
+    "schema_valid": "0/1",
+    "grounding_valid": "0/0",
+    "ocr_cer": {
+      "s01_last_message": 0.0,
+      "s05_hinglish_revenge": 0.0062,
+      "s06_hindi_devanagari": 0.0299
+    },
+    "scanned_overall_within_0.7": "2/3",
+    "scanned_same_band": "3/3",
+    "cost_usd": 0.0
+  },
+  "finished": "2026-10-19T15:15:08"
+}

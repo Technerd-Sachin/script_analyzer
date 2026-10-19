@@ -1,0 +1,78 @@
+# Hindi-belt and Punjabi culture-bound terms that often need transcreation for South and East Indian markets.
+# Format: type<TAB>term (lowercase; romanized and Devanagari). Used to give the localization prompt candidate lines.
+festival_ritual	karva chauth
+festival_ritual	karwa chauth
+festival_ritual	करवा चौथ
+festival_ritual	sargi
+festival_ritual	jaggo
+festival_ritual	sangeet
+festival_ritual	mehendi
+festival_ritual	haldi
+festival_ritual	baraat
+festival_ritual	vidaai
+festival_ritual	bidaai
+festival_ritual	pheras
+festival_ritual	saat phere
+festival_ritual	kanyadaan
+festival_ritual	teej
+festival_ritual	chhath
+festival_ritual	lohri
+festival_ritual	raksha bandhan
+festival_ritual	rakhi
+festival_ritual	bhai dooj
+festival_ritual	holika
+festival_ritual	navratri
+festival_ritual	garba
+festival_ritual	dandiya
+festival_ritual	chhanni
+festival_ritual	mangalsutra
+festival_ritual	sindoor
+festival_ritual	सिंदूर
+festival_ritual	मंगलसूत्र
+festival_ritual	tilak
+festival_ritual	aarti
+festival_ritual	puja
+food	sarson da saag
+food	makki di roti
+food	chhole bhature
+food	lassi
+food	paratha
+food	rajma chawal
+food	gol gappe
+food	pani puri
+food	jalebi
+food	kheer
+food	halwa
+food	pinni
+food	laddoo
+food	mathri
+food	poha
+food	dal baati
+culture_bound_reference	balle balle
+culture_bound_reference	shava shava
+culture_bound_reference	pai ji
+culture_bound_reference	paaji
+culture_bound_reference	puttar
+culture_bound_reference	oye
+culture_bound_reference	chak de
+culture_bound_reference	bebe
+culture_bound_reference	biji
+culture_bound_reference	chawl
+culture_bound_reference	bhaiya
+culture_bound_reference	behenji
+honorific_register	ji
+honorific_register	sahab
+honorific_register	babuji
+honorific_register	maaji
+honorific_register	bauji
+idiom_wordplay	naach na jaane aangan tedha
+idiom_wordplay	ulta chor kotwal ko daante
+idiom_wordplay	ulta chor kotwal ko daante
+idiom_wordplay	ghar ki murgi daal barabar
+idiom_wordplay	bandar kya jaane adrak ka swaad
+idiom_wordplay	naak kat gayi
+idiom_wordplay	jitna bada aadmi, utna bada girna
+idiom_wordplay	aasmaan se gire khajoor mein atke
+idiom_wordplay	oont ke munh mein jeera
+song_lyric_quote	tujhe dekha toh
+song_lyric_quote	kuch kuch hota hai

@@ -1,0 +1,18 @@
+---
+id: suggestions
+version: "1.1"
+output_schema: SuggestionsOut
+---
+TASK: Suggest {{ n_min }} to {{ n_max }} concrete improvements to the storytelling, focused on the weakest areas below. Each suggestion must target specific lines.
+
+WEAK AREAS (median engagement scores out of 5, with the scorer's rationale):
+{{ weak }}
+
+For each suggestion:
+- category: pacing, conflict, dialogue, emotion, hook, cliffhanger, character or clarity.
+- linked_factor: the engagement factor it improves.
+- target_line_ids: the lines to change (1 to 4).
+- issue: what is wrong, naming the mechanism (at most 30 words).
+- fix: what to do instead (at most 30 words).
+- example_rewrite: a short rewrite of the target lines in the script's own language and register ({{ language }}), in screenplay form like "NAME: line", one element per line. Do not put line IDs inside the rewrite.
+- impact: high, medium or low. Order the suggestions from highest to lowest impact.

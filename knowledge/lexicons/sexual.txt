@@ -1,0 +1,102 @@
+# Sexual content lexicon (sex, nudity and sexual violence candidates). Whole-word, case-insensitive.
+# Includes mild romantic terms (kiss) because the matrix rates kissing as sex: mild.
+kiss
+kissing
+kissed
+make love
+making love
+sex
+sexy
+sexual
+intercourse
+foreplay
+orgasm
+condom
+porn
+pornography
+erotic
+horny
+seduce
+seduction
+sleep with
+slept with
+sleeping with
+one night stand
+hook up
+hookup
+naked
+nude
+nudity
+undress
+undressing
+strip
+lingerie
+bra
+panties
+boobs
+breasts
+rape
+raped
+rapist
+molest
+molestation
+grope
+groped
+eve teasing
+harass
+prostitute
+prostitution
+brothel
+virgin
+virginity
+chumma
+chumban
+suhaagraat
+suhagraat
+humbistar
+hum bistar
+sambhog
+sharirik sambandh
+jismani
+jism
+nanga
+nangi
+kapde utaar
+vasna
+hawas
+hawasi
+ayyashi
+aiyaashi
+ayyash
+chhedkhani
+chhedchhad
+chhed
+balatkar
+izzat loot
+kotha
+randi khana
+सेक्स
+सेक्सी
+नंगा
+नंगी
+निर्वस्त्र
+चुंबन
+चुम्मा
+सुहागरात
+हमबिस्तर
+संभोग
+शारीरिक संबंध
+जिस्म
+जिस्मानी
+हवस
+वासना
+अय्याशी
+अय्याश
+छेड़खानी
+छेड़छाड़
+बलात्कार
+इज़्ज़त लूट
+वेश्या
+कोठा
+अश्लील
+पोर्न

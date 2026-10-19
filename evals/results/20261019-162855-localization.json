@@ -1,0 +1,98 @@
+{
+  "suite": "localization",
+  "started": "2026-10-19T16:15:03",
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "scripts": {
+    "s05_hinglish_revenge:localization": {
+      "latency_s": 355.2,
+      "pages": 7,
+      "calls": 17,
+      "repairs": 1,
+      "completion_tokens": 11512,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "200a6e11f75b0d2bad764db9",
+      "overall": 5.5,
+      "confidence": 0.97,
+      "group": "strong",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {
+        "opening_hook>=4": true
+      },
+      "episodes_detected": 5,
+      "episodes_expected": 5,
+      "localization": {
+        "planted_recall": 1.0
+      }
+    },
+    "s12_culture_bound:localization": {
+      "latency_s": 266.5,
+      "pages": 2,
+      "calls": 15,
+      "repairs": 3,
+      "completion_tokens": 10209,
+      "grounding_errors": 0,
+      "partial_sections": [
+        "emotion",
+        "cliffhanger"
+      ],
+      "report": "77aff75f5f56dee2834d6b94",
+      "overall": 4.5,
+      "confidence": 0.88,
+      "group": "neutral",
+      "cliffhanger": {
+        "strict": false,
+        "lenient": false
+      },
+      "factors": {},
+      "episodes_detected": 1,
+      "episodes_expected": 1,
+      "localization": {
+        "planted_recall": 0.8,
+        "fit_ta<=3": true,
+        "fit_te<=3": true
+      }
+    },
+    "s13_on_screen_text:localization": {
+      "latency_s": 210.1,
+      "pages": 2,
+      "calls": 13,
+      "repairs": 1,
+      "completion_tokens": 8212,
+      "grounding_errors": 0,
+      "partial_sections": [
+        "emotion"
+      ],
+      "report": "6fe2735614029142241e23aa",
+      "overall": 4.5,
+      "confidence": 0.94,
+      "group": "neutral",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {},
+      "episodes_detected": 1,
+      "episodes_expected": 1,
+      "localization": {
+        "planted_recall": 0.6666666666666666,
+        "on_screen_text_max_per_target": 4,
+        "on_screen_text_ok": true
+      }
+    }
+  },
+  "aggregate": {
+    "schema_valid": "3/3",
+    "grounding_valid": "3/3",
+    "cliffhanger_strict": "2/3",
+    "cliffhanger_lenient": "2/3",
+    "localization_planted_recall": 0.82,
+    "latency_s_mean": 277.3,
+    "latency_s_p95": 355.2,
+    "cost_usd": 0.0
+  },
+  "finished": "2026-10-19T16:28:55"
+}

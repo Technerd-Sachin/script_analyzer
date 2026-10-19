@@ -1,0 +1,11 @@
+---
+id: rating_lower
+version: "1.0"
+output_schema: RatingLowerOut
+---
+TASK: The estimated rating is {{ band }}. These findings set it (rating drivers):
+{% for d in drivers %}
+{{ loop.index0 }}. {{ d.category }} / {{ d.severity }} / {{ d.mode }} in {{ d.line_ids | join(", ") }}: {{ d.rationale }}
+{% endfor %}
+
+For each driver, propose the smallest line-level edit that would lower its severity while keeping the story intact (for example move violence off screen, imply instead of show, soften an expletive). Give: driver (its number above), line_ids, edit (instruction, at most 25 words), rewrite (the new line(s) in the script's language).

@@ -1,0 +1,87 @@
+# Alcohol lexicon (classification only; no statutory notice). Whole-word, case-insensitive.
+# "gin" is excluded because it collides with Hindi "gin" (count).
+alcohol
+alcoholic
+drunk
+drunken
+booze
+boozing
+liquor
+whisky
+whiskey
+scotch
+rum
+vodka
+beer
+beers
+wine
+brandy
+tequila
+champagne
+cocktail
+pub
+peg
+pegs
+patiala peg
+large peg
+cheers
+bottoms up
+hangover
+tipsy
+on the rocks
+toddy
+taadi
+tadi
+feni
+mahua
+country liquor
+desi daru
+desi daaru
+sharaab
+sharab
+sharaabi
+sharabi
+daaru
+daru
+daaru party
+tharra
+theka
+theke
+bewda
+bevda
+bewdi
+talli
+tulli
+piyakkad
+madira
+maikhana
+mehkhana
+khamba
+chadh gayi
+peeke
+pee ke
+शराब
+शराबी
+दारू
+देसी दारू
+ठर्रा
+ठेका
+ठेके
+बेवड़ा
+बेवडा
+व्हिस्की
+बियर
+बीयर
+वाइन
+रम
+वोडका
+पैग
+पेग
+ताड़ी
+ताडी
+महुआ
+टल्ली
+पियक्कड़
+मदिरा
+मयखाना
+मैखाना

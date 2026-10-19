@@ -1,0 +1,14 @@
+---
+id: cliffhanger
+version: "1.1"
+output_schema: CliffhangerOut
+---
+TASK: Identify the single most suspenseful or cliffhanger moment in the whole script and explain why it works.
+{% if candidates %}
+Candidates proposed per episode: {{ candidates }}
+{% endif %}
+- line_id: the line where the suspense peaks.
+- quote: the exact text of that line, copied verbatim.
+- technique: revelation, reversal, threat, unanswered_question, arrival, decision_point or emotional_shock.
+- why_it_works: at most 40 words: what question it opens, what it recontextualizes, and why the viewer must continue.
+- strength: 1 = no real suspense; 2 = mild curiosity; 3 = a clear open question; 4 = a strong reversal or threat with personal stakes; 5 = a revelation that recontextualizes everything before it and is set up earlier in the script. Be strict: 5 is rare.

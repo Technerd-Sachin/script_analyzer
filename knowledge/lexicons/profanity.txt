@@ -1,0 +1,159 @@
+# Profanity lexicon for the rating prescan (high recall; the LLM decides severity in context).
+# Format: severity<TAB>term. Severity is mild (insults acceptable on Indian TV) or strong (expletives, sexual or abusive).
+# Whole-word, case-insensitive. English, romanized Hindi and Devanagari.
+# Normalize text and terms to Unicode NFC before matching (nukta letters such as ड़ vary).
+# Detection only. Never print these terms in README or UI copy.
+# English, mild
+mild	damn
+mild	dammit
+mild	goddamn
+mild	hell
+mild	crap
+mild	bloody
+mild	idiot
+mild	stupid
+mild	moron
+mild	jerk
+mild	scumbag
+mild	screw you
+mild	piss off
+mild	pissed
+mild	bugger
+mild	freaking
+mild	shut up
+# English, strong
+strong	fuck
+strong	fucking
+strong	fucked
+strong	fucker
+strong	motherfucker
+strong	shit
+strong	bullshit
+strong	bitch
+strong	son of a bitch
+strong	bastard
+strong	asshole
+strong	arsehole
+strong	dick
+strong	dickhead
+strong	prick
+strong	cunt
+strong	whore
+strong	slut
+strong	wanker
+# Romanized Hindi, mild
+mild	kamina
+mild	kamine
+mild	kamini
+mild	kambakht
+mild	kambakth
+mild	harami
+mild	haramkhor
+mild	saala
+mild	saale
+mild	sala
+mild	kutta
+mild	kutte
+mild	ullu
+mild	ullu ka pattha
+mild	gadha
+mild	gadhe
+mild	gadhi
+mild	bewakoof
+mild	bevkoof
+mild	nalayak
+mild	nikamma
+mild	badtameez
+mild	besharam
+mild	suar
+mild	suar ki aulad
+mild	tatti
+mild	abe
+mild	abey
+mild	chup kar
+mild	dafa ho
+mild	tere baap ka
+mild	maa ki aankh
+# Romanized Hindi, strong
+strong	haramzada
+strong	haramzadi
+strong	kutiya
+strong	chutiya
+strong	chutiye
+strong	chutiyapa
+strong	madarchod
+strong	maderchod
+strong	mc
+strong	behenchod
+strong	bhenchod
+strong	bhanchod
+strong	bc
+strong	bhosdike
+strong	bhosadike
+strong	bsdk
+strong	bhosda
+strong	gaand
+strong	gand
+strong	gandu
+strong	lauda
+strong	lavda
+strong	lodu
+strong	lund
+strong	randi
+strong	bhadwa
+strong	bhadwe
+strong	chinal
+strong	jhaatu
+strong	jhant
+strong	chodu
+strong	bakchod
+strong	bakchodi
+strong	teri maa ki
+strong	teri behen ki
+strong	mkc
+strong	bkl
+# Devanagari, mild
+mild	कमीना
+mild	कमीने
+mild	कम्बख्त
+mild	कमबख्त
+mild	हरामी
+mild	हरामखोर
+mild	साला
+mild	साले
+mild	कुत्ता
+mild	कुत्ते
+mild	उल्लू
+mild	उल्लू का पट्ठा
+mild	गधा
+mild	गधे
+mild	बेवकूफ
+mild	बेवक़ूफ़
+mild	नालायक
+mild	निकम्मा
+mild	बदतमीज़
+mild	बदतमीज
+mild	बेशर्म
+mild	सूअर
+# Devanagari, strong
+strong	हरामज़ादा
+strong	हरामजादा
+strong	हरामज़ादी
+strong	कुतिया
+strong	चूतिया
+strong	चुतिया
+strong	मादरचोद
+strong	बहनचोद
+strong	भेनचोद
+strong	भोसड़ीके
+strong	भोसडीके
+strong	गांडू
+strong	गांड
+strong	लौड़ा
+strong	लौडा
+strong	लंड
+strong	रंडी
+strong	भड़वा
+strong	भडवा
+strong	छिनाल
+strong	झाटू

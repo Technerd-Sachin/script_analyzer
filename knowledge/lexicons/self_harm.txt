@@ -1,0 +1,75 @@
+# Self-harm and suicide lexicon (imitable behaviour and theme candidates). Whole-word, case-insensitive.
+# Noisy terms kept for recall: poison, hanging, overdose.
+suicide
+suicidal
+suicide note
+kill myself
+kill herself
+kill himself
+end my life
+end it all
+take my life
+self harm
+self-harm
+cut myself
+slit my wrist
+slit wrist
+slit wrists
+overdose
+hang myself
+hanging
+noose
+jump off
+poison
+rat poison
+pesticide
+sleeping pills
+keetnashak
+zeher
+zehar
+zahar
+zeher kha
+khudkushi
+khudkhushi
+aatmahatya
+atmahatya
+phaansi
+fansi
+phanda
+phanda laga
+nas kaat
+nas kaatna
+jaan de dungi
+jaan de dunga
+mar jaungi
+mar jaunga
+marna chahti
+marna chahta
+jeena nahi
+khud ko khatam
+khatam kar lungi
+khatam kar lunga
+chhat se kood
+kood jaungi
+kood jaunga
+train ke aage
+neend ki goliyan
+neend ki goli
+आत्महत्या
+ख़ुदकुशी
+खुदकुशी
+ज़हर
+जहर
+फांसी
+फाँसी
+फंदा
+नस काट
+मर जाऊंगी
+मर जाऊँगी
+मर जाऊंगा
+मर जाऊँगा
+जान दे दूंगी
+जान दे दूँगी
+नींद की गोलियां
+सुसाइड
+कीटनाशक

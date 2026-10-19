@@ -1,0 +1,33 @@
+---
+id: alternatives_generate
+version: "1.0"
+output_schema: AltGenerateOut
+---
+TASK: Write {{ n }} alternative versions of the {{ target_label }} of this script, each using a different strategy:
+{% for s in strategies %}
+- {{ s.id }}: {{ s.description }}
+{% endfor %}
+
+LINES TO REPLACE ({{ span_words }} words):
+{{ span_text }}
+
+{% if before_text %}
+LINES JUST BEFORE (keep, the new version must follow from them):
+{{ before_text }}
+{% endif %}
+{% if after_text %}
+LINES JUST AFTER (keep, the new version must flow into them):
+{{ after_text }}
+{% endif %}
+
+Hard constraints:
+- Keep the established character names and facts. Do not add new main characters.
+- Keep the language and register: {{ language }}.
+- Length between {{ min_words }} and {{ max_words }} words in total.
+- Write 2 to {{ max_elements }} screenplay elements: kind (action, dialogue, parenthetical, transition), speaker (only for dialogue, else null), text.
+{% if is_ending %}
+- The ending must pay off setups from earlier lines: list them in pays_off_line_ids.
+{% else %}
+- pays_off_line_ids: an empty list.
+{% endif %}
+- strategy: the strategy id. rationale: at most 25 words on why it is stronger.

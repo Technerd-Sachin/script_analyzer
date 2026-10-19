@@ -1,0 +1,7 @@
+---
+id: episode_boundaries
+version: "1.0"
+output_schema: EpisodeBoundariesOut
+---
+TASK: This script has no episode markers. Split it into micro-drama episodes of about 1 to 2 pages each (about 200 to 350 words), at scene boundaries, ideally where a scene ends on a hook. Scenes: {{ scenes }}.
+Return the scene IDs where each episode starts, in order, beginning with {{ first_scene }}.

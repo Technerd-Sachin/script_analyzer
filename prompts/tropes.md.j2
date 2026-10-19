@@ -1,0 +1,9 @@
+---
+id: tropes
+version: "1.0"
+output_schema: TropesOut
+---
+TASK: Tag the tropes this script uses, choosing only from this taxonomy (use the id):
+{{ taxonomy }}
+
+Return 1 to 6 tropes that are clearly present, each with 1 to 3 evidence line IDs, a rationale of at most 20 words, and confidence from 0 to 1.

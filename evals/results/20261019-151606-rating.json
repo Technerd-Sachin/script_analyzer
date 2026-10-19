@@ -1,0 +1,129 @@
+{
+  "suite": "rating",
+  "started": "2026-10-19T15:15:12",
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "scripts": {
+    "s01_last_message:rating": {
+      "latency_s": 4.6,
+      "pages": 1,
+      "calls": 2,
+      "repairs": 0,
+      "completion_tokens": 151,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "0572f4f95d9ebbeaf3dbabf4",
+      "rating": {
+        "band": "U/A 7+",
+        "band_ok": true,
+        "band_within_1": true,
+        "notice_recall": null,
+        "notice_false_positives": []
+      }
+    },
+    "s05_hinglish_revenge:rating": {
+      "latency_s": 13.7,
+      "pages": 7,
+      "calls": 2,
+      "repairs": 0,
+      "completion_tokens": 383,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "82505d0628f93db22bc7a2f6",
+      "rating": {
+        "band": "U/A 16+",
+        "band_ok": true,
+        "band_exact": false,
+        "band_within_1": true,
+        "notice_recall": null,
+        "notice_false_positives": []
+      }
+    },
+    "s08_smoking_drinking:rating": {
+      "latency_s": 9.5,
+      "pages": 2,
+      "calls": 2,
+      "repairs": 0,
+      "completion_tokens": 344,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "525a3322679121179a08f7a1",
+      "rating": {
+        "band": "U/A 13+",
+        "band_ok": true,
+        "band_exact": true,
+        "band_within_1": true,
+        "notice_recall": 1.0,
+        "notice_false_positives": [],
+        "severity_substances": true
+      }
+    },
+    "s09_narcotics:rating": {
+      "latency_s": 7.9,
+      "pages": 2,
+      "calls": 2,
+      "repairs": 0,
+      "completion_tokens": 278,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "ccca7ff036d2903602ae2b0c",
+      "rating": {
+        "band": "U/A 16+",
+        "band_ok": true,
+        "band_exact": true,
+        "band_within_1": true,
+        "notice_recall": 1.0,
+        "notice_false_positives": [],
+        "severity_substances": true
+      }
+    },
+    "s10_violence_language:rating": {
+      "latency_s": 14.8,
+      "pages": 2,
+      "calls": 2,
+      "repairs": 0,
+      "completion_tokens": 567,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "3a3780ae5fd017c193baa7f0",
+      "rating": {
+        "band": "U/A 16+",
+        "band_ok": false,
+        "band_exact": false,
+        "band_within_1": true,
+        "notice_recall": null,
+        "notice_false_positives": [],
+        "severity_violence": true,
+        "severity_language": true
+      }
+    },
+    "s11_clean_family:rating": {
+      "latency_s": 3.9,
+      "pages": 2,
+      "calls": 1,
+      "repairs": 0,
+      "completion_tokens": 112,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "171e3c0e20b6b11aa3baa52a",
+      "rating": {
+        "band": "U",
+        "band_ok": true,
+        "band_exact": true,
+        "band_within_1": true,
+        "notice_recall": null,
+        "notice_false_positives": []
+      }
+    }
+  },
+  "aggregate": {
+    "schema_valid": "6/6",
+    "grounding_valid": "6/6",
+    "rating_band_within_1": "6/6",
+    "rating_band_exact": "3/5",
+    "notice_recall": 1.0,
+    "latency_s_mean": 9.1,
+    "latency_s_p95": 14.8,
+    "cost_usd": 0.0
+  },
+  "finished": "2026-10-19T15:16:06"
+}

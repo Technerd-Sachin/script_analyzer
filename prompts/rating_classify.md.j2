@@ -1,0 +1,20 @@
+---
+id: rating_classify
+version: "1.1"
+output_schema: RatingClassifyOut
+---
+TASK: Classify content for an Indian OTT age rating (IT Rules 2021 categories). This is an editorial estimate, not certification.
+
+Categories: violence, language (profanity, insults), sex, nudity, substances (tobacco, alcohol, narcotics), imitable_behaviour (dangerous acts, self-harm), discrimination (caste, religion, region, gender), theme (death, crime, abuse, trauma).
+Severity: mild, moderate, strong, explicit. Guidance per category:
+{{ guidance }}
+mode: depicted (shown on screen), referenced (talked about), implied (suggested off screen).
+Context and impact matter (IT Rules general factors): content that is only mentioned in passing is usually one severity level lower than the same content shown on screen. A past accident, illness or death that is only mentioned is mild theme.
+treatment: condemned, neutral, glorified, instructional.
+substance: tobacco, alcohol, narcotics or other when category is substances, otherwise none.
+
+Lexicon pre-scan candidates (may contain false positives; also catch what it misses, such as implied violence or heavy themes):
+{{ candidates }}
+
+Return one finding per category and kind of content present, with the line IDs and a rationale of at most 25 words. Do not list categories that are absent. Use separate findings for tobacco, alcohol and narcotics.
+legal_flags: only if present, using these flag ids: {{ flag_ids }}. Otherwise an empty list.

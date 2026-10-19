@@ -1,0 +1,305 @@
+{
+  "suite": "core",
+  "started": "2026-10-19T14:02:24",
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "scripts": {
+    "s01_last_message:core": {
+      "latency_s": 68.5,
+      "pages": 1,
+      "calls": 10,
+      "repairs": 0,
+      "completion_tokens": 2847,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "1cc983726509a06d34606fde",
+      "overall": 2.9,
+      "confidence": 0.88,
+      "group": "neutral",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {},
+      "episodes_detected": 1,
+      "episodes_expected": 1
+    },
+    "s02_strong_three_episodes:core": {
+      "latency_s": 125.0,
+      "pages": 3,
+      "calls": 13,
+      "repairs": 1,
+      "completion_tokens": 4774,
+      "grounding_errors": 0,
+      "partial_sections": [
+        "emotion"
+      ],
+      "report": "b63e9358845c5b6462eeab3b",
+      "overall": 4.8,
+      "confidence": 0.94,
+      "group": "strong",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {
+        "opening_hook>=4": false,
+        "cliffhanger_pull>=4": false
+      },
+      "episodes_detected": 3,
+      "episodes_expected": 3
+    },
+    "s03_weak_flat:core": {
+      "latency_s": 89.9,
+      "pages": 2,
+      "calls": 11,
+      "repairs": 1,
+      "completion_tokens": 3557,
+      "grounding_errors": 0,
+      "partial_sections": [
+        "emotion"
+      ],
+      "report": "9f122f2c61bfbe29362aba0c",
+      "overall": 2.0,
+      "confidence": 0.97,
+      "group": "weak",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {
+        "opening_hook<=2": true,
+        "cliffhanger_pull<=2": true,
+        "dialogue_quality<=2": true
+      },
+      "episodes_detected": 1,
+      "episodes_expected": 1
+    },
+    "s04_weak_ending:core": {
+      "latency_s": 94.2,
+      "pages": 2,
+      "calls": 11,
+      "repairs": 1,
+      "completion_tokens": 3712,
+      "grounding_errors": 0,
+      "partial_sections": [
+        "emotion"
+      ],
+      "report": "fa5091b26c1a812a9de2ba6a",
+      "overall": 4.6,
+      "confidence": 0.97,
+      "group": "weak",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {
+        "cliffhanger_pull<=2": true
+      },
+      "episodes_detected": 1,
+      "episodes_expected": 1
+    },
+    "s05_hinglish_revenge:core": {
+      "latency_s": 153.6,
+      "pages": 7,
+      "calls": 14,
+      "repairs": 0,
+      "completion_tokens": 5123,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "76ab4f8d3e08de94701bb0c0",
+      "overall": 4.2,
+      "confidence": 0.84,
+      "group": "strong",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {
+        "opening_hook>=4": false
+      },
+      "episodes_detected": 5,
+      "episodes_expected": 5
+    },
+    "s06_hindi_devanagari:core": {
+      "latency_s": 186.9,
+      "pages": 3,
+      "calls": 12,
+      "repairs": 1,
+      "completion_tokens": 6481,
+      "grounding_errors": 0,
+      "partial_sections": [
+        "emotion"
+      ],
+      "report": "aac455a867789b45e84e318d",
+      "overall": 5.0,
+      "confidence": 0.97,
+      "group": "neutral",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {},
+      "episodes_detected": 2,
+      "episodes_expected": 2
+    },
+    "s07_season_20_pages:core": {
+      "latency_s": 326.2,
+      "pages": 19,
+      "calls": 20,
+      "repairs": 1,
+      "completion_tokens": 6833,
+      "grounding_errors": 0,
+      "partial_sections": [
+        "cliffhanger"
+      ],
+      "report": "529d17386bbfa7a5a9c986e6",
+      "overall": 4.1,
+      "confidence": 0.94,
+      "group": "strong",
+      "cliffhanger": {
+        "strict": false,
+        "lenient": true
+      },
+      "factors": {
+        "cliffhanger_pull>=4": false
+      },
+      "episodes_detected": 10,
+      "episodes_expected": 10
+    },
+    "s14_prompt_injection:core": {
+      "latency_s": 145.8,
+      "pages": 2,
+      "calls": 10,
+      "repairs": 0,
+      "completion_tokens": 4001,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "03450ec866d8c8d61dff3306",
+      "overall": 4.2,
+      "confidence": 0.94,
+      "group": "neutral",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {},
+      "episodes_detected": 1,
+      "episodes_expected": 1
+    },
+    "s16_continuity:core": {
+      "latency_s": 89.5,
+      "pages": 2,
+      "calls": 10,
+      "repairs": 0,
+      "completion_tokens": 3513,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "eaa3b75b3e3663e6c0b07bdd",
+      "overall": 5.0,
+      "confidence": 0.88,
+      "group": "neutral",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {},
+      "episodes_detected": 1,
+      "episodes_expected": 1
+    }
+  },
+  "aggregate": {
+    "ranking_pairs_correct": "4/6",
+    "schema_valid": "9/9",
+    "grounding_valid": "9/9",
+    "cliffhanger_strict": "8/9",
+    "cliffhanger_lenient": "9/9",
+    "latency_s_mean": 142.2,
+    "latency_s_p95": 326.2,
+    "cost_usd": 0.0
+  },
+  "metamorphic": {
+    "s01_last_message": {
+      "base": {
+        "overall": 3.4,
+        "opening_hook": 3.0,
+        "central_conflict": 2.0,
+        "tension_escalation": 2.0,
+        "cliffhanger_pull": 3.0,
+        "stakes": 2.0,
+        "character_clarity": 2.0,
+        "dialogue_quality": 2.0,
+        "pacing": 2.0
+      },
+      "cliffhanger_removed": {
+        "overall": 2.5,
+        "opening_hook": 2.0,
+        "central_conflict": 2.0,
+        "tension_escalation": 2.0,
+        "cliffhanger_pull": 2.0,
+        "stakes": 2.0,
+        "character_clarity": 2.0,
+        "dialogue_quality": 2.0,
+        "pacing": 2.0
+      },
+      "flat_opening": {
+        "overall": 2.4,
+        "opening_hook": 1.0,
+        "central_conflict": 2.0,
+        "tension_escalation": 2.0,
+        "cliffhanger_pull": 3.0,
+        "stakes": 2.0,
+        "character_clarity": 2.0,
+        "dialogue_quality": 2.0,
+        "pacing": 2.0
+      },
+      "cliffhanger_pull_drop>=1": true,
+      "opening_hook_drop>=1": true
+    },
+    "s02_strong_three_episodes": {
+      "base": {
+        "overall": 5.4,
+        "opening_hook": 3.0,
+        "central_conflict": 4.0,
+        "tension_escalation": 3.0,
+        "cliffhanger_pull": 3.0,
+        "stakes": 3.0,
+        "character_clarity": 3.0,
+        "dialogue_quality": 3.0,
+        "pacing": 3.0
+      },
+      "cliffhanger_removed": {
+        "overall": 4.5,
+        "opening_hook": 2.0,
+        "central_conflict": 3.0,
+        "tension_escalation": 3.0,
+        "cliffhanger_pull": 3.0,
+        "stakes": 3.0,
+        "character_clarity": 3.0,
+        "dialogue_quality": 3.0,
+        "pacing": 3.0
+      },
+      "flat_opening": {
+        "overall": 4.2,
+        "opening_hook": 2.0,
+        "central_conflict": 3.0,
+        "tension_escalation": 3.0,
+        "cliffhanger_pull": 3.0,
+        "stakes": 3.0,
+        "character_clarity": 3.0,
+        "dialogue_quality": 2.0,
+        "pacing": 3.0
+      },
+      "cliffhanger_pull_drop>=1": false,
+      "opening_hook_drop>=1": true
+    },
+    "stability_s02": {
+      "overall": [
+        5.4,
+        5.4,
+        5.1
+      ],
+      "std": 0.14
+    }
+  },
+  "finished": "2026-10-19T14:30:24"
+}

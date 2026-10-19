@@ -1,0 +1,86 @@
+# Slur lexicon for CONTENT MODERATION ONLY (discrimination category and legal risk flags).
+# Caste, religious, regional, racial, gender-identity and disability slurs.
+# Never print these terms in README, UI copy, logs or reports; refer to the category instead.
+# Whole-word, case-insensitive. Normalize to Unicode NFC before matching.
+# Some terms are neutral in other contexts (a community name, "chhakka" a six in cricket);
+# a match is only a candidate, the LLM decides whether it is used as a slur.
+# Caste
+chamar
+chamaar
+chamari
+bhangi
+chuhra
+chuhre
+dhed
+achhoot
+achhut
+neech jaat
+neech jati
+neech zaat
+harijan
+kanjar
+# Religious
+katua
+katwa
+kat mulla
+mulle
+jihadi
+kafir
+kaafir
+mlechh
+mlechha
+malechh
+landya
+rice bag
+# Regional and racial
+madrasi
+madrasan
+ghaati
+chinki
+chinky
+chink
+habshi
+kalu
+kallu
+kaalia
+negro
+nigger
+paki
+# Gender identity and sexuality
+chhakka
+hijde
+faggot
+tranny
+# Disability
+langda
+langdi
+lula
+retard
+spastic
+# Devanagari
+चमार
+भंगी
+चूहड़ा
+चूहडा
+ढेड
+अछूत
+नीच जात
+नीच जाति
+कटुआ
+कटवा
+मुल्ले
+म्लेच्छ
+मलेच्छ
+काफ़िर
+काफिर
+जिहादी
+मद्रासी
+चिंकी
+हब्शी
+कालू
+कल्लू
+छक्का
+हिजड़े
+लंगड़ा
+लंगड़ी
+लूला

@@ -1,0 +1,73 @@
+# Tobacco lexicon (COTPA notice trigger candidates). Whole-word, case-insensitive.
+# High recall: "smoke" also matches non-tobacco smoke; the LLM confirms depiction.
+cigarette
+cigarettes
+cigaret
+cig
+cigs
+ciggy
+ciggie
+cigar
+cigars
+smoke
+smoking
+smoked
+smoker
+chain smoker
+beedi
+beedis
+bidi
+bidis
+gutka
+gutkha
+gutke
+khaini
+zarda
+jarda
+paan masala
+pan masala
+tambaku
+tambakoo
+tambakhu
+tobacco
+chewing tobacco
+snuff
+naswar
+mainpuri
+hookah
+hukka
+huqqa
+sheesha
+shisha
+vape
+vaping
+vaper
+e-cigarette
+e-cig
+nicotine
+ashtray
+sutta
+sutte
+sutta maar
+dhuan uda
+cigarette pi
+cigarette jala
+सिगरेट
+सिग्रेट
+बीड़ी
+बीडी
+गुटखा
+गुटका
+खैनी
+ज़र्दा
+जर्दा
+तंबाकू
+तम्बाकू
+पान मसाला
+हुक्का
+सिगार
+सुट्टा
+धूम्रपान
+निकोटीन
+वेप
+ऐशट्रे

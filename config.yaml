@@ -1,0 +1,75 @@
+# Bullet Script Analyzer configuration. Secrets never go here (see .env.example).
+llm:
+  base_url: http://127.0.0.1:11434
+  model: qwen3:4b-instruct-2507-q4_K_M   # shared with DOC_QnA; never pulled or unloaded by us
+  num_ctx: 16384                         # must equal DOC_QnA's value, or Ollama reloads the shared runner
+  timeout_s: 900
+  concurrency: 1                         # OLLAMA_NUM_PARALLEL=1 on this VM
+  default_temperature: 0.2
+  nodes:
+    story_map: {num_predict: 2500}
+    episode_map: {num_predict: 900}
+    summary: {num_predict: 400}
+    emotion: {num_predict: 2000}
+    engagement: {temperature: 0.7, num_predict: 3000}
+    cliffhanger: {num_predict: 500}
+    continuity: {num_predict: 1200}
+    suggestions: {temperature: 0.4, num_predict: 3000}
+    rating_classify: {num_predict: 2200}
+    rating_lower: {num_predict: 1200}
+    localization: {temperature: 0.3, num_predict: 4000}
+    tropes: {num_predict: 900}
+    comps_explain: {num_predict: 1200}
+    alternatives_generate: {temperature: 0.8, num_predict: 2600}
+    alternatives_judge: {temperature: 0.0, num_predict: 400}
+    alternatives_rescore: {num_predict: 500}
+    layout_fallback: {temperature: 0.0, num_predict: 6000}
+    episode_boundaries: {num_predict: 300}
+  embed_model: bge-m3
+  embed_keep_alive: 5m
+
+limits:
+  max_pages: 20
+  max_bytes: 26214400        # 25 MB
+  max_text_chars: 60000
+  script_token_budget: 10000 # rendered script tokens that fit next to preamble, task and output in 16k
+
+pipeline:
+  engagement_runs: 3
+  suggestions_min: 3
+  suggestions_max: 8
+  alternatives:
+    variants: 3
+    rescore_runs: 1
+    excerpt_elements: 40
+    max_span: 8
+
+ocr:
+  doc_qna_url: http://127.0.0.1:5002
+  low_conf_page: 0.80
+  low_conf_line: 0.60
+  low_line_share: 0.15
+  unreadable_conf: 0.5
+  max_dpi: 300
+  local_device: gpu        # local Devanagari PaddleOCR: gpu (CUDA build, about 1 GB VRAM) or cpu
+
+server:
+  api_host: 127.0.0.1
+  api_port: 8100
+  ui_port: 8501
+  queue_max: 20
+  retention_days: 7
+
+paths:
+  data_dir: data
+  knowledge_dir: knowledge
+  prompts_dir: prompts
+  examples_dir: examples/outputs
+
+market:
+  qdrant_url: http://127.0.0.1:6333
+  collection: bsa_comps
+  originality_tau: 0.50   # calibrated on eval script 15: near-copy cosine 0.535 to 0.631; genre neighbours reach 0.69, so the LLM verdict decides
+  top_k: 20
+  corpus_limit: 5000
+  sparse_model: Qdrant/bm25

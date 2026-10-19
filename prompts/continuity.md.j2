@@ -1,0 +1,17 @@
+---
+id: continuity
+version: "1.2"
+output_schema: ContinuityOut
+---
+TASK: Find continuity errors: places where two lines contradict each other.
+
+First check each candidate below that code found in the script. For each one that is a real contradiction, report it.
+{% if name_candidates %}
+- name: speaker names that look like spelling variants of one character: {{ name_candidates }}
+{% endif %}
+{% for c in candidates %}
+- {{ c }}
+{% endfor %}
+
+Then look for other contradictions: name (same character spelled differently), timeline (durations or dates that disagree), fact, object (an object changes, like colour), location (the place of a scene changes with no scene change).
+Every issue needs at least 2 line IDs: the line that sets the fact and the line that contradicts it. A character who lies or hides an identity on purpose is a plot point, not an error. Keep each explanation under 40 words. Severity: high if a viewer would notice, low if minor. If there are no contradictions, return an empty list.

@@ -1,0 +1,89 @@
+{
+  "suite": "alternatives",
+  "started": "2026-10-19T16:28:56",
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "scripts": {
+    "s02_strong_three_episodes:alternatives": {
+      "latency_s": 221.2,
+      "pages": 3,
+      "calls": 33,
+      "repairs": 4,
+      "completion_tokens": 7992,
+      "grounding_errors": 0,
+      "partial_sections": [
+        "emotion"
+      ],
+      "report": "bb543ad76200e7fdee64d39b",
+      "overall": 4.5,
+      "confidence": 0.94,
+      "group": "strong",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {
+        "opening_hook>=4": false,
+        "cliffhanger_pull>=4": false
+      },
+      "episodes_detected": 3,
+      "episodes_expected": 3,
+      "alternatives": {
+        "variants": 4,
+        "dropped_hard_constraints": 3,
+        "hard_constraints": 1.0,
+        "wins": 0,
+        "ties": 4,
+        "losses": 0,
+        "mean_delta": -2.0
+      },
+      "alternatives_win_expected": false
+    },
+    "s03_weak_flat:alternatives": {
+      "latency_s": 156.0,
+      "pages": 2,
+      "calls": 31,
+      "repairs": 0,
+      "completion_tokens": 5729,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "64e5a632a6fae6b28d1b96d4",
+      "overall": 2.1,
+      "confidence": 0.78,
+      "group": "weak",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {
+        "opening_hook<=2": true,
+        "cliffhanger_pull<=2": true,
+        "dialogue_quality<=2": true
+      },
+      "episodes_detected": 1,
+      "episodes_expected": 1,
+      "alternatives": {
+        "variants": 6,
+        "dropped_hard_constraints": 0,
+        "hard_constraints": 1.0,
+        "wins": 6,
+        "ties": 0,
+        "losses": 0,
+        "mean_delta": 2.67
+      },
+      "alternatives_win_expected": true
+    }
+  },
+  "aggregate": {
+    "ranking_pairs_correct": "1/1",
+    "schema_valid": "2/2",
+    "grounding_valid": "2/2",
+    "cliffhanger_strict": "2/2",
+    "cliffhanger_lenient": "2/2",
+    "alternatives_hard_constraints": 1.0,
+    "alternatives_win_where_expected": "1/1",
+    "latency_s_mean": 188.6,
+    "latency_s_p95": 221.2,
+    "cost_usd": 0.0
+  },
+  "finished": "2026-10-19T16:35:13"
+}

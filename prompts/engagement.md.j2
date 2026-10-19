@@ -1,0 +1,30 @@
+---
+id: engagement
+version: "1.2"
+output_schema: EngagementOut
+---
+TASK: Score the engagement potential of the script on the 8 factors below, as a demanding story editor at a micro-drama studio who must reject most scripts.
+
+For each factor, in this order:
+1. evidence_line_ids: 1 to 3 lines that show the factor at work.
+2. weakness: the biggest weakness of this script on this factor, naming a line ID (for example "L14 explains the twist in dialogue instead of showing it"). Every script has one; find it.
+3. rationale: at most 30 words naming the mechanism.
+4. score from 1 to 5 against the anchors.
+
+Scoring discipline:
+- Score what is on the page, never what the scene could become.
+- If the weakness would make a viewer drift or swipe away, the score is at most 3. If it is minor, at most 4. Give 5 only if the weakness is trivial and every part of the 5 anchor is on the page.
+- Compare against the calibration examples below: a script must be as strong as the strong example to earn 5s.
+- Most scripts land at 2 or 3 on several factors.
+
+RUBRIC
+{{ rubric }}
+
+{% if episodes_info %}
+EPISODE ENDINGS (for cliffhanger_pull, weigh every episode ending; a weak middle ending lowers the score):
+{{ episodes_info }}
+{% endif %}
+CALIBRATION (gold scores for two short examples):
+{{ calibration }}
+
+Return all 8 factors in this order: opening_hook, central_conflict, tension_escalation, cliffhanger_pull, stakes, character_clarity, dialogue_quality, pacing.

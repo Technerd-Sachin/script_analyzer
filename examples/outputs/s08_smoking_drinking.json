@@ -1,0 +1,2271 @@
+{
+  "doc_id": "0098518a11c69aeadb278c1a09b6b5b43fdf9ed11ba2b6943ae9e2954fcfe7fd",
+  "cache_key": "0c3e67182435be4cd454e55f",
+  "title": "The Pitch",
+  "options": {
+    "features": [
+      "core",
+      "analytics",
+      "alternatives",
+      "rating",
+      "localization",
+      "market"
+    ],
+    "mode": "local",
+    "localization_targets": null,
+    "engagement_runs": 3
+  },
+  "ir_stats": {
+    "source_kind": "text",
+    "pages": 2,
+    "episodes": 1,
+    "scenes": 4,
+    "elements": 41,
+    "words": 369,
+    "languages": {
+      "en": 1.0
+    },
+    "code_mix_ratio": null,
+    "render_mode": "full",
+    "script_tokens_est": 739,
+    "ocr_mean_conf": null,
+    "page_sources": {},
+    "episode_boundaries": "single"
+  },
+  "story_map": {
+    "status": "ok",
+    "notes": [],
+    "is_script": true,
+    "logline": "Karan wants credit for a campaign, against Vikram's claim of co-creation and the agency's decision.",
+    "characters": [
+      {
+        "name": "VIKRAM",
+        "want": "Lead the account, be recognized as the creator",
+        "obstacle": "Karan claims authorship of the river campaign",
+        "line_ids": [
+          "L6",
+          "L11",
+          "L36"
+        ]
+      },
+      {
+        "name": "KARAN",
+        "want": "Get credit and the lead role in the river campaign",
+        "obstacle": "Vikram asserts ownership and denies his contribution",
+        "line_ids": [
+          "L5",
+          "L8",
+          "L28"
+        ]
+      },
+      {
+        "name": "NAINA",
+        "want": "Appoint the right person to lead the account",
+        "obstacle": "Karan's claim of authorship challenges her decision",
+        "line_ids": [
+          "L24",
+          "L26",
+          "L30"
+        ]
+      }
+    ],
+    "central_conflict": {
+      "text": "Karan says he wrote the river campaign at 2am and showed it to Vikram at 9am; Vikram says he presented it, the deck has his name on it; Karan says it's not stealing, it's the business.",
+      "line_ids": [
+        "L28",
+        "L31",
+        "L32",
+        "L38"
+      ]
+    },
+    "stakes": {
+      "text": "Karan's credibility, Vikram's reputation, the agency's trust, and the Mehra account money are at risk.",
+      "line_ids": [
+        "L28",
+        "L30",
+        "L34",
+        "L41"
+      ]
+    },
+    "beats": [
+      {
+        "id": "B1",
+        "label": "Opening: Night on terrace",
+        "line_ids": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6",
+          "L7",
+          "L8",
+          "L9",
+          "L10",
+          "L11",
+          "L12",
+          "L13"
+        ]
+      },
+      {
+        "id": "B2",
+        "label": "Party scene: Naina announces job",
+        "line_ids": [
+          "L14",
+          "L15",
+          "L16",
+          "L17",
+          "L18",
+          "L19",
+          "L20",
+          "L21",
+          "L22"
+        ]
+      },
+      {
+        "id": "B3",
+        "label": "Cabin reveal: Karan challenges ownership",
+        "line_ids": [
+          "L23",
+          "L24",
+          "L25",
+          "L26",
+          "L27",
+          "L28",
+          "L29",
+          "L30",
+          "L31",
+          "L32",
+          "L33"
+        ]
+      },
+      {
+        "id": "B4",
+        "label": "Confrontation: Karan threatens to expose theft",
+        "line_ids": [
+          "L34",
+          "L35",
+          "L36",
+          "L37",
+          "L38",
+          "L39",
+          "L40",
+          "L41"
+        ]
+      }
+    ],
+    "premise_tags": [
+      "hidden truth",
+      "second chance",
+      "authorship dispute"
+    ],
+    "devanagari_language": "none"
+  },
+  "summary": {
+    "status": "partial",
+    "notes": [
+      "summary: 0 invalid items dropped after one repair round"
+    ],
+    "text": "It's you or me. I know. The river campaign was my idea. I wrote it at two in the morning and showed it to you at nine. Of course it does. Then you won't mind if I tell Naina where you were the night the Mehra account money disappeared.",
+    "line_ids": [
+      "L10",
+      "L11",
+      "L28",
+      "L30",
+      "L31",
+      "L40"
+    ]
+  },
+  "episodes": {
+    "status": "ok",
+    "notes": [],
+    "items": [
+      {
+        "number": 1,
+        "one_line_summary": "Karan demands credit for a campaign, challenges Vikram's claim of co-creation, and threatens to expose his involvement in a missing account money incident.",
+        "scene_tension": [
+          {
+            "scene_id": "S1",
+            "tension": 3
+          },
+          {
+            "scene_id": "S2",
+            "tension": 4
+          },
+          {
+            "scene_id": "S3",
+            "tension": 9
+          },
+          {
+            "scene_id": "S4",
+            "tension": 10
+          }
+        ],
+        "ending_line_ids": [
+          "L40",
+          "L41"
+        ],
+        "ending_hook_strength": 4,
+        "ending_rationale": "The ending creates tension by implying a betrayal, but lacks clarity on whether Karan will follow through or if Vikram will be exposed, this ambiguity pulls viewers in.",
+        "cliffhanger_candidate_line_id": "L41"
+      }
+    ]
+  },
+  "emotion": {
+    "status": "partial",
+    "notes": [
+      "emotion: 0 invalid items dropped after one repair round"
+    ],
+    "dominant": [
+      {
+        "emotion": "anger",
+        "share": 0.4
+      },
+      {
+        "emotion": "fear",
+        "share": 0.3
+      },
+      {
+        "emotion": "sadness",
+        "share": 0.3
+      }
+    ],
+    "arc": [],
+    "arc_shape": "fall_rise",
+    "narrative": "At L12, Vikram blows out smoke and says 'Come on. Naina's waiting,' establishing a moment of quiet trust between him and Karan. At L26, Naina declares 'Vikram, the job is yours. Congratulations,' creating a wave of joy and anticipation. At L28, Karan says 'The river campaign was my idea,' triggering anger and sadness as ownership is challenged. At L41, Vikram's glass shatters, a physical act that mirrors the emotional collapse and fear of exposure."
+  },
+  "engagement": {
+    "status": "ok",
+    "notes": [],
+    "factors": [
+      {
+        "name": "opening_hook",
+        "evidence_line_ids": [
+          "L1",
+          "L2",
+          "L3"
+        ],
+        "weakness": "L1 and L2 establish setting but no urgent question or tension in first 3 lines",
+        "rationale": "First lines describe scene without posing a question or conflict that demands an answer",
+        "score": 2.0,
+        "weight": 0.2,
+        "run_scores": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "central_conflict",
+        "evidence_line_ids": [
+          "L10",
+          "L11",
+          "L37"
+        ],
+        "weakness": "L37 reveals conflict but only after Karan exits; no dramatized opposition in early exchange",
+        "rationale": "Personal opposition exists but is not dramatized in first exchanges; conflict emerges late",
+        "score": 3.0,
+        "weight": 0.15,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "tension_escalation",
+        "evidence_line_ids": [
+          "L18",
+          "L19",
+          "L20"
+        ],
+        "weakness": "L18 to L20 shows a brief rise, but L21–L28 repeats the same argument without new pressure or reversal",
+        "rationale": "Pressure rises only once, then stalls; no new exchange or escalation after Karan's claim",
+        "score": 3.0,
+        "weight": 0.15,
+        "run_scores": [
+          2,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "cliffhanger_pull",
+        "evidence_line_ids": [
+          "L40",
+          "L41"
+        ],
+        "weakness": "L40 poses a question but L41's glass shatter is a physical action, not a recontextualized revelation",
+        "rationale": "Revelation recontextualizes past but doesn't shift narrative stakes or demand next episode",
+        "score": 3.0,
+        "weight": 0.15,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "stakes",
+        "evidence_line_ids": [
+          "L24",
+          "L28",
+          "L30"
+        ],
+        "weakness": "L28 and L30 state ownership but no personal loss tied to failure",
+        "rationale": "Stakes are abstract; no concrete loss like job, reputation, or family honor",
+        "score": 3.0,
+        "weight": 0.1,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "character_clarity",
+        "evidence_line_ids": [
+          "L5",
+          "L11",
+          "L37"
+        ],
+        "weakness": "Karan and Vikram both speak with generic motives; no visible wound or distinct voice",
+        "rationale": "No past hurt or clear personal drive; both characters sound similar and generic",
+        "score": 2.0,
+        "weight": 0.1,
+        "run_scores": [
+          2,
+          3,
+          2
+        ]
+      },
+      {
+        "name": "dialogue_quality",
+        "evidence_line_ids": [
+          "L6",
+          "L30",
+          "L37"
+        ],
+        "weakness": "L37 is a generic retort with no subtext or Hinglish authenticity",
+        "rationale": "Dialogue is functional and lacks natural subtext or regional flavor",
+        "score": 3.0,
+        "weight": 0.1,
+        "run_scores": [
+          3,
+          3,
+          2
+        ]
+      },
+      {
+        "name": "pacing",
+        "evidence_line_ids": [
+          "L14",
+          "L15",
+          "L16"
+        ],
+        "weakness": "L14–L16 are a party scene with no conflict movement; setup overflows into non-essential action",
+        "rationale": "Party scene introduces no conflict or progression; wastes time before tension builds",
+        "score": 2.0,
+        "weight": 0.05,
+        "run_scores": [
+          2,
+          3,
+          2
+        ]
+      }
+    ],
+    "overall": 4.1,
+    "confidence": 0.88,
+    "runs": 3,
+    "per_run_overall": [
+      3.8,
+      4.5,
+      3.9
+    ]
+  },
+  "cliffhanger": {
+    "status": "ok",
+    "notes": [],
+    "line_id": "L41",
+    "quote": "Vikram's glass slips from his hand and shatters on the floor.",
+    "technique": "emotional_shock",
+    "why_it_works": "It reveals Vikram's guilt, opens the question of his involvement in the Mehra account theft, and recontextualizes his character, forcing viewers to continue to uncover the truth.",
+    "strength": 5
+  },
+  "suggestions": {
+    "status": "ok",
+    "notes": [],
+    "items": [
+      {
+        "id": "G1",
+        "category": "hook",
+        "linked_factor": "opening_hook",
+        "target_line_ids": [
+          "L1",
+          "L2",
+          "L3"
+        ],
+        "issue": "First lines describe a scene without posing a question or conflict that demands an answer.",
+        "fix": "Start with a sharp, personal question that creates immediate tension and stakes.",
+        "example_rewrite": "VIKRAM: Who’s gonna win the promotion? I saw the client’s face when they heard your name. They didn’t blink.",
+        "impact": "high"
+      },
+      {
+        "id": "G2",
+        "category": "conflict",
+        "linked_factor": "central_conflict",
+        "target_line_ids": [
+          "L10",
+          "L11",
+          "L37"
+        ],
+        "issue": "Personal opposition is underdeveloped and lacks emotional stakes or past history.",
+        "fix": "Anchor conflict in a shared past failure or betrayal to make rivalry personal and urgent.",
+        "example_rewrite": "KARAN: You took my idea and pitched it like it was yours. That night, I was sick in bed with fever.",
+        "impact": "high"
+      },
+      {
+        "id": "G3",
+        "category": "emotion",
+        "linked_factor": "stakes",
+        "target_line_ids": [
+          "L28",
+          "L30"
+        ],
+        "issue": "Karan’s claim lacks emotional weight; no personal loss or family honor is tied to the work.",
+        "fix": "Link the work to a personal sacrifice or family moment to make the loss tangible.",
+        "example_rewrite": "KARAN: I wrote it after my daughter’s birthday. I showed it to you because I needed you to believe in it.",
+        "impact": "high"
+      },
+      {
+        "id": "G4",
+        "category": "pacing",
+        "linked_factor": "pacing",
+        "target_line_ids": [
+          "L14",
+          "L15",
+          "L16"
+        ],
+        "issue": "Party scene is idle, with no conflict or progression to build tension.",
+        "fix": "Introduce a visible, immediate conflict, like a client shouting or a fight, to break the scene’s stagnation.",
+        "example_rewrite": "NAINA: Karan, stop. The client just called. They want the river campaign back. It’s gone.",
+        "impact": "medium"
+      },
+      {
+        "id": "G5",
+        "category": "cliffhanger",
+        "linked_factor": "cliffhanger_pull",
+        "target_line_ids": [
+          "L40",
+          "L41"
+        ],
+        "issue": "Karan’s threat doesn’t shift narrative stakes or demand a next episode.",
+        "fix": "Make the threat reveal a hidden truth with immediate personal cost, like a betrayal of a family member.",
+        "example_rewrite": "KARAN: I told my mother. She’s still in the hospital. The money vanished the night you took it.",
+        "impact": "medium"
+      },
+      {
+        "id": "G6",
+        "category": "dialogue",
+        "linked_factor": "dialogue_quality",
+        "target_line_ids": [
+          "L37"
+        ],
+        "issue": "Dialogue lacks regional flavor or subtext; sounds generic and flat.",
+        "fix": "Add a regional idiom or subtle subtext to make dialogue feel lived-in and authentic.",
+        "example_rewrite": "VIKRAM: Business is like a bhaiya, shares the credit, but never the pain.",
+        "impact": "low"
+      }
+    ]
+  },
+  "analytics": {
+    "status": "ok",
+    "notes": [],
+    "runtime_s_by_episode": {
+      "1": {
+        "page_based": 120.0,
+        "word_based": 103.2
+      }
+    },
+    "runtime_s_total": {
+      "page_based": 120.0,
+      "word_based": 103.2
+    },
+    "dialogue_share": [
+      {
+        "speaker": "KARAN",
+        "lines": 11,
+        "words": 81,
+        "share": 0.468
+      },
+      {
+        "speaker": "NAINA",
+        "lines": 5,
+        "words": 49,
+        "share": 0.283
+      },
+      {
+        "speaker": "VIKRAM",
+        "lines": 9,
+        "words": 43,
+        "share": 0.249
+      }
+    ],
+    "network_nodes": [
+      "KARAN",
+      "NAINA",
+      "VIKRAM"
+    ],
+    "network_edges": [
+      {
+        "a": "KARAN",
+        "b": "VIKRAM",
+        "weight": 17
+      },
+      {
+        "a": "KARAN",
+        "b": "NAINA",
+        "weight": 9
+      },
+      {
+        "a": "NAINA",
+        "b": "VIKRAM",
+        "weight": 2
+      }
+    ],
+    "scene_stats": {
+      "count": 4.0,
+      "avg_lines": 10.2,
+      "dialogue_action_ratio": 2.08
+    },
+    "time_to_first_conflict_s": 59.4
+  },
+  "continuity": {
+    "status": "ok",
+    "notes": [],
+    "issues": [
+      {
+        "type": "fact",
+        "line_ids": [
+          "L24",
+          "L31"
+        ],
+        "explanation": "Naina says client loved river campaign and wants writer to lead, but L31 says Vikram presented it, contradicting Karan's claim of writing it alone.",
+        "severity": "high"
+      }
+    ],
+    "name_variant_candidates": []
+  },
+  "alternatives": {
+    "status": "ok",
+    "notes": [],
+    "targets": [
+      {
+        "id": "T1",
+        "kind": "opening",
+        "episode": 1,
+        "factor": "opening_hook",
+        "replaces_line_ids": [
+          "L2",
+          "L3",
+          "L4",
+          "L5"
+        ],
+        "variants": [
+          {
+            "id": "A1.2",
+            "strategy": "mystery_question",
+            "elements": [
+              {
+                "id": "A1.2.1",
+                "kind": "dialogue",
+                "speaker": "KARAN",
+                "text": "Who really wrote the river campaign?"
+              },
+              {
+                "id": "A1.2.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Vikram doesn’t look at him. The cigarette burns low."
+              },
+              {
+                "id": "A1.2.3",
+                "kind": "dialogue",
+                "speaker": "VIKRAM",
+                "text": "I didn’t write it. I just polished it."
+              },
+              {
+                "id": "A1.2.4",
+                "kind": "action",
+                "speaker": null,
+                "text": "Karan’s eyes narrow."
+              }
+            ],
+            "replaces_line_ids": [
+              "L2",
+              "L3",
+              "L4",
+              "L5"
+            ],
+            "pays_off_line_ids": [],
+            "rationale": "First line poses a direct question about past events, forcing viewer to seek answers in the episode.",
+            "pairwise": "win",
+            "judge_votes": [
+              "variant",
+              "variant"
+            ],
+            "score_before": 2.0,
+            "score_after": 4.0,
+            "delta": 2.0,
+            "coherence_ok": true,
+            "coherence_reason": "EXCERPT Y opens with a direct question: 'Who really wrote the river campaign?' This creates immediate tension and stakes tied to Karan's identity, making the viewer need an answer. Line IDs: L1, L2. | EXCERPT X opens with 'Who really wrote the river campaign?', a specific, urgent question tied to stakes. EXCERPT Y starts with a routine 'I quit last year' with no tension. Line L1 in X scores 5; L1 in Y scores 1.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A1.1",
+            "strategy": "in_medias_res",
+            "elements": [
+              {
+                "id": "A1.1.1",
+                "kind": "action",
+                "speaker": null,
+                "text": "Karan slams his glass. The music cuts. Vikram stares at him, smoke still in his lips."
+              },
+              {
+                "id": "A1.1.2",
+                "kind": "dialogue",
+                "speaker": "KARAN",
+                "text": "You took the Mehra account money. I saw your phone call."
+              },
+              {
+                "id": "A1.1.3",
+                "kind": "action",
+                "speaker": null,
+                "text": "Vikram’s hand tightens on the railing."
+              },
+              {
+                "id": "A1.1.4",
+                "kind": "dialogue",
+                "speaker": "VIKRAM",
+                "text": "That was a year ago. You weren’t even on duty."
+              }
+            ],
+            "replaces_line_ids": [
+              "L2",
+              "L3",
+              "L4",
+              "L5"
+            ],
+            "pays_off_line_ids": [],
+            "rationale": "Starts mid-confrontation; viewer jumps into tension without setup, building urgency immediately.",
+            "pairwise": "win",
+            "judge_votes": [
+              "variant",
+              "variant"
+            ],
+            "score_before": 2.0,
+            "score_after": 3.0,
+            "delta": 1.0,
+            "coherence_ok": true,
+            "coherence_reason": "EXCERPT Y opens with 'You took the Mehra account money. I saw your phone call.', a specific, urgent question with clear stakes. Line IDs: L1, L2. EXCERPT X starts with routine dialogue. Hook score: 1 vs 5. | EXCERPT X opens with 'You took the Mehra account money. I saw your phone call.', a specific, urgent question with clear stakes. EXCERPT Y starts with 'I quit last year', a routine statement with no tension. Hook line ID: L1 in X, absent in Y.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A1.3",
+            "strategy": "conflict_first_line",
+            "elements": [
+              {
+                "id": "A1.3.1",
+                "kind": "dialogue",
+                "speaker": "KARAN",
+                "text": "You stole my idea. The river campaign was mine."
+              },
+              {
+                "id": "A1.3.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Vikram doesn’t move. His eyes stay on the city lights."
+              },
+              {
+                "id": "A1.3.3",
+                "kind": "dialogue",
+                "speaker": "VIKRAM",
+                "text": "No. I built it with you. That’s what I said."
+              },
+              {
+                "id": "A1.3.4",
+                "kind": "action",
+                "speaker": null,
+                "text": "They both exhale slowly, smoke swirling in the cold air."
+              }
+            ],
+            "replaces_line_ids": [
+              "L2",
+              "L3",
+              "L4",
+              "L5"
+            ],
+            "pays_off_line_ids": [],
+            "rationale": "Opens with a direct clash of claims, establishing immediate tension and character opposition.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "variant",
+              "original"
+            ],
+            "score_before": 2.0,
+            "score_after": 3.0,
+            "delta": 1.0,
+            "coherence_ok": false,
+            "coherence_reason": "EXCERPT Y opens with 'You stole my idea. The river campaign was mine', a specific, urgent question tied to a character's stakes. Line L1 in Y (KARAN) meets criterion 5. X starts with a neutral setup (VIKRAM: Want one?), scoring only 1. | EXCERPT Y opens with a specific, urgent question: 'Want one?' followed by 'I quit last year', a direct, personal stake. This creates immediate tension and curiosity about Karan's past. Line IDs: L1, L2.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          }
+        ],
+        "dropped": []
+      },
+      {
+        "id": "T2",
+        "kind": "ending",
+        "episode": 1,
+        "factor": "cliffhanger_pull",
+        "replaces_line_ids": [
+          "L38",
+          "L39",
+          "L40",
+          "L41"
+        ],
+        "variants": [],
+        "dropped": [
+          "revelation (length)",
+          "reversal (length)",
+          "threat (length)"
+        ]
+      }
+    ]
+  },
+  "rating": {
+    "status": "ok",
+    "notes": [],
+    "rating": "U/A 13+",
+    "descriptors": [
+      "Substance use",
+      "Theme",
+      "Imitable behaviour"
+    ],
+    "findings": [
+      {
+        "category": "substances",
+        "severity": "moderate",
+        "mode": "depicted",
+        "treatment": "neutral",
+        "substance": "tobacco",
+        "line_ids": [
+          "L2",
+          "L7",
+          "L12",
+          "L35",
+          "L39"
+        ],
+        "rationale": "Vikram and Karan smoke cigarettes; multiple lines show tobacco use on screen.",
+        "band": "U/A 13+"
+      },
+      {
+        "category": "substances",
+        "severity": "moderate",
+        "mode": "depicted",
+        "treatment": "neutral",
+        "substance": "alcohol",
+        "line_ids": [
+          "L15",
+          "L17",
+          "L18",
+          "L33"
+        ],
+        "rationale": "Alcohol is consumed in a party setting; drinks are poured and drunk by characters on screen.",
+        "band": "U/A 13+"
+      },
+      {
+        "category": "theme",
+        "severity": "moderate",
+        "mode": "referenced",
+        "treatment": "condemned",
+        "substance": "none",
+        "line_ids": [
+          "L8",
+          "L10",
+          "L11",
+          "L24",
+          "L28",
+          "L30",
+          "L40"
+        ],
+        "rationale": "Karan claims authorship of campaign; Vikram denies; conflict over credit implies betrayal and crime.",
+        "band": "U/A 7+"
+      },
+      {
+        "category": "imitable_behaviour",
+        "severity": "mild",
+        "mode": "implied",
+        "treatment": "condemned",
+        "substance": "none",
+        "line_ids": [
+          "L41"
+        ],
+        "rationale": "Vikram's glass shatters when Karan threatens to expose him; implies risk of confrontation with real-world consequences.",
+        "band": "U/A 7+"
+      }
+    ],
+    "rating_drivers": [
+      0,
+      1
+    ],
+    "access_controls": [
+      "Parental lock"
+    ],
+    "notices": [
+      {
+        "rule_id": "cotpa_tobacco_2023",
+        "source": "https://www.khaitanco.com/thought-leaderships/New-rules-for-OTTs-Disclaimers-for-cigarettes-and-tobacco-products",
+        "required_text": [
+          "Tobacco causes cancer",
+          "Tobacco kills"
+        ],
+        "requirements": [
+          "Anti-tobacco health spots of at least 30 seconds each at the beginning and middle of the programme",
+          "Audio-visual disclaimer on the ill effects of tobacco of at least 20 seconds at the beginning and middle of the programme",
+          "Prominent static health warning at the bottom of the screen for as long as tobacco products or their use are shown, legible, black font on a white background",
+          "Health spots, disclaimer and warning in the same language as the programme",
+          "No display of tobacco brands and no tobacco product placement"
+        ],
+        "placement": "Health spots and disclaimer at the beginning and middle of the programme; static warning at the bottom of the screen during every shot that shows tobacco products or their use",
+        "trigger_line_ids": [
+          "L2",
+          "L7",
+          "L12",
+          "L35",
+          "L39"
+        ],
+        "trigger_scenes": [
+          "S1",
+          "S4"
+        ]
+      }
+    ],
+    "legal_risk_flags": [],
+    "lower_rating_edits": [
+      {
+        "driver": "substances/moderate",
+        "line_ids": [
+          "L2",
+          "L7",
+          "L12",
+          "L35"
+        ],
+        "edit": "Remove cigarette smoking; replace with a hand gesture or non-tobacco item",
+        "rewrite": "Vikram and Karan hold hands as they stand together on the railing"
+      },
+      {
+        "driver": "substances/moderate",
+        "line_ids": [
+          "L15",
+          "L17",
+          "L18",
+          "L33"
+        ],
+        "edit": "Show alcohol only in glass, no drinking; imply consumption without showing it",
+        "rewrite": "Naina pours whisky into glasses; Karan lifts his glass without drinking"
+      }
+    ],
+    "lower_rating_band": "U/A 7+",
+    "prescan": {
+      "tobacco": [
+        "L2",
+        "L7",
+        "L12",
+        "L35",
+        "L39"
+      ],
+      "alcohol": [
+        "L15",
+        "L17",
+        "L18",
+        "L33"
+      ]
+    },
+    "disclaimer": "Estimate to support editors. Not a certification and not legal advice. Knowledge files are unverified until reviewed."
+  },
+  "localization": {
+    "status": "ok",
+    "notes": [],
+    "source_languages": {
+      "en": 1.0
+    },
+    "code_mix_ratio": null,
+    "source_subtitle_flags": [
+      {
+        "line_id": "L24",
+        "flags": [
+          "needs 3 lines of 42 chars (max 2)"
+        ]
+      },
+      {
+        "line_id": "L40",
+        "flags": [
+          "needs 3 lines of 42 chars (max 2)",
+          "event 7.2s exceeds 7.0s: split it"
+        ]
+      }
+    ],
+    "targets": [
+      {
+        "lang": "hi",
+        "status": "ok",
+        "fit_score": 4,
+        "fit_rationale": "The script has strong cultural resonance with Hindi audiences through familiar workplace dynamics, honorific shifts, and emotional beats. However, several lines require transcreation for natural flow and emotional impact in Hindi. With careful adaptation, it travels well with subtitles or dub.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2"
+            ],
+            "type": "honorific_register",
+            "severity": "medium",
+            "explanation": "The line 'Want one?' uses a casual, Hinglish tone that doesn't naturally translate to Hindi with 'aap' or 'tum' in a respectful context. The shift from informal to formal is critical in Hindi culture and must be preserved in register.",
+            "adaptation": "क्या चाहिए?"
+          },
+          {
+            "line_ids": [
+              "L41"
+            ],
+            "type": "dub_sync_risk",
+            "severity": "high",
+            "explanation": "The line 'You stole my work' is emotionally charged and has a sharp, abrupt tone. In Hindi, such lines often require longer vowels or pauses for emotional impact, and the action of glass shattering is not visually clear in subtitles, risking sync issues during dubbing.",
+            "adaptation": "तू मेरा काम चोरी कर लेता है"
+          },
+          {
+            "line_ids": [
+              "L38"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "medium",
+            "explanation": "'It's not stealing. It's the business' is a business jargon that doesn't have a direct Hindi equivalent. The concept of 'business' as a shared space is culturally abstract and may not resonate without a local idiom.",
+            "adaptation": "यह चोरी नहीं है, यह व्यवसाय है"
+          },
+          {
+            "line_ids": [
+              "L20"
+            ],
+            "type": "humor",
+            "severity": "medium",
+            "explanation": "'You slow down. That's your fourth' is a punchline relying on counting and casual tone. In Hindi, such humor often needs a local twist to land, especially with urban audiences who expect wordplay.",
+            "adaptation": "तू धीमा कर लेता है, वो चौथा है"
+          }
+        ],
+        "transcreations": [
+          {
+            "line_id": "L2",
+            "source_text": "City lights below. Music from the office Diwali party drifts up the stairs. VIKRAM (35) leans on the railing and lights a cigarette.",
+            "target_text": "क्या चाहिए?",
+            "back_translation": "Do you want one?",
+            "notes": "Uses a direct, peer-level request in Hindi, avoiding 'aap' which would be too formal for this context.",
+            "subtitle_flags": [
+              "event 9.2s exceeds 7.0s: split it"
+            ]
+          },
+          {
+            "line_id": "L41",
+            "source_text": "Vikram's glass slips from his hand and shatters on the floor.",
+            "target_text": "तू मेरा काम चोरी कर लेता है",
+            "back_translation": "You stole my work",
+            "notes": "Emotionally charged line; retains the accusation but with natural Hindi phrasing and emotional weight; high risk of sync in dub due to intensity.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L38",
+            "source_text": "It's not stealing. It's the business.",
+            "target_text": "यह चोरी नहीं है, यह व्यवसाय है",
+            "back_translation": "It's not stealing. It's the business",
+            "notes": "Replaces the English idiom with a Hindi business phrase that resonates with Indian workplace culture.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L20",
+            "source_text": "You slow down. That's your fourth.",
+            "target_text": "तू धीमा कर लेता है, वो चौथा है",
+            "back_translation": "You slow down. That's your fourth",
+            "notes": "Adapts the humor with a local count structure; 'चौथा' is a common number in Hindi speech and adds natural rhythm.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L30",
+            "source_text": "I wrote it at two in the morning and showed it to you at nine.",
+            "target_text": "मैं दो बजे लिखा था और नौ बजे तुम्हें दिखाया था",
+            "back_translation": "I wrote it at two in the morning and showed it to you at nine",
+            "notes": "Preserves the timeline and emotional ownership; uses 'तुम्हें' for intimacy, which is culturally appropriate.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L24",
+            "source_text": "The client loved the river campaign. They want the person who wrote it to lead the account.",
+            "target_text": "क्लाइंट ने रिवर कैंपेन को पसंद किया है",
+            "back_translation": "The client loved the river campaign",
+            "notes": "Clear, direct, and culturally neutral; fits well in Hindi workplace context.",
+            "subtitle_flags": []
+          }
+        ]
+      },
+      {
+        "lang": "ta",
+        "status": "ok",
+        "fit_score": 3,
+        "fit_rationale": "The script's core conflict is culturally transferable, but several lines require transcreation to match Tamil honorifics, idioms, and speech patterns. The premise is not culture-bound, but dialogue needs adaptation for natural Tamil flow and urban speech.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2"
+            ],
+            "type": "honorific_register",
+            "severity": "high",
+            "explanation": "Hindi phrase 'Everybody quits. Nobody stays quit' uses Hinglish tone and lacks Tamil honorifics; 'neenga' vs 'nee' must be reflected in register.",
+            "adaptation": "அனைவரும் விடுபடும். ஒருவரும் நிறுத்தமாக இருக்காது"
+          },
+          {
+            "line_ids": [
+              "L41"
+            ],
+            "type": "dub_sync_risk",
+            "severity": "high",
+            "explanation": "Vikram's glass shattering is a physical action that requires visual cue; in Tamil, such moments need clear on-screen text or gesture to match lip-sync without translation.",
+            "adaptation": "விக்ரமத்தின் கலசம் விழுந்தது"
+          },
+          {
+            "line_ids": [
+              "L3"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "medium",
+            "explanation": "'They're announcing the creative head tonight' is a literal translation; Tamil audience expects punchy, cinematic dialogue with Tanglish flavor and local idioms.",
+            "adaptation": "இனிய நிலையில் கலை தலைவரை அறிவிக்கிறார்கள்"
+          },
+          {
+            "line_ids": [
+              "L38"
+            ],
+            "type": "honorific_register",
+            "severity": "medium",
+            "explanation": "'It's not stealing. It's the business' uses neutral tone; Tamil audience expects stronger verb endings and respect markers like 'neenga' or 'neenga' in office settings.",
+            "adaptation": "அது கொள்ளாமல் போகும். இது வேலை தான்"
+          }
+        ],
+        "transcreations": [
+          {
+            "line_id": "L2",
+            "source_text": "City lights below. Music from the office Diwali party drifts up the stairs. VIKRAM (35) leans on the railing and lights a cigarette.",
+            "target_text": "அனைவரும் விடுபடும். ஒருவரும் நிறுத்தமாக இருக்காது",
+            "back_translation": "Everybody quits. Nobody stays quit",
+            "notes": "Uses native Tamil honorifics and register; matches spoken Tamil urban tone with Tanglish feel.",
+            "subtitle_flags": [
+              "event 9.2s exceeds 7.0s: split it"
+            ]
+          },
+          {
+            "line_id": "L41",
+            "source_text": "Vikram's glass slips from his hand and shatters on the floor.",
+            "target_text": "விக்ரமத்தின் கலசம் விழுந்தது",
+            "back_translation": "Vikram's glass slipped from his hand and shattered on the floor",
+            "notes": "Physical action translated with natural Tamil phrasing; avoids literal English structure for better dub sync.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L3",
+            "source_text": "KARAN (29) steps out and joins him.",
+            "target_text": "இனிய நிலையில் கலை தலைவரை அறிவிக்கிறார்கள்",
+            "back_translation": "They're announcing the creative head tonight",
+            "notes": "Rephrased with local idioms and cinematic punch; avoids Hinglish and foreign feel.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L38",
+            "source_text": "It's not stealing. It's the business.",
+            "target_text": "அது கொள்ளாமல் போகும். இது வேலை தான்",
+            "back_translation": "It's not stealing. It's the business",
+            "notes": "Uses Tamil business register with natural verb endings; avoids foreign tone and strengthens local authenticity.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L20",
+            "source_text": "You slow down. That's your fourth.",
+            "target_text": "உங்கள் நான்காவது கொடுத்து விட்டீர்கள்",
+            "back_translation": "You've had your fourth already",
+            "notes": "Adapts Hinglish to Tamil with natural urban speech and verb ending; fits office context with 'neenga' tone.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L28",
+            "source_text": "The river campaign was my idea.",
+            "target_text": "நான் அதை இரண்டு மணி நேரம் எழுதினேன் மற்றும் நீங்களுக்கு நான்கு மணி நேரம் காட்டினேன்",
+            "back_translation": "I wrote it at two in the morning and showed it to you at nine",
+            "notes": "Uses full Tamil phrasing with time references; avoids Hinglish and matches spoken Tamil flow.",
+            "subtitle_flags": [
+              "needs 3 lines of 42 chars (max 2)",
+              "reading speed 30 cps exceeds 17 cps"
+            ]
+          }
+        ]
+      },
+      {
+        "lang": "te",
+        "status": "ok",
+        "fit_score": 3,
+        "fit_rationale": "The script has strong emotional beats and confrontational dynamics that align with Telugu audience expectations, but several lines require transcreation for cultural and linguistic authenticity. The core conflict is transferable, though idioms and honorifics need adaptation for regional resonance.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2"
+            ],
+            "type": "honorific_register",
+            "severity": "high",
+            "explanation": "The line 'Everybody quits. Nobody stays quit' uses a Hindi-style Hinglish tone and lacks regional honorifics; Telugu audiences expect 'meeru' or 'nuvvu' to signal respect or familiarity.",
+            "adaptation": "ప్రతిఒకరు వారి పనిని వదిలిపెట్టి, నిరాకరించి ఉంటారు. నిరాకరించి ఉండకుండా ఉంటారు."
+          },
+          {
+            "line_ids": [
+              "L41"
+            ],
+            "type": "dub_sync_risk",
+            "severity": "medium",
+            "explanation": "The line 'Vikram's glass slips from his hand and shatters on the floor' is a physical action that requires visual clarity; in Telugu dubbing, such lines may not sync with on-screen action due to rhythm and pacing differences.",
+            "adaptation": "విక్రమ్ గ్లాస్ ను తీసుకుని తీసుకుని పడుతుంది మరియు దానిని ప్రాంతంలో పడుతుంది."
+          },
+          {
+            "line_ids": [
+              "L10",
+              "L11"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "high",
+            "explanation": "'It's you or me' and 'It was always going to be you or me' are generic English idioms with no regional equivalent; Telugu audiences expect punchy, culturally resonant confrontation lines with emotional weight and regional flavor.",
+            "adaptation": "ఇది మీకు లేదా నాకు ఉంటుంది. ఇది మీకు లేదా నాకు ఉంటుంది."
+          },
+          {
+            "line_ids": [
+              "L38"
+            ],
+            "type": "honorific_register",
+            "severity": "medium",
+            "explanation": "'It's not stealing. It's the business' uses a detached, business-like tone that lacks emotional or cultural grounding; Telugu audiences expect bold, confrontational lines with honorifics or teasing to build tension.",
+            "adaptation": "ఇది స్థానికం కాదు. ఇది వాటి పని కాదు."
+          }
+        ],
+        "transcreations": [
+          {
+            "line_id": "L2",
+            "source_text": "City lights below. Music from the office Diwali party drifts up the stairs. VIKRAM (35) leans on the railing and lights a cigarette.",
+            "target_text": "ప్రతిఒకరు వారి పనిని వదిలిపెట్టి, నిరాకరించి ఉంటారు. నిరాకరించి ఉండకుండా ఉంటారు.",
+            "back_translation": "Everyone quits their job and doesn't stay quit.",
+            "notes": "Uses regional tone with 'nuvvu' implied by 'nirakari' and 'pani' to match Telugu speech patterns.",
+            "subtitle_flags": [
+              "needs 3 lines of 42 chars (max 2)",
+              "event 9.2s exceeds 7.0s: split it"
+            ]
+          },
+          {
+            "line_id": "L41",
+            "source_text": "Vikram's glass slips from his hand and shatters on the floor.",
+            "target_text": "విక్రమ్ గ్లాస్ ను తీసుకుని తీసుకుని పడుతుంది మరియు దానిని ప్రాంతంలో పడుతుంది.",
+            "back_translation": "Vikram's glass slips from his hand and shatters on the floor.",
+            "notes": "Adapted for rhythmic flow and visual clarity in Telugu dubbing; avoids literal translation to match performance timing.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L10",
+            "source_text": "It's you or me.",
+            "target_text": "ఇది మీకు లేదా నాకు ఉంటుంది.",
+            "back_translation": "It's you or me.",
+            "notes": "Replaces generic idiom with a punchy, Telugu-style confrontation line that matches mass-hero tone.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L11",
+            "source_text": "It was always going to be you or me.",
+            "target_text": "ఇది మీకు లేదా నాకు ఉంటుంది.",
+            "back_translation": "It was always going to be you or me.",
+            "notes": "Repeats the structure for emotional consistency, using regional phrasing and rhythm.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L38",
+            "source_text": "It's not stealing. It's the business.",
+            "target_text": "ఇది స్థానికం కాదు. ఇది వాటి పని కాదు.",
+            "back_translation": "It's not stealing. It's the business.",
+            "notes": "Replaces with bold, confrontational Telugu phrasing that matches mass-hero style and regional tone.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L22",
+            "source_text": "INT. AGENCY OFFICE, NAINA'S CABIN - NIGHT",
+            "target_text": "నైనా మూడు పుష్పాలను తీసుకుని వచ్చింది మరియు దానిని తీసుకుని పడుతుంది.",
+            "back_translation": "Naina pours three fresh whiskies from a bottle on her desk.",
+            "notes": "Transcreates action with regional flavor and rhythm; uses 'pushpala' for 'whisky' to match local food metaphors.",
+            "subtitle_flags": [
+              "reading speed 22 cps exceeds 17 cps"
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": "Machine transcreation. Native-speaker review required."
+  },
+  "market": {
+    "status": "ok",
+    "notes": [],
+    "comps": [
+      {
+        "title": "Badla (2019 film)",
+        "year": 2019,
+        "language": "Hindi",
+        "rating": 7.8,
+        "votes": 35416,
+        "similarity": 0.48,
+        "why_similar": "Naina is accused of murder, agency head with secret conflict, power struggle over truth",
+        "differentiator": "Focuses on credit/ownership, not crime or murder",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Badla_(2019_film)"
+      },
+      {
+        "title": "Ek Paheli Leela",
+        "year": 2015,
+        "language": "Hindi",
+        "rating": 3.8,
+        "votes": 1975,
+        "similarity": 0.445,
+        "why_similar": "Karan is a creative figure, conflict over credit, workplace power dynamics",
+        "differentiator": "Workplace campaign ownership, not love or music",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Ek_Paheli_Leela"
+      },
+      {
+        "title": "Badmaash Company",
+        "year": 2010,
+        "language": "Hindi",
+        "rating": 6.2,
+        "votes": 8932,
+        "similarity": 0.468,
+        "why_similar": "Karan and business partner conflict, ownership of idea, professional rivalry",
+        "differentiator": "Workplace campaign credit, not business or love",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Badmaash_Company"
+      },
+      {
+        "title": "Akkaran",
+        "year": 2024,
+        "language": "Tamil",
+        "rating": 4.4,
+        "votes": 29,
+        "similarity": 0.529,
+        "why_similar": "Investigation into missing person, truth vs version, personal betrayal",
+        "differentiator": "No creative work, focus on missing person, not ownership",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Akkaran"
+      },
+      {
+        "title": "Sarabham",
+        "year": 2014,
+        "language": "Tamil",
+        "rating": 7.1,
+        "votes": 628,
+        "similarity": 0.542,
+        "why_similar": "Vikram claims credit, illegal action, client project ownership dispute",
+        "differentiator": "Architecture project, not advertising campaign",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Sarabham"
+      }
+    ],
+    "originality_flag": false,
+    "originality_note": "",
+    "tropes": [
+      {
+        "trope_id": "workplace_drama",
+        "name": "Workplace drama",
+        "line_ids": [
+          "L24",
+          "L26",
+          "L30"
+        ],
+        "rationale": "Credit dispute over campaign ownership in office setting with power dynamics.",
+        "confidence": 0.98,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "betrayal",
+        "name": "Betrayal",
+        "line_ids": [
+          "L34",
+          "L40",
+          "L41"
+        ],
+        "rationale": "Vikram's actions imply deception; Karan accuses him of hiding during money disappearance.",
+        "confidence": 0.92,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "revenge",
+        "name": "Revenge",
+        "line_ids": [
+          "L40",
+          "L41"
+        ],
+        "rationale": "Karan threatens to expose Vikram's involvement in the Mehra account theft.",
+        "confidence": 0.85,
+        "momentum": "declining",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "hidden_identity",
+        "name": "Hidden identity",
+        "line_ids": [
+          "L34",
+          "L37",
+          "L38"
+        ],
+        "rationale": "Vikram's claim of 'the business' hides his role in the campaign and money incident.",
+        "confidence": 0.75,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "crime_thriller",
+        "name": "Crime thriller",
+        "line_ids": [
+          "L40",
+          "L41"
+        ],
+        "rationale": "Mehra account money disappearance suggests a heist or fraud with a suspect lead.",
+        "confidence": 0.8,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "workplace_drama",
+        "name": "Workplace drama",
+        "line_ids": [
+          "L24",
+          "L25",
+          "L26"
+        ],
+        "rationale": "Naina assigns credit based on presentation, not origin, showing office politics.",
+        "confidence": 0.95,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      }
+    ],
+    "trend_snapshot_as_of": "2026-10-19"
+  },
+  "meta": {
+    "models_by_node": {
+      "continuity": "qwen3:4b-instruct-2507-q4_K_M",
+      "rating_classify": "qwen3:4b-instruct-2507-q4_K_M",
+      "story_map": "qwen3:4b-instruct-2507-q4_K_M",
+      "rating_lower": "qwen3:4b-instruct-2507-q4_K_M",
+      "episode_map": "qwen3:4b-instruct-2507-q4_K_M",
+      "emotion": "qwen3:4b-instruct-2507-q4_K_M",
+      "summary": "qwen3:4b-instruct-2507-q4_K_M",
+      "cliffhanger": "qwen3:4b-instruct-2507-q4_K_M",
+      "tropes": "qwen3:4b-instruct-2507-q4_K_M",
+      "engagement": "qwen3:4b-instruct-2507-q4_K_M",
+      "comps_explain": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_generate": "qwen3:4b-instruct-2507-q4_K_M",
+      "localization": "qwen3:4b-instruct-2507-q4_K_M",
+      "suggestions": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_rescore": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_judge": "qwen3:4b-instruct-2507-q4_K_M"
+    },
+    "prompt_versions": {
+      "_preamble": "1.1",
+      "alternatives_generate": "1.0",
+      "alternatives_judge": "1.0",
+      "alternatives_rescore": "1.2",
+      "cliffhanger": "1.1",
+      "comps_explain": "1.0",
+      "continuity": "1.2",
+      "emotion": "1.0",
+      "engagement": "1.2",
+      "episode_map": "1.1",
+      "localization": "1.2",
+      "rating_classify": "1.1",
+      "rating_lower": "1.0",
+      "story_map": "1.0",
+      "suggestions": "1.1",
+      "summary": "1.2",
+      "tropes": "1.0"
+    },
+    "knowledge_version": "07141e9787bc654b",
+    "tokens": {
+      "prompt": 63890,
+      "completion": 10301,
+      "calls": 33,
+      "repairs": 3
+    },
+    "cost_usd": 0.0,
+    "latency_ms_by_node": {
+      "continuity": 2301,
+      "rating_classify": 9611,
+      "story_map": 19809,
+      "rating_lower": 13245,
+      "episode_map": 4542,
+      "emotion": 22230,
+      "summary": 24666,
+      "cliffhanger": 2204,
+      "tropes": 9959,
+      "engagement": 126205,
+      "comps_explain": 48125,
+      "alternatives_generate": 28351,
+      "localization": 115172,
+      "suggestions": 46437,
+      "alternatives_rescore": 49975,
+      "alternatives_judge": 81052
+    },
+    "total_latency_ms": 271542,
+    "calls": [
+      {
+        "node": "continuity",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1392,
+        "completion_tokens": 63,
+        "latency_ms": 2301,
+        "prompt_eval_ms": 640,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "rating_classify",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2022,
+        "completion_tokens": 287,
+        "latency_ms": 9611,
+        "prompt_eval_ms": 567,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "story_map",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1722,
+        "completion_tokens": 422,
+        "latency_ms": 19809,
+        "prompt_eval_ms": 380,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "rating_lower",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1396,
+        "completion_tokens": 120,
+        "latency_ms": 13245,
+        "prompt_eval_ms": 196,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "episode_map[1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1582,
+        "completion_tokens": 181,
+        "latency_ms": 4542,
+        "prompt_eval_ms": 298,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "emotion",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1900,
+        "completion_tokens": 295,
+        "latency_ms": 11979,
+        "prompt_eval_ms": 487,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "summary",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1324,
+        "completion_tokens": 106,
+        "latency_ms": 14627,
+        "prompt_eval_ms": 134,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "emotion",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2312,
+        "completion_tokens": 285,
+        "latency_ms": 10251,
+        "prompt_eval_ms": 742,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "summary",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1486,
+        "completion_tokens": 91,
+        "latency_ms": 10039,
+        "prompt_eval_ms": 228,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "cliffhanger",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1411,
+        "completion_tokens": 81,
+        "latency_ms": 2204,
+        "prompt_eval_ms": 198,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "tropes",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2169,
+        "completion_tokens": 295,
+        "latency_ms": 9959,
+        "prompt_eval_ms": 660,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3303,
+        "completion_tokens": 554,
+        "latency_ms": 26932,
+        "prompt_eval_ms": 1426,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3303,
+        "completion_tokens": 594,
+        "latency_ms": 42326,
+        "prompt_eval_ms": 25,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3303,
+        "completion_tokens": 567,
+        "latency_ms": 56947,
+        "prompt_eval_ms": 29,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "comps_explain",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3684,
+        "completion_tokens": 218,
+        "latency_ms": 48125,
+        "prompt_eval_ms": 1652,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1685,
+        "completion_tokens": 418,
+        "latency_ms": 10021,
+        "prompt_eval_ms": 369,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[hi]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2010,
+        "completion_tokens": 941,
+        "latency_ms": 32754,
+        "prompt_eval_ms": 557,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "suggestions",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1820,
+        "completion_tokens": 571,
+        "latency_ms": 46437,
+        "prompt_eval_ms": 435,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1374,
+        "completion_tokens": 75,
+        "latency_ms": 38957,
+        "prompt_eval_ms": 629,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[ta]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2039,
+        "completion_tokens": 1063,
+        "latency_ms": 42434,
+        "prompt_eval_ms": 1011,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.1.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1891,
+        "completion_tokens": 82,
+        "latency_ms": 29316,
+        "prompt_eval_ms": 937,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[te]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2033,
+        "completion_tokens": 1497,
+        "latency_ms": 39984,
+        "prompt_eval_ms": 1014,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.1.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1891,
+        "completion_tokens": 87,
+        "latency_ms": 40097,
+        "prompt_eval_ms": 937,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1379,
+        "completion_tokens": 80,
+        "latency_ms": 2593,
+        "prompt_eval_ms": 635,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.2.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1868,
+        "completion_tokens": 69,
+        "latency_ms": 2684,
+        "prompt_eval_ms": 916,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.2.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1868,
+        "completion_tokens": 82,
+        "latency_ms": 3006,
+        "prompt_eval_ms": 928,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1356,
+        "completion_tokens": 87,
+        "latency_ms": 2754,
+        "prompt_eval_ms": 618,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.3.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1883,
+        "completion_tokens": 88,
+        "latency_ms": 3139,
+        "prompt_eval_ms": 927,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.3.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1883,
+        "completion_tokens": 74,
+        "latency_ms": 2810,
+        "prompt_eval_ms": 933,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1371,
+        "completion_tokens": 90,
+        "latency_ms": 2815,
+        "prompt_eval_ms": 626,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1697,
+        "completion_tokens": 369,
+        "latency_ms": 9322,
+        "prompt_eval_ms": 819,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2168,
+        "completion_tokens": 376,
+        "latency_ms": 9008,
+        "prompt_eval_ms": 83,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1365,
+        "completion_tokens": 93,
+        "latency_ms": 2856,
+        "prompt_eval_ms": 625,
+        "repaired": false,
+        "stop_reason": "stop"
+      }
+    ],
+    "warnings": [],
+    "refusals": [],
+    "created_at": "2026-10-19T10:14:30+00:00"
+  },
+  "elements": [
+    {
+      "id": "L1",
+      "kind": "scene_heading",
+      "text": "EXT. AGENCY OFFICE, TERRACE - NIGHT",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L2",
+      "kind": "action",
+      "text": "City lights below. Music from the office Diwali party drifts up the stairs. VIKRAM (35) leans on the railing and lights a cigarette.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L3",
+      "kind": "action",
+      "text": "KARAN (29) steps out and joins him.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L4",
+      "kind": "dialogue",
+      "text": "Want one?",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L5",
+      "kind": "dialogue",
+      "text": "I quit last year.",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L6",
+      "kind": "dialogue",
+      "text": "Everybody quits. Nobody stays quit.",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L7",
+      "kind": "action",
+      "text": "Karan takes a cigarette from the pack. Vikram lights it for him. They smoke in silence.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L8",
+      "kind": "dialogue",
+      "text": "They're announcing the creative head tonight.",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L9",
+      "kind": "dialogue",
+      "text": "I know.",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L10",
+      "kind": "dialogue",
+      "text": "It's you or me.",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L11",
+      "kind": "dialogue",
+      "text": "It was always going to be you or me.",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L12",
+      "kind": "action",
+      "text": "Vikram blows out a long line of smoke and stubs the cigarette on the railing.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L13",
+      "kind": "dialogue",
+      "text": "Come on. Naina's waiting.",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L14",
+      "kind": "scene_heading",
+      "text": "INT. AGENCY OFFICE, PARTY HALL - NIGHT",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L15",
+      "kind": "action",
+      "text": "Fairy lights, loud music. A bartender pours whisky into a row of glasses. NAINA (40), the agency head, raises hers.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L16",
+      "kind": "dialogue",
+      "text": "To the best year this agency has ever had!",
+      "speaker": "NAINA",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L17",
+      "kind": "dialogue",
+      "text": "Cheers!",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L18",
+      "kind": "action",
+      "text": "Karan downs his whisky in one go and reaches for another. Vikram sips his slowly, watching him.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L19",
+      "kind": "dialogue",
+      "text": "Slow down.",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L20",
+      "kind": "dialogue",
+      "text": "You slow down. That's your fourth.",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L21",
+      "kind": "dialogue",
+      "text": "Karan. Vikram. My cabin. Bring your drinks.",
+      "speaker": "NAINA",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L22",
+      "kind": "scene_heading",
+      "text": "INT. AGENCY OFFICE, NAINA'S CABIN - NIGHT",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L23",
+      "kind": "action",
+      "text": "Naina pours three fresh whiskies from a bottle on her desk. She hands them out.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L24",
+      "kind": "dialogue",
+      "text": "The client loved the river campaign. They want the person who wrote it to lead the account.",
+      "speaker": "NAINA",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L25",
+      "kind": "dialogue",
+      "text": "(smiling) That's good news.",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L26",
+      "kind": "dialogue",
+      "text": "Vikram, the job is yours. Congratulations.",
+      "speaker": "NAINA",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L27",
+      "kind": "action",
+      "text": "Karan's smile freezes. He puts his glass down.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L28",
+      "kind": "dialogue",
+      "text": "The river campaign was my idea.",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L29",
+      "kind": "dialogue",
+      "text": "We built it together.",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L30",
+      "kind": "dialogue",
+      "text": "I wrote it at two in the morning and showed it to you at nine.",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L31",
+      "kind": "dialogue",
+      "text": "Vikram presented it. The deck has his name on it.",
+      "speaker": "NAINA",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L32",
+      "kind": "dialogue",
+      "text": "Of course it does.",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L33",
+      "kind": "action",
+      "text": "He walks out. Naina looks at Vikram. He looks at his whisky.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L34",
+      "kind": "scene_heading",
+      "text": "EXT. AGENCY OFFICE, TERRACE - NIGHT",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S4",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L35",
+      "kind": "action",
+      "text": "Karan lights another cigarette with shaking hands. He takes a long drag. Vikram follows him out.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S4",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L36",
+      "kind": "dialogue",
+      "text": "Karan, listen. I'll make you my deputy. Same money.",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S4",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L37",
+      "kind": "dialogue",
+      "text": "You stole my work, and now you want to pay me for it.",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S4",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L38",
+      "kind": "dialogue",
+      "text": "It's not stealing. It's the business.",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S4",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L39",
+      "kind": "action",
+      "text": "Karan exhales smoke into the cold air. He laughs softly.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S4",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L40",
+      "kind": "dialogue",
+      "text": "Then you won't mind if I tell Naina where you were the night the Mehra account money disappeared.",
+      "speaker": "KARAN",
+      "episode": 1,
+      "scene_id": "S4",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L41",
+      "kind": "action",
+      "text": "Vikram's glass slips from his hand and shatters on the floor.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S4",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    }
+  ]
+}

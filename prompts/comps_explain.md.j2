@@ -1,0 +1,14 @@
+---
+id: comps_explain
+version: "1.0"
+output_schema: CompsExplainOut
+---
+TASK: These published films and series were retrieved as possibly similar to the script. Pick the 5 most similar and explain.
+Script logline: {{ logline }}
+
+CANDIDATES
+{% for c in candidates %}
+[{{ loop.index0 }}] {{ c.title }} ({{ c.year }}, {{ c.language }}): {{ c.plot }}
+{% endfor %}
+
+For each pick: candidate (its number), why_similar (at most 25 words, grounded in the plot text), differentiator (what the script does differently, at most 20 words), near_identical (true only if the script's premise and main plot turns copy this title almost exactly).

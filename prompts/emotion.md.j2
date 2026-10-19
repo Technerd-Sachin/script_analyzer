@@ -1,0 +1,17 @@
+---
+id: emotion
+version: "1.0"
+output_schema: EmotionOut
+---
+TASK: Analyze the emotional tone and arc.
+{{ taxonomy }}
+
+Story beats (annotate every beat, in order, using these beat IDs):
+{% for b in beats %}
+- {{ b.id }} ({{ b.line_ids[0] }}..{{ b.line_ids[-1] }}): {{ b.label }}
+{% endfor %}
+
+- arc: one entry per beat: the dominant emotion felt by the audience, a secondary emotion or "none", valence from -1 (very negative) to 1 (very positive), intensity from 0 to 1.
+- dominant: the 1 to 3 dominant emotions of the whole script with shares that add up to about 1.
+- arc_shape: the shape of the valence over time (rise, fall, fall_rise, rise_fall, rise_fall_rise, fall_rise_fall, flat).
+- narrative: 2 to 3 sentences on how the emotion evolves through the script, citing line IDs in the text like (L4).

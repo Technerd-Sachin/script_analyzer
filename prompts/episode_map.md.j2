@@ -1,0 +1,15 @@
+---
+id: episode_map
+version: "1.1"
+output_schema: EpisodeOut
+---
+TASK: Analyze EPISODE {{ episode }} only. Its lines run from {{ first_id }} to {{ last_id }} and its scenes are: {{ scene_ids }}.
+Story logline for context: {{ logline }}
+
+- one_line_summary: what happens in this episode, at most 25 words.
+- scene_tension: for each scene listed above, tension from 0 (calm) to 10 (unbearable).
+- ending_line_ids: the 1 to 3 lines that form this episode's ending (they must be inside the episode).
+- ending_weakness: the biggest reason a viewer might NOT tap the next episode (every ending has one).
+- ending_rationale: why the ending does or does not pull the viewer into the next episode.
+- ending_hook_strength: 1 = resolved or neutral (characters rest, say goodbye, or agree to talk tomorrow); 2 = mild curiosity; 3 = open question but predictable; 4 = strong new question or threat; 5 = sharp reversal or revelation that recontextualizes the episode. Be strict: most endings are 2 or 3.
+- cliffhanger_candidate_line_id: the single most suspenseful line in this episode.

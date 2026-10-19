@@ -1,0 +1,5072 @@
+{
+  "doc_id": "9e126a9acc683903fa292dd6628a3d6ab23edacd16b86e47fb7b3047f66354d2",
+  "cache_key": "58f6deb85bc737a8a22bf8c5",
+  "title": "Kavya Ka Badla",
+  "options": {
+    "features": [
+      "core",
+      "analytics",
+      "alternatives",
+      "rating",
+      "localization",
+      "market"
+    ],
+    "mode": "local",
+    "localization_targets": null,
+    "engagement_runs": 3
+  },
+  "ir_stats": {
+    "source_kind": "pdf_scanned",
+    "pages": 11,
+    "episodes": 5,
+    "scenes": 20,
+    "elements": 135,
+    "words": 1240,
+    "languages": {
+      "hi-Latn": 0.553,
+      "en": 0.447
+    },
+    "code_mix_ratio": 0.05,
+    "render_mode": "full",
+    "script_tokens_est": 2542,
+    "ocr_mean_conf": 0.969,
+    "page_sources": {
+      "1": "ocr",
+      "2": "ocr",
+      "3": "ocr",
+      "4": "ocr",
+      "5": "ocr",
+      "6": "ocr",
+      "7": "ocr",
+      "8": "ocr",
+      "9": "ocr",
+      "10": "ocr",
+      "11": "ocr"
+    },
+    "episode_boundaries": "marker"
+  },
+  "story_map": {
+    "status": "ok",
+    "notes": [],
+    "is_script": true,
+    "logline": "Kavya seeks truth about her father's land fraud, against a family that hides it.",
+    "characters": [
+      {
+        "name": "Kavya",
+        "want": "Know the truth about her father's land fraud",
+        "obstacle": "Family lies and her mother's silence",
+        "line_ids": [
+          "L4",
+          "L15",
+          "L31"
+        ]
+      },
+      {
+        "name": "Aditya Rathore",
+        "want": "Protect Kavya and confront the truth",
+        "obstacle": "His father's influence and fear of exposure",
+        "line_ids": [
+          "L19",
+          "L30",
+          "L104"
+        ]
+      },
+      {
+        "name": "Vikram Rathore",
+        "want": "Maintain power and control over the family business",
+        "obstacle": "His son's growing moral conflict and the evidence of fraud",
+        "line_ids": [
+          "L23",
+          "L84",
+          "L116"
+        ]
+      },
+      {
+        "name": "Sudha",
+        "want": "Protect her daughter and stay safe",
+        "obstacle": "Being used as a pawn in a family power struggle",
+        "line_ids": [
+          "L5",
+          "L106"
+        ]
+      },
+      {
+        "name": "Shekhar",
+        "want": "Protect the family secrets",
+        "obstacle": "Being caught in a web of lies and police intervention",
+        "line_ids": [
+          "L37",
+          "L81",
+          "L122"
+        ]
+      },
+      {
+        "name": "Mohan Saxena",
+        "want": "Reconnect with his daughter",
+        "obstacle": "Being silenced by the family and the system",
+        "line_ids": [
+          "L133"
+        ]
+      }
+    ],
+    "central_conflict": {
+      "text": "Kavya reveals her real identity and accuses Vikram of forging her father's signature, exposing the family's fraud.",
+      "line_ids": [
+        "L83",
+        "L86",
+        "L90",
+        "L115"
+      ]
+    },
+    "stakes": {
+      "text": "Kavya's identity, her mother's safety, the truth about her father's death, and the family's reputation are at risk.",
+      "line_ids": [
+        "L106",
+        "L110",
+        "L115",
+        "L122"
+      ]
+    },
+    "beats": [
+      {
+        "id": "B1",
+        "label": "Kavya's anger and discovery",
+        "line_ids": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6",
+          "L7",
+          "L8",
+          "L9",
+          "L10",
+          "L11",
+          "L12"
+        ]
+      },
+      {
+        "id": "B2",
+        "label": "Aditya sees Kavya's potential",
+        "line_ids": [
+          "L13",
+          "L14",
+          "L15",
+          "L16",
+          "L17",
+          "L18",
+          "L19",
+          "L20",
+          "L21",
+          "L22",
+          "L23",
+          "L24",
+          "L25",
+          "L26"
+        ]
+      },
+      {
+        "id": "B3",
+        "label": "Kavya finds the land file",
+        "line_ids": [
+          "L27",
+          "L28",
+          "L29",
+          "L30",
+          "L31",
+          "L32",
+          "L33",
+          "L34",
+          "L35",
+          "L36",
+          "L37",
+          "L38"
+        ]
+      },
+      {
+        "id": "B4",
+        "label": "Aditya believes her and shares past trauma",
+        "line_ids": [
+          "L39",
+          "L40",
+          "L41",
+          "L42",
+          "L43",
+          "L44",
+          "L45",
+          "L46",
+          "L47",
+          "L48",
+          "L49",
+          "L50",
+          "L51",
+          "L52",
+          "L53",
+          "L54",
+          "L55",
+          "L56",
+          "L57",
+          "L58",
+          "L59"
+        ]
+      },
+      {
+        "id": "B5",
+        "label": "Kavya hides evidence and feels guilt",
+        "line_ids": [
+          "L60",
+          "L61",
+          "L62",
+          "L63",
+          "L64",
+          "L65",
+          "L66",
+          "L67",
+          "L68",
+          "L69",
+          "L70",
+          "L71",
+          "L72",
+          "L73"
+        ]
+      },
+      {
+        "id": "B6",
+        "label": "Kavya denied access and identity revealed",
+        "line_ids": [
+          "L78",
+          "L79",
+          "L80",
+          "L81",
+          "L82",
+          "L83",
+          "L84",
+          "L85",
+          "L86",
+          "L87"
+        ]
+      },
+      {
+        "id": "B7",
+        "label": "Vikram confronts Kavya and threatens her mother",
+        "line_ids": [
+          "L88",
+          "L89",
+          "L90",
+          "L91",
+          "L92",
+          "L93",
+          "L94",
+          "L95",
+          "L96",
+          "L97",
+          "L98"
+        ]
+      },
+      {
+        "id": "B8",
+        "label": "Aditya discovers truth and is shocked",
+        "line_ids": [
+          "L99",
+          "L100",
+          "L101",
+          "L102",
+          "L103",
+          "L104",
+          "L105"
+        ]
+      },
+      {
+        "id": "B9",
+        "label": "Kavya meets mother at farmhouse",
+        "line_ids": [
+          "L106",
+          "L107",
+          "L108",
+          "L109",
+          "L110",
+          "L111",
+          "L112"
+        ]
+      },
+      {
+        "id": "B10",
+        "label": "Vikram lies, Aditya records, police arrive",
+        "line_ids": [
+          "L113",
+          "L114",
+          "L115",
+          "L116",
+          "L117",
+          "L118",
+          "L119",
+          "L120",
+          "L121",
+          "L122",
+          "L123",
+          "L124",
+          "L125",
+          "L126"
+        ]
+      },
+      {
+        "id": "B11",
+        "label": "Truth revealed, phone call confirms father's survival",
+        "line_ids": [
+          "L127",
+          "L128",
+          "L129",
+          "L130",
+          "L131",
+          "L132",
+          "L133",
+          "L134",
+          "L135"
+        ]
+      }
+    ],
+    "premise_tags": [
+      "hidden truth",
+      "second chance",
+      "family betrayal",
+      "identity crisis",
+      "moral conflict",
+      "truth exposure"
+    ],
+    "devanagari_language": "none"
+  },
+  "summary": {
+    "status": "ok",
+    "notes": [],
+    "text": "Kavya, a young woman from a chawl, discovers her father's land fraud hidden in a locker at the Rathore Group. She confronts Vikram, who denies knowing her, but reveals the file was forged by her father. When she reveals her real name, Aditya confesses he once saw his father imprison a builder. The story ends with her father calling, saying he is alive, and Vikram admitting he was not alone in the scheme. Who truly orchestrated the fraud remains unconfirmed.",
+    "line_ids": [
+      "L4",
+      "L14",
+      "L23",
+      "L46",
+      "L90",
+      "L115"
+    ]
+  },
+  "episodes": {
+    "status": "ok",
+    "notes": [],
+    "items": [
+      {
+        "number": 1,
+        "one_line_summary": "Kavya begins her journey to uncover her father's land fraud, confronting the Rathore family and discovering a hidden file in a locker.",
+        "scene_tension": [
+          {
+            "scene_id": "S2",
+            "tension": 8
+          },
+          {
+            "scene_id": "S3",
+            "tension": 5
+          },
+          {
+            "scene_id": "S4",
+            "tension": 9
+          }
+        ],
+        "ending_line_ids": [
+          "L26"
+        ],
+        "ending_hook_strength": 4,
+        "ending_rationale": "The ending reveals Vikram's suspicion of Kavya, setting up a personal conflict that pulls viewers into the next episode.",
+        "cliffhanger_candidate_line_id": "L26"
+      },
+      {
+        "number": 2,
+        "one_line_summary": "Kavya discovers her father's land fraud file, leading to a confrontation with Vikram and a revelation of her true identity.",
+        "scene_tension": [
+          {
+            "scene_id": "S5",
+            "tension": 0
+          },
+          {
+            "scene_id": "S6",
+            "tension": 3
+          },
+          {
+            "scene_id": "S7",
+            "tension": 6
+          },
+          {
+            "scene_id": "S8",
+            "tension": 8
+          },
+          {
+            "scene_id": "S9",
+            "tension": 10
+          }
+        ],
+        "ending_line_ids": [
+          "L48",
+          "L49",
+          "L50"
+        ],
+        "ending_hook_strength": 4,
+        "ending_rationale": "The ending reveals a hidden truth and sets up a major identity conflict, pulling viewers into the next episode.",
+        "cliffhanger_candidate_line_id": "L48"
+      },
+      {
+        "number": 3,
+        "one_line_summary": "Kavya discovers her father's land fraud file, confronts Aditya with truth, and hides evidence in her room, ending with her guilt and exhaustion.",
+        "scene_tension": [
+          {
+            "scene_id": "S11",
+            "tension": 7
+          },
+          {
+            "scene_id": "S12",
+            "tension": 8
+          },
+          {
+            "scene_id": "S13",
+            "tension": 9
+          }
+        ],
+        "ending_line_ids": [
+          "L76",
+          "L77"
+        ],
+        "ending_hook_strength": 3,
+        "ending_rationale": "The ending shows emotional weight and personal guilt, creating a strong emotional pull for the next episode.",
+        "cliffhanger_candidate_line_id": "L70"
+      },
+      {
+        "number": 4,
+        "one_line_summary": "Kavya reveals her true identity, exposes her father's fraud, and faces a confrontation that leads to a shocking revelation of her father's survival.",
+        "scene_tension": [
+          {
+            "scene_id": "S14",
+            "tension": 3
+          },
+          {
+            "scene_id": "S15",
+            "tension": 7
+          },
+          {
+            "scene_id": "S16",
+            "tension": 9
+          },
+          {
+            "scene_id": "S17",
+            "tension": 10
+          }
+        ],
+        "ending_line_ids": [
+          "L104",
+          "L105",
+          "L106"
+        ],
+        "ending_hook_strength": 4,
+        "ending_rationale": "The revelation of Kavya's real name and the dead phone line create emotional and narrative tension that pulls viewers into the next episode.",
+        "cliffhanger_candidate_line_id": "L106"
+      },
+      {
+        "number": 5,
+        "one_line_summary": "Kavya confronts Vikram with the truth about her father's fraud, revealing a hidden past and exposing Aditya's complicity.",
+        "scene_tension": [
+          {
+            "scene_id": "S18",
+            "tension": 9
+          },
+          {
+            "scene_id": "S19",
+            "tension": 10
+          },
+          {
+            "scene_id": "S20",
+            "tension": 10
+          }
+        ],
+        "ending_line_ids": [
+          "L133",
+          "L134",
+          "L135"
+        ],
+        "ending_hook_strength": 4,
+        "ending_rationale": "The ending confirms the father's survival and Vikram's involvement, creating emotional depth and a lingering sense of betrayal that pulls viewers in.",
+        "cliffhanger_candidate_line_id": "L135"
+      }
+    ]
+  },
+  "emotion": {
+    "status": "ok",
+    "notes": [],
+    "dominant": [
+      {
+        "emotion": "fear",
+        "share": 0.39
+      },
+      {
+        "emotion": "anger",
+        "share": 0.33
+      },
+      {
+        "emotion": "trust",
+        "share": 0.28
+      }
+    ],
+    "arc": [
+      {
+        "beat_id": "B1",
+        "line_ids": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6",
+          "L7",
+          "L8",
+          "L9",
+          "L10",
+          "L11",
+          "L12"
+        ],
+        "emotion": "anger",
+        "secondary": "fear",
+        "valence": -0.8,
+        "intensity": 0.9
+      },
+      {
+        "beat_id": "B2",
+        "line_ids": [
+          "L13",
+          "L14",
+          "L15",
+          "L16",
+          "L17",
+          "L18",
+          "L19",
+          "L20",
+          "L21",
+          "L22",
+          "L23",
+          "L24",
+          "L25",
+          "L26"
+        ],
+        "emotion": "trust",
+        "secondary": "anticipation",
+        "valence": 0.6,
+        "intensity": 0.7
+      },
+      {
+        "beat_id": "B3",
+        "line_ids": [
+          "L27",
+          "L28",
+          "L29",
+          "L30",
+          "L31",
+          "L32",
+          "L33",
+          "L34",
+          "L35",
+          "L36",
+          "L37",
+          "L38"
+        ],
+        "emotion": "surprise",
+        "secondary": "fear",
+        "valence": 0.3,
+        "intensity": 0.8
+      },
+      {
+        "beat_id": "B4",
+        "line_ids": [
+          "L39",
+          "L40",
+          "L41",
+          "L42",
+          "L43",
+          "L44",
+          "L45",
+          "L46",
+          "L47",
+          "L48",
+          "L49",
+          "L50",
+          "L51",
+          "L52",
+          "L53",
+          "L54",
+          "L55",
+          "L56",
+          "L57",
+          "L58",
+          "L59"
+        ],
+        "emotion": "trust",
+        "secondary": "sadness",
+        "valence": 0.5,
+        "intensity": 0.7
+      },
+      {
+        "beat_id": "B5",
+        "line_ids": [
+          "L60",
+          "L61",
+          "L62",
+          "L63",
+          "L64",
+          "L65",
+          "L66",
+          "L67",
+          "L68",
+          "L69",
+          "L70",
+          "L71",
+          "L72",
+          "L73"
+        ],
+        "emotion": "fear",
+        "secondary": "sadness",
+        "valence": -0.6,
+        "intensity": 0.9
+      },
+      {
+        "beat_id": "B6",
+        "line_ids": [
+          "L78",
+          "L79",
+          "L80",
+          "L81",
+          "L82",
+          "L83",
+          "L84",
+          "L85",
+          "L86",
+          "L87"
+        ],
+        "emotion": "disgust",
+        "secondary": "fear",
+        "valence": -0.7,
+        "intensity": 0.8
+      },
+      {
+        "beat_id": "B7",
+        "line_ids": [
+          "L88",
+          "L89",
+          "L90",
+          "L91",
+          "L92",
+          "L93",
+          "L94",
+          "L95",
+          "L96",
+          "L97",
+          "L98"
+        ],
+        "emotion": "fear",
+        "secondary": "anger",
+        "valence": -0.9,
+        "intensity": 0.9
+      },
+      {
+        "beat_id": "B8",
+        "line_ids": [
+          "L99",
+          "L100",
+          "L101",
+          "L102",
+          "L103",
+          "L104",
+          "L105"
+        ],
+        "emotion": "surprise",
+        "secondary": "fear",
+        "valence": 0.2,
+        "intensity": 0.8
+      },
+      {
+        "beat_id": "B9",
+        "line_ids": [
+          "L106",
+          "L107",
+          "L108",
+          "L109",
+          "L110",
+          "L111",
+          "L112"
+        ],
+        "emotion": "trust",
+        "secondary": "joy",
+        "valence": 0.7,
+        "intensity": 0.6
+      },
+      {
+        "beat_id": "B10",
+        "line_ids": [
+          "L113",
+          "L114",
+          "L115",
+          "L116",
+          "L117",
+          "L118",
+          "L119",
+          "L120",
+          "L121",
+          "L122",
+          "L123",
+          "L124",
+          "L125",
+          "L126"
+        ],
+        "emotion": "anger",
+        "secondary": "fear",
+        "valence": -0.7,
+        "intensity": 0.9
+      },
+      {
+        "beat_id": "B11",
+        "line_ids": [
+          "L127",
+          "L128",
+          "L129",
+          "L130",
+          "L131",
+          "L132",
+          "L133",
+          "L134",
+          "L135"
+        ],
+        "emotion": "joy",
+        "secondary": "trust",
+        "valence": 0.9,
+        "intensity": 0.8
+      }
+    ],
+    "arc_shape": "fall_rise",
+    "narrative": "The story begins with Kavya's anger and fear over her father's death (L4, L9), builds through trust with Aditya (L14-L17, L30-L34), peaks in fear and betrayal when her identity is revealed (L84-L98), then shifts to trust and joy as the truth is exposed and her father is confirmed alive (L133-L135). The emotional arc follows a fall, then a rise, as Kavya confronts the truth and finds resolution with her father and Aditya."
+  },
+  "engagement": {
+    "status": "ok",
+    "notes": [],
+    "factors": [
+      {
+        "name": "opening_hook",
+        "evidence_line_ids": [
+          "L1",
+          "L2",
+          "L4"
+        ],
+        "weakness": "L4 uses generic statement without urgent stakes or question",
+        "rationale": "First lines establish a setup, not a specific urgent question tied to character stakes",
+        "score": 3.0,
+        "weight": 0.2,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "central_conflict",
+        "evidence_line_ids": [
+          "L23",
+          "L24",
+          "L84"
+        ],
+        "weakness": "L84 reveals identity but no dramatized opposition between characters",
+        "rationale": "Conflict is stated, not dramatized through action or dialogue clash",
+        "score": 3.0,
+        "weight": 0.15,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "tension_escalation",
+        "evidence_line_ids": [
+          "L31",
+          "L37",
+          "L46"
+        ],
+        "weakness": "L37 reveals Saxena file but no pressure rise or reversal after",
+        "rationale": "Tension builds slowly; no exchange raises pressure or stalls before payoff",
+        "score": 3.0,
+        "weight": 0.15,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "cliffhanger_pull",
+        "evidence_line_ids": [
+          "L126",
+          "L133",
+          "L135"
+        ],
+        "weakness": "L135 reveals father alive but recontextualizes only after prior reveal",
+        "rationale": "Ending reveals truth but doesn't reframe earlier events or demand next episode",
+        "score": 3.0,
+        "weight": 0.15,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "stakes",
+        "evidence_line_ids": [
+          "L9",
+          "L115",
+          "L134"
+        ],
+        "weakness": "L134 shows mother in danger but not tied to personal loss or family honour",
+        "rationale": "Stakes are personal but not grasped quickly or tied to concrete loss",
+        "score": 3.0,
+        "weight": 0.1,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "character_clarity",
+        "evidence_line_ids": [
+          "L4",
+          "L60",
+          "L104"
+        ],
+        "weakness": "L104 reveals name change but no wound or motivation shown",
+        "rationale": "Kavya's wound is implied, not shown in first line or action",
+        "score": 3.0,
+        "weight": 0.1,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "dialogue_quality",
+        "evidence_line_ids": [
+          "L14",
+          "L15",
+          "L104"
+        ],
+        "weakness": "L104 is expository and repeats known facts",
+        "rationale": "Dialogue includes exposition, not subtext or sharp retorts",
+        "score": 2.0,
+        "weight": 0.1,
+        "run_scores": [
+          2,
+          3,
+          2
+        ]
+      },
+      {
+        "name": "pacing",
+        "evidence_line_ids": [
+          "L21",
+          "L28",
+          "L79"
+        ],
+        "weakness": "L28 introduces office scene without narrative urgency",
+        "rationale": "Scene transitions lack urgency; no action moves conflict forward",
+        "score": 3.0,
+        "weight": 0.05,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      }
+    ],
+    "overall": 4.8,
+    "confidence": 0.97,
+    "runs": 3,
+    "per_run_overall": [
+      4.8,
+      5.0,
+      4.8
+    ]
+  },
+  "cliffhanger": {
+    "status": "ok",
+    "notes": [],
+    "line_id": "L135",
+    "quote": "Main zinda hoon. Aur Vikram akela nahi tha.",
+    "technique": "revelation",
+    "why_it_works": "Reveals father alive and Vikram not alone, overturning the entire narrative of betrayal and death.",
+    "strength": 5
+  },
+  "suggestions": {
+    "status": "ok",
+    "notes": [],
+    "items": [
+      {
+        "id": "G1",
+        "category": "dialogue",
+        "linked_factor": "dialogue_quality",
+        "target_line_ids": [
+          "L14",
+          "L15",
+          "L104"
+        ],
+        "issue": "Exposition-heavy lines lack subtext or sharp retorts; dialogue feels flat and explanatory rather than confrontational or layered.",
+        "fix": "Replace exposition with sharp, layered dialogue that reveals tension and hidden intent through word choice and rhythm.",
+        "example_rewrite": "ADITYA: Kavya Mehra? MBA, gold medal? Kyun paap ki job?\\nKAVYA: Kyunki main seekhna chahti hoon. Aur Rathore Group se accha school kaunsa hai?",
+        "impact": "high"
+      },
+      {
+        "id": "G2",
+        "category": "hook",
+        "linked_factor": "opening_hook",
+        "target_line_ids": [
+          "L1",
+          "L2",
+          "L4"
+        ],
+        "issue": "First lines establish setup but fail to pose an urgent, personal question tied to immediate stakes or emotional urgency.",
+        "fix": "Anchor opening with a direct, urgent question that mirrors Kavya's internal conflict and immediate risk.",
+        "example_rewrite": "EPISODE 1: Papa ki dard bhi kya hua?\\nL2: INT. KAVYA'S ROOM - NIGHT\\nL3: ON SCREEN: Newspaper cutting: 'Builder Mohan Saxena jailed. Dies in custody. KAVYA pins it. Red circle on Vikram's face.\\nL4: Paanch saal, Rathore sahab. Paanch saal maine wait kiya. Aaj se tumhari ulti ginti shuru.",
+        "impact": "high"
+      },
+      {
+        "id": "G3",
+        "category": "conflict",
+        "linked_factor": "central_conflict",
+        "target_line_ids": [
+          "L23",
+          "L24",
+          "L84"
+        ],
+        "issue": "Conflict is stated, not dramatized through physical or verbal clash; no tension in exchange between characters.",
+        "fix": "Introduce immediate physical or verbal confrontation that forces a choice or reveals hidden intent.",
+        "example_rewrite": "VIKRAM: Yeh nayi ladki kaun hai?\\nSHEKHAR: Aditya baba ki nayi PA. Kavya Mehra.\\nVIKRAM: Mehra? Nahi. Yeh chehra maine pehle dekha hai. Pata karo yeh asli mein kaun hai?",
+        "impact": "high"
+      },
+      {
+        "id": "G4",
+        "category": "emotion",
+        "linked_factor": "stakes",
+        "target_line_ids": [
+          "L9",
+          "L115",
+          "L134"
+        ],
+        "issue": "Stakes are personal but not grasped quickly or tied to concrete loss; emotional impact is delayed or vague.",
+        "fix": "Link personal loss to immediate, visible consequence (e.g., father's death, mother's fear) through emotional action or reaction.",
+        "example_rewrite": "KAVYA: Papa jail mein mar gaye, Maa. Unhone kya chaha, kisi ne poocha?\\nKAVYA: Isliye unke signature forge kiye. Unhe jail bhijwaya.\\nSUDHA: (whispers) Kavya... maine bhi pata tha. Papa ne kisi ko nahi pata chala.",
+        "impact": "medium"
+      },
+      {
+        "id": "G5",
+        "category": "pacing",
+        "linked_factor": "pacing",
+        "target_line_ids": [
+          "L21",
+          "L28",
+          "L79"
+        ],
+        "issue": "Transitions lack urgency; no action moves conflict forward or creates immediate stakes.",
+        "fix": "Use abrupt, physical transitions that mirror rising tension and move the plot forward with action.",
+        "example_rewrite": "CUT TO: INT. RATHORE GROUP OFFICE - DAY\\nL22: ADITYA flips resume. KAVYA walks in. He stops.\\nL23: KAVYA: Ek hafta. Pasand na aaye toh nikaal dena.\\nL24: ADITYA: (cold) Monday se aa jao.",
+        "impact": "medium"
+      },
+      {
+        "id": "G6",
+        "category": "cliffhanger",
+        "linked_factor": "cliffhanger_pull",
+        "target_line_ids": [
+          "L126",
+          "L133",
+          "L135"
+        ],
+        "issue": "Ending reveals truth but doesn't reframe earlier events or demand next episode; no emotional or narrative reset.",
+        "fix": "Reframe the truth by showing a contradiction in earlier events and leave a personal, unresolved question for next episode.",
+        "example_rewrite": "Police lead Vikram away. Kavya unties Sudha.\\nL127: KAVYA: Maa ko jaane do. Mere saath jo karna hai, karo.\\nL128: VIKRAM: Tum mujhe kya de sakti ho? Tumhare paas kuch nahi bacha.\\nL129: KAVYA: Bas ek sawal ka jawab. Phir main sheher chhod dungi. Papa hi kyun?",
+        "impact": "medium"
+      },
+      {
+        "id": "G7",
+        "category": "character",
+        "linked_factor": "character_clarity",
+        "target_line_ids": [
+          "L4",
+          "L60",
+          "L104"
+        ],
+        "issue": "Kavya's wound is implied, not shown in first line or action; her trauma is not visible or immediate.",
+        "fix": "Show trauma through physical or emotional reaction in first lines, not just dialogue or backstory.",
+        "example_rewrite": "Paanch saal, Rathore sahab. Paanch saal maine wait kiya. Aaj se tumhari ulti ginti shuru.\\nL60: ADITYA: Sach bataun? Mujhe yeh parties pasand nahi hain. Sab log Papa ko khush karne aate hain.\\nL104: KAVYA: Mera naam Kavya Mehra nahi hai, Aditya. Main Mohan Saxena ki beti hoon. (voice shakes)",
+        "impact": "medium"
+      }
+    ]
+  },
+  "analytics": {
+    "status": "ok",
+    "notes": [],
+    "runtime_s_by_episode": {
+      "1": {
+        "page_based": 147.4,
+        "word_based": 77.4
+      },
+      "2": {
+        "page_based": 118.7,
+        "word_based": 58.4
+      },
+      "3": {
+        "page_based": 115.0,
+        "word_based": 63.6
+      },
+      "4": {
+        "page_based": 132.5,
+        "word_based": 70.0
+      },
+      "5": {
+        "page_based": 146.4,
+        "word_based": 84.6
+      }
+    },
+    "runtime_s_total": {
+      "page_based": 660.0,
+      "word_based": 354.0
+    },
+    "dialogue_share": [
+      {
+        "speaker": "KAVYA",
+        "lines": 29,
+        "words": 227,
+        "share": 0.36
+      },
+      {
+        "speaker": "ADITYA",
+        "lines": 20,
+        "words": 185,
+        "share": 0.293
+      },
+      {
+        "speaker": "VIKRAM",
+        "lines": 16,
+        "words": 157,
+        "share": 0.249
+      },
+      {
+        "speaker": "SHEKHAR",
+        "lines": 3,
+        "words": 30,
+        "share": 0.048
+      },
+      {
+        "speaker": "SUDHA",
+        "lines": 2,
+        "words": 18,
+        "share": 0.029
+      },
+      {
+        "speaker": "MOHAN",
+        "lines": 2,
+        "words": 14,
+        "share": 0.022
+      }
+    ],
+    "network_nodes": [
+      "KAVYA",
+      "ADITYA",
+      "VIKRAM",
+      "SHEKHAR",
+      "SUDHA",
+      "MOHAN"
+    ],
+    "network_edges": [
+      {
+        "a": "ADITYA",
+        "b": "KAVYA",
+        "weight": 32
+      },
+      {
+        "a": "KAVYA",
+        "b": "VIKRAM",
+        "weight": 22
+      },
+      {
+        "a": "ADITYA",
+        "b": "VIKRAM",
+        "weight": 6
+      },
+      {
+        "a": "KAVYA",
+        "b": "SUDHA",
+        "weight": 5
+      },
+      {
+        "a": "SHEKHAR",
+        "b": "VIKRAM",
+        "weight": 3
+      },
+      {
+        "a": "ADITYA",
+        "b": "MOHAN",
+        "weight": 2
+      },
+      {
+        "a": "KAVYA",
+        "b": "MOHAN",
+        "weight": 1
+      }
+    ],
+    "scene_stats": {
+      "count": 20.0,
+      "avg_lines": 6.8,
+      "dialogue_action_ratio": 1.71
+    },
+    "time_to_first_conflict_s": 204.0
+  },
+  "continuity": {
+    "status": "ok",
+    "notes": [],
+    "issues": [
+      {
+        "type": "name",
+        "line_ids": [
+          "L83",
+          "L86"
+        ],
+        "explanation": "Kavya's college ID says 'Kavya Saxena', but she claims to be Kavya Mehra. Contradiction in identity. Severity: high.",
+        "severity": "high"
+      },
+      {
+        "type": "fact",
+        "line_ids": [
+          "L93",
+          "L94"
+        ],
+        "explanation": "Vikram claims the red file came from Kavya's mattress, but Sudha's phone message says she was told to go to the farmhouse. Contradiction in facts. Severity: medium.",
+        "severity": "medium"
+      }
+    ],
+    "name_variant_candidates": []
+  },
+  "alternatives": {
+    "status": "ok",
+    "notes": [],
+    "targets": [
+      {
+        "id": "T1",
+        "kind": "opening",
+        "episode": 1,
+        "factor": "opening_hook",
+        "replaces_line_ids": [
+          "L3",
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "variants": [
+          {
+            "id": "A1.1",
+            "strategy": "in_medias_res",
+            "elements": [
+              {
+                "id": "A1.1.1",
+                "kind": "action",
+                "speaker": null,
+                "text": "KAVYA slams the file shut. Her fingers shake. The wall behind her is covered in photos, Vikram in the centre, a red circle. She stares at the photo, then at the door."
+              },
+              {
+                "id": "A1.1.2",
+                "kind": "dialogue",
+                "speaker": "KAVYA",
+                "text": "Paanch saal, Rathore sahab. Paanch saal maine wait kiya. Aaj se tumhari ulti ginti shuru."
+              },
+              {
+                "id": "A1.1.3",
+                "kind": "action",
+                "speaker": null,
+                "text": "SUDHA stands in the doorway, plate of rotis in hand, eyes wide."
+              },
+              {
+                "id": "A1.1.4",
+                "kind": "dialogue",
+                "speaker": "SUDHA",
+                "text": "Kavya, yeh sab chhod de beta. Woh Log bahut bade hain."
+              }
+            ],
+            "replaces_line_ids": [
+              "L3",
+              "L4",
+              "L5",
+              "L6"
+            ],
+            "pays_off_line_ids": [],
+            "rationale": "Starts mid-action with emotional tension, forcing viewer to piece together context instantly.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "variant",
+              "original"
+            ],
+            "score_before": 2.0,
+            "score_after": 3.0,
+            "delta": 1.0,
+            "coherence_ok": false,
+            "coherence_reason": "EXCERPT Y's first line 'KAVYA slams the file shut. Her fingers shake' creates urgent physical tension. The red circle photo and 'Paanch saal' imply a personal stake. Line IDs: L1, L2, L3. | EXCERPT Y opens with a visual hook: a newspaper cutting showing Saxena's death, tied to Kavya's father. The line 'Paanch saal, Rathore sahab' implies a personal, urgent stake. Line IDs: L1, L2, L3.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          }
+        ],
+        "dropped": []
+      },
+      {
+        "id": "T2",
+        "kind": "ending",
+        "episode": 5,
+        "factor": "cliffhanger_pull",
+        "replaces_line_ids": [
+          "L131",
+          "L132",
+          "L133",
+          "L134",
+          "L135"
+        ],
+        "variants": [
+          {
+            "id": "A2.1",
+            "strategy": "reversal",
+            "elements": [
+              {
+                "id": "A2.1.1",
+                "kind": "dialogue",
+                "speaker": "ADITYA",
+                "text": "Papa ne kaha tha, maine kisi ko nahi suna. Ab maine tumhe suna diya."
+              },
+              {
+                "id": "A2.1.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Kavya's eyes widen. She sees the file on the table, her father's signature, with Vikram's name."
+              },
+              {
+                "id": "A2.1.3",
+                "kind": "dialogue",
+                "speaker": "VIKRAM",
+                "text": "Aur ab kya kare? Tumne apni PA ki jhoothi PA bana di."
+              },
+              {
+                "id": "A2.1.4",
+                "kind": "transition",
+                "speaker": null,
+                "text": "CUT TO: Kavya's room, dark. Phone buzzes. Message: 'Aaj raat, police. Maa ko dikhao.'"
+              }
+            ],
+            "replaces_line_ids": [
+              "L131",
+              "L132",
+              "L133",
+              "L134",
+              "L135"
+            ],
+            "pays_off_line_ids": [
+              "L66",
+              "L69",
+              "L104"
+            ],
+            "rationale": "Aditya's hidden loyalty is exposed; he orchestrated the forgery to protect his father, flipping the moral axis of the story.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "variant",
+              "original"
+            ],
+            "score_before": 3.0,
+            "score_after": 5.0,
+            "delta": 2.0,
+            "coherence_ok": false,
+            "coherence_reason": "X ends with a predictable reveal; Y introduces a sharp reversal with stakes, recontextualizing father-son dynamics and revealing a hidden file, demanding next episode. Line IDs: L12, L13, L14, L15. | Y ends with a revelation that recontextualizes the father's identity and Vikram's role, shifting stakes and demanding continuity. Line IDs: L12, L13, L14.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A2.2",
+            "strategy": "threat",
+            "elements": [
+              {
+                "id": "A2.2.1",
+                "kind": "dialogue",
+                "speaker": "KAVYA",
+                "text": "Maa ko jaane do. Woh bhi kisi ko nahi dikhayegi."
+              },
+              {
+                "id": "A2.2.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Sudha's hands shake. She grips the chair. The phone rings again, police."
+              },
+              {
+                "id": "A2.2.3",
+                "kind": "parenthetical",
+                "speaker": null,
+                "text": "The red lights pulse. The gate creaks open."
+              },
+              {
+                "id": "A2.2.4",
+                "kind": "transition",
+                "speaker": null,
+                "text": "FADE TO BLACK. TEXT: 'Next time: Maa's message.'"
+              }
+            ],
+            "replaces_line_ids": [
+              "L131",
+              "L132",
+              "L133",
+              "L134",
+              "L135"
+            ],
+            "pays_off_line_ids": [
+              "L106",
+              "L125",
+              "L133"
+            ],
+            "rationale": "A new danger emerges: the police are already on the case, and Sudha's safety is now at risk.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "variant",
+              "original"
+            ],
+            "score_before": 3.0,
+            "score_after": 3.0,
+            "delta": 0.0,
+            "coherence_ok": false,
+            "coherence_reason": "Y's ending introduces a new, high-stakes reveal (Maa's message) that recontextualizes the plot and demands continuation, while X ends with a resolved emotional moment. Y's final line (L12) is a sharp reversal with clear stakes and recontextualizes prior events. | Y ends with a revelation that recontextualizes the father's identity and contradicts prior narrative, demanding next episode. Line IDs: L29, L30, L31. Stronger cliffhanger with high stakes and emotional reversal.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A2.3",
+            "strategy": "revelation",
+            "elements": [
+              {
+                "id": "A2.3.1",
+                "kind": "dialogue",
+                "speaker": "KAVYA",
+                "text": "Mera naam Kavya Saxena nahi hai, Aditya. Main Mohan Saxena ki beti hoon."
+              },
+              {
+                "id": "A2.3.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Aditya stares, stunned. The file slips from his hand."
+              },
+              {
+                "id": "A2.3.3",
+                "kind": "dialogue",
+                "speaker": "VIKRAM",
+                "text": "Tumne papa ko pata chala? Par kya? Kavya Saxena? Kya tumne kaha?"
+              },
+              {
+                "id": "A2.3.4",
+                "kind": "transition",
+                "speaker": null,
+                "text": "CUT TO: Kavya's room. She holds the file. The ceiling fan spins. She smiles."
+              }
+            ],
+            "replaces_line_ids": [
+              "L131",
+              "L132",
+              "L133",
+              "L134",
+              "L135"
+            ],
+            "pays_off_line_ids": [
+              "L84",
+              "L87",
+              "L94",
+              "L104"
+            ],
+            "rationale": "Kavya's identity is revealed earlier, her father's name was never a lie, changing the entire narrative of betrayal.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "variant",
+              "original"
+            ],
+            "score_before": 3.0,
+            "score_after": 3.0,
+            "delta": 0.0,
+            "coherence_ok": false,
+            "coherence_reason": "Y ends with a sharp reversal: Kavya reveals her true name, shocks Aditya, and exposes Vikram's deception. It recontextualizes the father-son dynamic and demands next episode. Line L18 in Y is a strong reversal with high stakes. | Y ends with a revelation that recontextualizes the father's identity and stakes, changing the narrative. The line 'Main zinda hoon. Aur Vikram akela nahi tha' demands continuation. Line IDs: L28, L29.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          }
+        ],
+        "dropped": []
+      },
+      {
+        "id": "T3",
+        "kind": "mid_ending",
+        "episode": 3,
+        "factor": "cliffhanger_pull",
+        "replaces_line_ids": [
+          "L72",
+          "L73",
+          "L75",
+          "L76",
+          "L77"
+        ],
+        "variants": [
+          {
+            "id": "A3.3",
+            "strategy": "reversal",
+            "elements": [
+              {
+                "id": "A3.3.1",
+                "kind": "dialogue",
+                "speaker": "ADITYA",
+                "text": "Papa ne kaha tha, business mein sawal mat poochho. Maine usse suna tha."
+              },
+              {
+                "id": "A3.3.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Kavya sees a photo on the wall, Aditya with Vikram, signing a deal."
+              },
+              {
+                "id": "A3.3.3",
+                "kind": "transition",
+                "speaker": null,
+                "text": "CUT TO: KAVYA'S ROOM - NIGHT"
+              },
+              {
+                "id": "A3.3.4",
+                "kind": "action",
+                "speaker": null,
+                "text": "She throws the file on the floor and stares at the ceiling fan."
+              },
+              {
+                "id": "A3.3.5",
+                "kind": "parenthetical",
+                "speaker": null,
+                "text": "Pays off L69: Papa ne kaha, business mein sawal mat poochho."
+              }
+            ],
+            "replaces_line_ids": [
+              "L72",
+              "L73",
+              "L75",
+              "L76",
+              "L77"
+            ],
+            "pays_off_line_ids": [
+              "L68",
+              "L69",
+              "L70"
+            ],
+            "rationale": "Turns Aditya from ally to antagonist by revealing his hidden role in the fraud.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "variant",
+              "original"
+            ],
+            "score_before": 2.0,
+            "score_after": 5.0,
+            "delta": 3.0,
+            "coherence_ok": false,
+            "coherence_reason": "Y ends with a sharp reversal: Aditya reveals Papa's words, Kavya sees a photo, and the paywall is triggered. Line IDs L12, L13, L14, L15 show a clear stakes shift. X ends on a soft observation with no reveal or paywall. | Y's ending reveals Kavya's guilt and internal conflict, with a sharp reversal of her character. Line L78 'Tum baaki sab se alag ho, Kavya' and L80 'Bahut thak gayi hoon. Kal dekhte hain' create emotional stakes and demand continuation. X ends neutrally with no character shift or tension.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A3.1",
+            "strategy": "revelation",
+            "elements": [
+              {
+                "id": "A3.1.1",
+                "kind": "dialogue",
+                "speaker": "KAVYA",
+                "text": "Main Kavya Saxena hoon, na Kavya Mehra. Papa ne meri identity change kar di thi."
+              },
+              {
+                "id": "A3.1.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Sudha wakes up, sees the file, and whispers 'Aapka naam bhi thoda thoda thoda thoda tha.'"
+              },
+              {
+                "id": "A3.1.3",
+                "kind": "transition",
+                "speaker": null,
+                "text": "CUT TO: KAVYA'S ROOM - NIGHT"
+              },
+              {
+                "id": "A3.1.4",
+                "kind": "action",
+                "speaker": null,
+                "text": "She hides the file deeper under the mattress, eyes red."
+              },
+              {
+                "id": "A3.1.5",
+                "kind": "parenthetical",
+                "speaker": null,
+                "text": "Pays off L69: Papa ne kaha business mein sawal mat poochho."
+              }
+            ],
+            "replaces_line_ids": [
+              "L72",
+              "L73",
+              "L75",
+              "L76",
+              "L77"
+            ],
+            "pays_off_line_ids": [
+              "L69",
+              "L70"
+            ],
+            "rationale": "Reveals Kavya's true identity early, overturning earlier assumptions about her name and family.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "variant",
+              "original"
+            ],
+            "score_before": 2.0,
+            "score_after": 3.0,
+            "delta": 1.0,
+            "coherence_ok": false,
+            "coherence_reason": "Y ends with a revelation about identity and a paywall line, recontextualizing prior events. Sudha's whisper and Kavya's identity reveal create high stakes and demand continuation. Line IDs L70, L71, L72. | Y ends with a sharp reversal: 'Tum baaki sab se alag ho, Kavya' recontextualizes Kavya's identity, raises stakes, and demands next episode. Sudha's line and Kavya's guilt deepen tension. X ends neutrally with no emotional or narrative shift.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A3.2",
+            "strategy": "threat",
+            "elements": [
+              {
+                "id": "A3.2.1",
+                "kind": "dialogue",
+                "speaker": "KAVYA",
+                "text": "Maa ne kaha tha, police ko bataya toh woh chhod jayegi."
+              },
+              {
+                "id": "A3.2.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Kavya looks at her phone, message from unknown number: 'Rathore farmhouse. Akeli aana.'"
+              },
+              {
+                "id": "A3.2.3",
+                "kind": "transition",
+                "speaker": null,
+                "text": "CUT TO: KAVYA'S ROOM - NIGHT"
+              },
+              {
+                "id": "A3.2.4",
+                "kind": "action",
+                "speaker": null,
+                "text": "She slips the file into her bag, then into her shoe."
+              },
+              {
+                "id": "A3.2.5",
+                "kind": "parenthetical",
+                "speaker": null,
+                "text": "Pays off L70: Sawal na poochhna bhi gunah hota hai."
+              }
+            ],
+            "replaces_line_ids": [
+              "L72",
+              "L73",
+              "L75",
+              "L76",
+              "L77"
+            ],
+            "pays_off_line_ids": [
+              "L70",
+              "L76"
+            ],
+            "rationale": "Sets up Kavya's vulnerability to police, foreshadowing her arrest in episode 5.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "variant",
+              "original"
+            ],
+            "score_before": 2.0,
+            "score_after": 3.0,
+            "delta": 1.0,
+            "coherence_ok": false,
+            "coherence_reason": "Y ends with a high-stakes, unpredictable reveal (unknown message) and a sharp reversal of the 'sawal na poochhna' theme, recontextualizing the family's secrecy. The message directly threatens Kavya and demands continuation. Line IDs: L10, L11, L12. | Y's ending introduces a sharp reversal with 'Tum baaki sab se alag ho, Kavya', revealing emotional distance and guilt, recontextualizing prior tension. The final line 'Bahut thak gayi hoon. Kal dekhte hain' implies unresolved stakes. Line IDs: L10, L11, L12.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          }
+        ],
+        "dropped": []
+      }
+    ]
+  },
+  "rating": {
+    "status": "ok",
+    "notes": [],
+    "rating": "U/A 16+",
+    "descriptors": [
+      "Theme",
+      "Violence",
+      "Discrimination",
+      "Language"
+    ],
+    "findings": [
+      {
+        "category": "violence",
+        "severity": "moderate",
+        "mode": "referenced",
+        "treatment": "condemned",
+        "substance": "none",
+        "line_ids": [
+          "L3",
+          "L95",
+          "L98",
+          "L105",
+          "L116"
+        ],
+        "rationale": "Father's death in custody and jail-related violence referenced without graphic detail; no on-screen depiction.",
+        "band": "U/A 7+"
+      },
+      {
+        "category": "theme",
+        "severity": "strong",
+        "mode": "depicted",
+        "treatment": "condemned",
+        "substance": "none",
+        "line_ids": [
+          "L9",
+          "L116",
+          "L124",
+          "L125"
+        ],
+        "rationale": "Crime, betrayal, and family abuse depicted with emotional weight and real-life consequences; no glorification.",
+        "band": "U/A 16+"
+      },
+      {
+        "category": "discrimination",
+        "severity": "mild",
+        "mode": "referenced",
+        "treatment": "neutral",
+        "substance": "none",
+        "line_ids": [
+          "L6",
+          "L8"
+        ],
+        "rationale": "Maa's concern for son's safety; no caste, religion or regional slurs; context is familial.",
+        "band": "U"
+      },
+      {
+        "category": "language",
+        "severity": "mild",
+        "mode": "referenced",
+        "treatment": "neutral",
+        "substance": "none",
+        "line_ids": [
+          "L6",
+          "L8",
+          "L103"
+        ],
+        "rationale": "Mild familial concern and mild insults like 'bade hain' used in context; no strong expletives or aggression.",
+        "band": "U"
+      }
+    ],
+    "rating_drivers": [
+      1
+    ],
+    "access_controls": [
+      "Parental lock"
+    ],
+    "notices": [],
+    "legal_risk_flags": [],
+    "lower_rating_edits": [
+      {
+        "driver": "theme/strong",
+        "line_ids": [
+          "L9",
+          "L116",
+          "L124",
+          "L125"
+        ],
+        "edit": "Replace direct statements of betrayal with indirect emotional cues and avoid explicit familial abuse claims",
+        "rewrite": "L9: Papa jail mein mar gaye, Maa. Unhone kya chaha, kisi ne poocha? L116: Kyunki tumhara baap zameen bechne ko taiyaar nahi tha. L124: Apne hi baap ke saath yeh? L125: Aapne kisi ke baap ke saath kya kiya tha?"
+      }
+    ],
+    "lower_rating_band": "U/A 7+",
+    "prescan": {
+      "violence": [
+        "L3",
+        "L95",
+        "L98",
+        "L105",
+        "L116"
+      ]
+    },
+    "disclaimer": "Estimate to support editors. Not a certification and not legal advice. Knowledge files are unverified until reviewed."
+  },
+  "localization": {
+    "status": "ok",
+    "notes": [
+      "localization[ta]: 0 invalid items dropped after one repair round"
+    ],
+    "source_languages": {
+      "hi-Latn": 0.553,
+      "en": 0.447
+    },
+    "code_mix_ratio": 0.05,
+    "source_subtitle_flags": [
+      {
+        "line_id": "L4",
+        "flags": [
+          "needs 3 lines of 42 chars (max 2)"
+        ]
+      },
+      {
+        "line_id": "L26",
+        "flags": [
+          "needs 3 lines of 42 chars (max 2)"
+        ]
+      },
+      {
+        "line_id": "L32",
+        "flags": [
+          "reading speed 18 cps exceeds 17 cps"
+        ]
+      },
+      {
+        "line_id": "L33",
+        "flags": [
+          "reading speed 24 cps exceeds 17 cps"
+        ]
+      },
+      {
+        "line_id": "L37",
+        "flags": [
+          "needs 3 lines of 42 chars (max 2)",
+          "event 7.2s exceeds 7.0s: split it"
+        ]
+      },
+      {
+        "line_id": "L62",
+        "flags": [
+          "needs 3 lines of 42 chars (max 2)"
+        ]
+      },
+      {
+        "line_id": "L66",
+        "flags": [
+          "needs 3 lines of 42 chars (max 2)"
+        ]
+      },
+      {
+        "line_id": "L94",
+        "flags": [
+          "needs 3 lines of 42 chars (max 2)"
+        ]
+      },
+      {
+        "line_id": "L114",
+        "flags": [
+          "needs 3 lines of 42 chars (max 2)"
+        ]
+      }
+    ],
+    "targets": [
+      {
+        "lang": "ta",
+        "status": "partial",
+        "fit_score": 3,
+        "fit_rationale": "The script contains several cultural and linguistic elements that require adaptation for Tamil audiences. While the core story is universal, the use of Hindi terms, urban settings, and idioms creates a disconnect. With transcreation, the script can travel with subtitles or dub, but some elements remain culturally distant.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2",
+              "L3",
+              "L4",
+              "L7"
+            ],
+            "type": "culture_bound_reference",
+            "severity": "high",
+            "explanation": "'Chawl' is a North Indian term for a cramped apartment building, unfamiliar in Tamil urban contexts. 'Newspaper cutting' and 'Builder Mohan Saxena' are culturally specific and may not resonate with Tamil audiences. 'Sahab' is a Hindi honorific not used in Tamil, where 'neenga' or 'neenga' is standard in respectful address.",
+            "adaptation": "'Chawl' → 'kottai'; 'Newspaper cutting' → 'pattu katha'; 'Builder Mohan Saxena' → 'kottai kariya karanam'; 'sahab' → 'neenga' or 'neenga' in respectful address."
+          },
+          {
+            "line_ids": [
+              "L90"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "medium",
+            "explanation": "'Ulta chor kotwal ko daante' is a Hindi idiom that does not translate naturally in Tamil. The phrase is culturally loaded and uses a non-Tamil frame of reference (kotwal = police officer), which may feel foreign or politically charged in Tamil context.",
+            "adaptation": "'Ulta chor kotwal ko daante' → 'kotha kattu nee nee kattu' (a Tamil idiom meaning 'doing the opposite of what is right, but in a way that seems fair')"
+          },
+          {
+            "line_ids": [
+              "L106"
+            ],
+            "type": "on_screen_text",
+            "severity": "medium",
+            "explanation": "'Ek ghante mein Rathore farmhouse. Akeli aana' uses Hindi script and structure. Tamil audiences expect text in native script and natural phrasing. The phrase is also culturally specific to a North Indian family structure and location.",
+            "adaptation": "'Ek ghante mein Rathore farmhouse. Akeli aana' → '1 ghante kada, kottai kottai aadu' (in Tamil, '1 ghante kada' means 'in one hour', 'kottai kottai' is a local term for 'farmer’s house')"
+          },
+          {
+            "line_ids": [
+              "L121"
+            ],
+            "type": "honorific_register",
+            "severity": "medium",
+            "explanation": "'Sahab' is a Hindi honorific used in offices and formal settings. Tamil audiences use 'neenga' or 'neenga' in respectful address, especially in professional settings. Using 'sahab' in office dialogue feels foreign and undermines authenticity.",
+            "adaptation": "'sahab' → 'neenga' or 'neenga' in office context"
+          }
+        ],
+        "transcreations": []
+      },
+      {
+        "lang": "te",
+        "status": "ok",
+        "fit_score": 3,
+        "fit_rationale": "The script contains several cultural and linguistic elements that require transcreation to resonate with Telugu audiences. While the core narrative is strong, the use of Hindi-specific terms, honorifics, and idioms creates a disconnect. With targeted adaptation, the story can travel effectively with subtitles or dub.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2",
+              "L3",
+              "L4",
+              "L74"
+            ],
+            "type": "culture_bound_reference",
+            "severity": "high",
+            "explanation": "'Chawl' is a Hindi urban housing term not used in Telugu-speaking regions; it implies a specific socio-spatial context absent in Telugu urban life.",
+            "adaptation": "'Bhavan' or 'kotha' for a shared apartment; 'chawl' should be replaced with a local term for a small urban dwelling."
+          },
+          {
+            "line_ids": [
+              "L37",
+              "L42",
+              "L81",
+              "L90"
+            ],
+            "type": "honorific_register",
+            "severity": "high",
+            "explanation": "'Sahab' is a Hindi/Hinglish honorific that feels foreign and overly formal in Telugu; Telugu audiences prefer 'meeru' for respect and 'nuvvu' for familiarity. 'Sahab' also lacks regional flavor and may sound like a borrowed term.",
+            "adaptation": "Replace 'sahab' with 'meeru' in all instances to match regional speech patterns and cultural tone."
+          },
+          {
+            "line_ids": [
+              "L106"
+            ],
+            "type": "on_screen_text",
+            "severity": "medium",
+            "explanation": "'Ek ghante mein Rathore farmhouse. Akeli aana' is a direct translation that lacks local rhythm and clarity in Telugu; the phrase is too long and awkward for natural speech flow in Telugu cinema.",
+            "adaptation": "Change to 'Ek ghatte Rathore farm. Akeli aayi' to match Telugu rhythm and brevity; 'ghatte' implies time, 'aayi' is more natural than 'aana' in spoken Telugu."
+          },
+          {
+            "line_ids": [
+              "L90"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "medium",
+            "explanation": "'Ulta chor kotwal ko daante' is a Hindi idiom with no equivalent in Telugu; it relies on cultural irony and wordplay that doesn't translate naturally into Telugu speech.",
+            "adaptation": "Use 'Bava ne nuvvu kada' or 'Bava ne pinni kada' to reflect local teasing and familial confrontation, which is a staple in Telugu romance."
+          }
+        ],
+        "transcreations": [
+          {
+            "line_id": "L3",
+            "source_text": "ON SCREEN: Newspaper cutting:\"Builder Mohan Saxena jailed for land fraud. Dies of heart attack in custody. KAVYA (26) pins the cutting on a wall covered with photos. In the centre is VIKRAM RATHORE. A red circle around his face.",
+            "target_text": "ప్రతి సారి మోహన్ సాక్సెనా జైలులో పడిపోయాడు. హార్ట్ అటాక్ కాకుండా మరియు మరణించాడు. కావ్యా తన వాలు మీద పెట్టింది. విక్రమ్ రాథోర్ మీద నిలుస్తుంది.",
+            "back_translation": "Each time Mohan Saxena went to jail. He died of heart attack and didn't have a heart attack. Kavya pinned it on the wall. Vikram Rathore is marked with a red circle.",
+            "notes": "Replaces Hindi newspaper cutting with a Telugu-style, culturally grounded description; uses local phrasing for clarity and emotional resonance.",
+            "subtitle_flags": [
+              "needs 4 lines of 42 chars (max 2)",
+              "event 15.6s exceeds 7.0s: split it"
+            ]
+          },
+          {
+            "line_id": "L135",
+            "source_text": "Main zinda hoon. Aur Vikram akela nahi tha.",
+            "target_text": "కావ్యా... బేబా, నేను జీవితంలో ఉన్నాను.",
+            "back_translation": "Kavya... baba, I am alive.",
+            "notes": "Adapts the phone call to a natural Telugu family address; 'baba' is a respectful term for father, more authentic than 'papa' in Telugu context.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L4",
+            "source_text": "Paanch saal, Rathore sahab. Paanch saal maine wait kiya. Aaj se tumhari ulti ginti shuru.",
+            "target_text": "పాంచ్ సాల్, రాథోర్ మీరు. పాంచ్ సాల్ లో నాకు ఎదురు చూసినా.",
+            "back_translation": "Five years, Rathore meeru. Five years I waited for you.",
+            "notes": "Uses 'meeru' for honorific, aligns with regional speech; 'eduru' means 'waited' and is natural in Telugu dialogue.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L74",
+            "source_text": "INT.KAVYA'S ROOM, CHAWL-NIGHT",
+            "target_text": "కావ్యా ఇంటి మీద ఉంటుంది. సుధా స్నానం చేస్తుంది.",
+            "back_translation": "Kavya's room is in the chawl. Sudha is doing a bath.",
+            "notes": "Replaces 'chawl' with a local housing term; 'snaanam' is a natural Telugu verb for bathing, more relatable than 'dhoondh'.",
+            "subtitle_flags": [
+              "reading speed 34 cps exceeds 17 cps"
+            ]
+          },
+          {
+            "line_id": "L90",
+            "source_text": "Ulta chor kotwal ko daante.",
+            "target_text": "ప్రతి సారి బావా నువ్వు కాదు.",
+            "back_translation": "Every time, bava doesn't give you a chance.",
+            "notes": "Uses 'bava' as a teasing term for brother-in-law or cousin; reflects local romance tropes and humor in Telugu culture.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L106",
+            "source_text": "ON SCREEN: Message from Maa's number:\"Ek ghante mein Rathore farmhouse. Akeli aana. Police ko bataya toh Maa gayi.\"",
+            "target_text": "ఒక గాట్ రాథోర్ ఫార్మ్. అకేలి వచ్చింది.",
+            "back_translation": "One hour, Rathore farm. Came alone.",
+            "notes": "Shortens and rephrases for natural Telugu rhythm; 'gatte' means 'one hour', 'aayi' is more natural than 'aana'.",
+            "subtitle_flags": [
+              "event 7.2s exceeds 7.0s: split it"
+            ]
+          }
+        ]
+      },
+      {
+        "lang": "bn",
+        "status": "ok",
+        "fit_score": 3,
+        "fit_rationale": "The script contains several cultural and linguistic elements that require adaptation for a Bengali audience. While the core narrative is universal, the use of Hindi-specific terms, honorifics, and idioms does not translate well into native Bengali dialogue or cultural references. The premise is not fundamentally flawed but requires significant transcreation to resonate with Bengali viewers.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2",
+              "L3"
+            ],
+            "type": "on_screen_text",
+            "severity": "medium",
+            "explanation": "The on-screen text references 'chawl' and 'Builder Mohan Saxena', both of which are culturally specific to Indian urban settings and may not resonate with Bengali audiences familiar with different housing structures like 'kotha' or 'bungalow'. 'Builder' is a Hindi term not commonly used in Bengali urban contexts.",
+            "adaptation": "ON SCREEN: Newspaper cutting: 'Mohan Saxena, একটি জমি চোরির কারণে জেলে পড়েন, মারা যান। কাব্যা তার চিত্র দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে।"
+          },
+          {
+            "line_ids": [
+              "L4",
+              "L7",
+              "L37",
+              "L42"
+            ],
+            "type": "honorific_register",
+            "severity": "high",
+            "explanation": "The use of 'sahab' as a formal honorific is common in Hindi but not in Bengali, where 'apni' (formal), 'tumi' (familiar), and 'tu' (intimate) are preferred. 'Sahab' feels out of place and may be perceived as disrespectful or awkward in a Bengali context.",
+            "adaptation": "L4: Paanch saal, apni. Paanch saal maine wait kiya. Aaj se tumhari ulti ginti shuru.\nL7: Isliye toh, Maa. Jitna bada aadmi, utna bada girna.\nL37: Haan, Saxena wali file locker number saat mein hai. Sahab ke study mein. Koi touch nahi karega.\nL42: Aapke bete ka dil bada hai, apni sahab."
+          },
+          {
+            "line_ids": [
+              "L90"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "high",
+            "explanation": "'Ulta chor kotwal ko daante' is a Hindi idiom that does not exist in Bengali and lacks cultural resonance. Bengali audiences expect witty, literary dialogue with local references like 'kotha', 'boudi', or 'dada'.",
+            "adaptation": "Tumi kotha boudi ke baad bhalo kore dekhi."
+          },
+          {
+            "line_ids": [
+              "L106"
+            ],
+            "type": "on_screen_text",
+            "severity": "medium",
+            "explanation": "The message 'Ek ghante mein Rathore farmhouse. Akeli aana' uses Hindi syntax and lacks Bengali phrasing. 'Rathore' is a name not common in Bengal, and 'farmhouse' is unfamiliar; Bengali audiences would expect references to local homes like 'kotha' or 'pally' or 'bungalow'.",
+            "adaptation": "এক ঘন্টা মধ্যে রাথোরে কোথা। একা আসো।"
+          }
+        ],
+        "transcreations": [
+          {
+            "line_id": "L3",
+            "source_text": "ON SCREEN: Newspaper cutting:\"Builder Mohan Saxena jailed for land fraud. Dies of heart attack in custody. KAVYA (26) pins the cutting on a wall covered with photos. In the centre is VIKRAM RATHORE. A red circle around his face.",
+            "target_text": "অনুসরণ করা হয়েছে: বিল্ডার মোহন সাক্সেনা জেলে পড়েন, মারা যান। কাব্যা তার চিত্র দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে দেখে।",
+            "back_translation": "On screen: Newspaper cutting: Builder Mohan Saxena jailed for land fraud. Dies of heart attack in custody. Kavya pins the cutting on a wall covered with photos.",
+            "notes": "Original on-screen text is adapted to Bengali syntax and phrasing, preserving the factual content while using natural Bengali expressions.",
+            "subtitle_flags": [
+              "needs 13 lines of 42 chars (max 2)",
+              "event 15.6s exceeds 7.0s: split it",
+              "reading speed 26 cps exceeds 17 cps"
+            ]
+          },
+          {
+            "line_id": "L135",
+            "source_text": "Main zinda hoon. Aur Vikram akela nahi tha.",
+            "target_text": "কাব্যা... বেটা, আমি হুই। তোমার পাপা।",
+            "back_translation": "Kavya... beta, main hoon. Tera papa.",
+            "notes": "Original line is transcreated to use natural Bengali familial terms and syntax. 'Beta' is more common than 'beta' in Bengali family speech.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L4",
+            "source_text": "Paanch saal, Rathore sahab. Paanch saal maine wait kiya. Aaj se tumhari ulti ginti shuru.",
+            "target_text": "পাঁচ সাল, আপনি। পাঁচ সাল মানে অপেক্ষা করেছি। আজ থেকে আপনার উত্তর গিন্তি শুরু হয়েছে।",
+            "back_translation": "Five years, apni. Five years I waited. From today, your ultimate revenge begins.",
+            "notes": "Uses 'apni' as formal honorific and rephrases the idiom into a natural Bengali expression with emotional weight.",
+            "subtitle_flags": [
+              "needs 3 lines of 42 chars (max 2)"
+            ]
+          },
+          {
+            "line_id": "L7",
+            "source_text": "Isliye toh, Maa. Jitna bada aadmi, utna bada girna.",
+            "target_text": "তাই মা। যত বড় মানুষ, তত বড় পড়ে যায়।",
+            "back_translation": "So, Maa. The bigger the man, the bigger he falls.",
+            "notes": "Rephrased idiom to match Bengali cultural and linguistic patterns, using natural phrasing.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L37",
+            "source_text": "(low) Haan, Saxena wali file locker number saat mein hai. Sahab ke study mein. Koi touch nahi karega.",
+            "target_text": "হ্যাঁ, সাক্সেনা ওয়ালি ফাইল লকার নম্বর সাত মেন হাই। সাহাব কে স্টাডি মেন। কোন টাচ না করে গেল।",
+            "back_translation": "Yes, Saxena wali file locker number seven is there. Sahab's study. No one touches it.",
+            "notes": "Uses 'sahab' in a more natural context and adapts the phrasing to Bengali syntax and tone.",
+            "subtitle_flags": [
+              "needs 3 lines of 42 chars (max 2)",
+              "event 7.2s exceeds 7.0s: split it"
+            ]
+          },
+          {
+            "line_id": "L42",
+            "source_text": "Aapke bete ka dil bada hai, Rathore sahab.",
+            "target_text": "আপনার বেটা কে দিল বড় হয়েছে, আপনি।",
+            "back_translation": "Your son's heart is big, apni.",
+            "notes": "Rephrased to use natural Bengali familial and emotional language, avoiding awkward Hindi-style expressions.",
+            "subtitle_flags": []
+          }
+        ]
+      }
+    ],
+    "disclaimer": "Machine transcreation. Native-speaker review required."
+  },
+  "market": {
+    "status": "ok",
+    "notes": [],
+    "comps": [
+      {
+        "title": "Vanamagan",
+        "year": 2017,
+        "language": "Tamil",
+        "rating": 5.6,
+        "votes": 1151,
+        "similarity": 0.644,
+        "why_similar": "Kavya inherits company, faces betrayal by guardian, seeks truth in hidden wealth.",
+        "differentiator": "Script focuses on land fraud, not inheritance or wealth, with family cover-up and truth pursuit.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Vanamagan"
+      },
+      {
+        "title": "Hate Story",
+        "year": 2012,
+        "language": "Hindi",
+        "rating": 5.3,
+        "votes": 4262,
+        "similarity": 0.639,
+        "why_similar": "Kavya investigates a tycoon, faces betrayal, uncovers hidden truth in business.",
+        "differentiator": "Script centers on father's land fraud, not corporate sting or revenge.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Hate_Story"
+      },
+      {
+        "title": "Antim: The Final Truth",
+        "year": 2021,
+        "language": "Hindi",
+        "rating": 6.0,
+        "votes": 43543,
+        "similarity": 0.64,
+        "why_similar": "Farmer fights land loss, family sold land, faces landlord oppression.",
+        "differentiator": "Script is about personal family fraud, not systemic land loss or farming.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Antim:_The_Final_Truth"
+      },
+      {
+        "title": "Gaslight (2023 film)",
+        "year": 2023,
+        "language": "Hindi",
+        "rating": 5.8,
+        "votes": 26502,
+        "similarity": 0.569,
+        "why_similar": "Girl exposes fraud, faces threat, seeks justice in land deal.",
+        "differentiator": "Script involves personal family fraud, not just land deal or blackmail.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Gaslight_(2023_film)"
+      },
+      {
+        "title": "Sorry Daddy",
+        "year": 2015,
+        "language": "Hindi",
+        "rating": 5.9,
+        "votes": 17,
+        "similarity": 0.644,
+        "why_similar": "Daughter uncovers father's secret, seeks truth in family corruption.",
+        "differentiator": "Script focuses on land fraud and family cover-up, not illegal wine or missing friend.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Sorry_Daddy"
+      }
+    ],
+    "originality_flag": false,
+    "originality_note": "",
+    "tropes": [
+      {
+        "trope_id": "revenge",
+        "name": "Revenge",
+        "line_ids": [
+          "L48",
+          "L115",
+          "L116"
+        ],
+        "rationale": "Kavya exposes her father's fraud and reveals Vikram's role in his death.",
+        "confidence": 0.98,
+        "momentum": "declining",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "hidden_identity",
+        "name": "Hidden identity",
+        "line_ids": [
+          "L83",
+          "L86",
+          "L104"
+        ],
+        "rationale": "Kavya reveals her real name and background as Saxena, challenging Vikram's assumptions.",
+        "confidence": 0.95,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "workplace_drama",
+        "name": "Workplace drama",
+        "line_ids": [
+          "L14",
+          "L16",
+          "L30"
+        ],
+        "rationale": "Kavya faces office politics, job scrutiny, and Aditya's skepticism about her credentials.",
+        "confidence": 0.92,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "betrayal",
+        "name": "Betrayal",
+        "line_ids": [
+          "L90",
+          "L104",
+          "L118"
+        ],
+        "rationale": "Aditya's hidden past and Kavya's discovery of his deception reveal deep betrayal.",
+        "confidence": 0.9,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "ceo_romance",
+        "name": "CEO romance",
+        "line_ids": [
+          "L12",
+          "L14",
+          "L16"
+        ],
+        "rationale": "Aditya, the CEO, interacts with Kavya, showing emotional vulnerability and attraction.",
+        "confidence": 0.88,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "crime_thriller",
+        "name": "Crime thriller",
+        "line_ids": [
+          "L37",
+          "L47",
+          "L93"
+        ],
+        "rationale": "Kavya uncovers a land fraud file, leading to a criminal conspiracy and police intervention.",
+        "confidence": 0.85,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      }
+    ],
+    "trend_snapshot_as_of": "2026-10-19"
+  },
+  "meta": {
+    "models_by_node": {
+      "continuity": "qwen3:4b-instruct-2507-q4_K_M",
+      "rating_classify": "qwen3:4b-instruct-2507-q4_K_M",
+      "story_map": "qwen3:4b-instruct-2507-q4_K_M",
+      "rating_lower": "qwen3:4b-instruct-2507-q4_K_M",
+      "episode_map": "qwen3:4b-instruct-2507-q4_K_M",
+      "emotion": "qwen3:4b-instruct-2507-q4_K_M",
+      "summary": "qwen3:4b-instruct-2507-q4_K_M",
+      "cliffhanger": "qwen3:4b-instruct-2507-q4_K_M",
+      "tropes": "qwen3:4b-instruct-2507-q4_K_M",
+      "engagement": "qwen3:4b-instruct-2507-q4_K_M",
+      "comps_explain": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_generate": "qwen3:4b-instruct-2507-q4_K_M",
+      "localization": "qwen3:4b-instruct-2507-q4_K_M",
+      "suggestions": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_rescore": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_judge": "qwen3:4b-instruct-2507-q4_K_M"
+    },
+    "prompt_versions": {
+      "_preamble": "1.1",
+      "alternatives_generate": "1.0",
+      "alternatives_judge": "1.0",
+      "alternatives_rescore": "1.2",
+      "cliffhanger": "1.1",
+      "comps_explain": "1.0",
+      "continuity": "1.2",
+      "emotion": "1.0",
+      "engagement": "1.2",
+      "episode_map": "1.1",
+      "localization": "1.2",
+      "rating_classify": "1.1",
+      "rating_lower": "1.0",
+      "story_map": "1.0",
+      "suggestions": "1.1",
+      "summary": "1.2",
+      "tropes": "1.0"
+    },
+    "knowledge_version": "07141e9787bc654b",
+    "tokens": {
+      "prompt": 165008,
+      "completion": 16244,
+      "calls": 50,
+      "repairs": 2
+    },
+    "cost_usd": 0.0,
+    "latency_ms_by_node": {
+      "continuity": 5945,
+      "rating_classify": 14303,
+      "story_map": 34385,
+      "rating_lower": 24196,
+      "episode_map": 73826,
+      "emotion": 39481,
+      "summary": 43370,
+      "cliffhanger": 2188,
+      "tropes": 11955,
+      "engagement": 139336,
+      "comps_explain": 55041,
+      "alternatives_generate": 125861,
+      "localization": 251956,
+      "suggestions": 80736,
+      "alternatives_rescore": 71897,
+      "alternatives_judge": 155743
+    },
+    "total_latency_ms": 508178,
+    "calls": [
+      {
+        "node": "continuity",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3999,
+        "completion_tokens": 126,
+        "latency_ms": 5945,
+        "prompt_eval_ms": 2373,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "rating_classify",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4613,
+        "completion_tokens": 279,
+        "latency_ms": 14303,
+        "prompt_eval_ms": 678,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "story_map",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4332,
+        "completion_tokens": 722,
+        "latency_ms": 34385,
+        "prompt_eval_ms": 465,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "rating_lower",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3965,
+        "completion_tokens": 143,
+        "latency_ms": 24196,
+        "prompt_eval_ms": 190,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "episode_map[1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4185,
+        "completion_tokens": 156,
+        "latency_ms": 4691,
+        "prompt_eval_ms": 359,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "episode_map[2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4189,
+        "completion_tokens": 175,
+        "latency_ms": 9850,
+        "prompt_eval_ms": 371,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "episode_map[3]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4190,
+        "completion_tokens": 154,
+        "latency_ms": 14468,
+        "prompt_eval_ms": 360,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "episode_map[4]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4191,
+        "completion_tokens": 184,
+        "latency_ms": 19874,
+        "prompt_eval_ms": 362,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "episode_map[5]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4188,
+        "completion_tokens": 171,
+        "latency_ms": 24943,
+        "prompt_eval_ms": 364,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "emotion",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4672,
+        "completion_tokens": 498,
+        "latency_ms": 39481,
+        "prompt_eval_ms": 709,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "summary",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3927,
+        "completion_tokens": 136,
+        "latency_ms": 43370,
+        "prompt_eval_ms": 167,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "cliffhanger",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4052,
+        "completion_tokens": 64,
+        "latency_ms": 2188,
+        "prompt_eval_ms": 274,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "tropes",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4776,
+        "completion_tokens": 324,
+        "latency_ms": 11955,
+        "prompt_eval_ms": 787,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 6053,
+        "completion_tokens": 496,
+        "latency_ms": 29681,
+        "prompt_eval_ms": 1834,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 6053,
+        "completion_tokens": 567,
+        "latency_ms": 46783,
+        "prompt_eval_ms": 31,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 6053,
+        "completion_tokens": 532,
+        "latency_ms": 62872,
+        "prompt_eval_ms": 32,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "comps_explain",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 6343,
+        "completion_tokens": 246,
+        "latency_ms": 55041,
+        "prompt_eval_ms": 2014,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4424,
+        "completion_tokens": 209,
+        "latency_ms": 6495,
+        "prompt_eval_ms": 530,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[ta]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4867,
+        "completion_tokens": 1363,
+        "latency_ms": 46474,
+        "prompt_eval_ms": 871,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "suggestions",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4434,
+        "completion_tokens": 1211,
+        "latency_ms": 80736,
+        "prompt_eval_ms": 536,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4704,
+        "completion_tokens": 209,
+        "latency_ms": 81008,
+        "prompt_eval_ms": 737,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[ta]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 6305,
+        "completion_tokens": 1332,
+        "latency_ms": 84389,
+        "prompt_eval_ms": 1987,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1642,
+        "completion_tokens": 89,
+        "latency_ms": 46451,
+        "prompt_eval_ms": 792,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[te]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4861,
+        "completion_tokens": 1439,
+        "latency_ms": 47458,
+        "prompt_eval_ms": 2932,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.1.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2407,
+        "completion_tokens": 76,
+        "latency_ms": 47757,
+        "prompt_eval_ms": 1268,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[bn]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4824,
+        "completion_tokens": 2275,
+        "latency_ms": 73635,
+        "prompt_eval_ms": 2921,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.1.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2407,
+        "completion_tokens": 81,
+        "latency_ms": 73759,
+        "prompt_eval_ms": 1267,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1626,
+        "completion_tokens": 84,
+        "latency_ms": 2885,
+        "prompt_eval_ms": 792,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4362,
+        "completion_tokens": 599,
+        "latency_ms": 19097,
+        "prompt_eval_ms": 2598,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1556,
+        "completion_tokens": 78,
+        "latency_ms": 2702,
+        "prompt_eval_ms": 747,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.1.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2274,
+        "completion_tokens": 74,
+        "latency_ms": 3099,
+        "prompt_eval_ms": 1175,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.1.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2274,
+        "completion_tokens": 62,
+        "latency_ms": 2449,
+        "prompt_eval_ms": 797,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1569,
+        "completion_tokens": 66,
+        "latency_ms": 2430,
+        "prompt_eval_ms": 764,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.2.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2236,
+        "completion_tokens": 82,
+        "latency_ms": 3253,
+        "prompt_eval_ms": 1143,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.2.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2236,
+        "completion_tokens": 72,
+        "latency_ms": 2639,
+        "prompt_eval_ms": 764,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1531,
+        "completion_tokens": 103,
+        "latency_ms": 3205,
+        "prompt_eval_ms": 719,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.3.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2258,
+        "completion_tokens": 77,
+        "latency_ms": 3161,
+        "prompt_eval_ms": 1174,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.3.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2258,
+        "completion_tokens": 74,
+        "latency_ms": 2716,
+        "prompt_eval_ms": 791,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1553,
+        "completion_tokens": 82,
+        "latency_ms": 2794,
+        "prompt_eval_ms": 745,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T3]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 4334,
+        "completion_tokens": 607,
+        "latency_ms": 19261,
+        "prompt_eval_ms": 2550,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T3.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1188,
+        "completion_tokens": 80,
+        "latency_ms": 2446,
+        "prompt_eval_ms": 526,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A3.1.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1597,
+        "completion_tokens": 73,
+        "latency_ms": 2593,
+        "prompt_eval_ms": 766,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A3.1.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1597,
+        "completion_tokens": 85,
+        "latency_ms": 2643,
+        "prompt_eval_ms": 556,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T3.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1185,
+        "completion_tokens": 99,
+        "latency_ms": 2849,
+        "prompt_eval_ms": 528,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A3.2.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1592,
+        "completion_tokens": 88,
+        "latency_ms": 2925,
+        "prompt_eval_ms": 765,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A3.2.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1592,
+        "completion_tokens": 96,
+        "latency_ms": 2883,
+        "prompt_eval_ms": 555,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T3.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1181,
+        "completion_tokens": 120,
+        "latency_ms": 3296,
+        "prompt_eval_ms": 528,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A3.3.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1588,
+        "completion_tokens": 87,
+        "latency_ms": 2892,
+        "prompt_eval_ms": 765,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A3.3.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1588,
+        "completion_tokens": 100,
+        "latency_ms": 2974,
+        "prompt_eval_ms": 554,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T3.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1177,
+        "completion_tokens": 99,
+        "latency_ms": 2839,
+        "prompt_eval_ms": 527,
+        "repaired": false,
+        "stop_reason": "stop"
+      }
+    ],
+    "warnings": [],
+    "refusals": [],
+    "created_at": "2026-10-19T10:31:13+00:00"
+  },
+  "elements": [
+    {
+      "id": "L1",
+      "kind": "episode_marker",
+      "text": "EPISODE 1: Ulti Ginti",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S1",
+      "page": 1,
+      "bbox": [
+        99.4,
+        98.6,
+        253.4,
+        118.1
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L2",
+      "kind": "scene_heading",
+      "text": "INT.KAVYA'S ROOM, CHAWL- NIGHT",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": 1,
+      "bbox": [
+        99.7,
+        124.2,
+        334.1,
+        148.0
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L3",
+      "kind": "action",
+      "text": "ON SCREEN: Newspaper cutting:\"Builder Mohan Saxena jailed for land fraud. Dies of heart attack in custody. KAVYA (26) pins the cutting on a wall covered with photos. In the centre is VIKRAM RATHORE. A red circle around his face.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": 1,
+      "bbox": [
+        99.4,
+        149.0,
+        522.0,
+        259.2
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L4",
+      "kind": "dialogue",
+      "text": "Paanch saal, Rathore sahab. Paanch saal maine wait kiya. Aaj se tumhari ulti ginti shuru.",
+      "speaker": "KAVYA",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": 1,
+      "bbox": [
+        175.3,
+        283.0,
+        422.6,
+        342.0
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L5",
+      "kind": "action",
+      "text": "Her mother SUDHA (5o) stands at the door with a plate of rotis.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": 1,
+      "bbox": [
+        103.3,
+        346.7,
+        510.5,
+        389.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L6",
+      "kind": "dialogue",
+      "text": "Kavya, yeh sab chhod de beta. Woh Log bahut bade hain.",
+      "speaker": "SUDHA",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": 1,
+      "bbox": [
+        178.2,
+        414.0,
+        418.7,
+        454.7
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L7",
+      "kind": "dialogue",
+      "text": "Isliye toh, Maa. Jitna bada aadmi, utna bada girna.",
+      "speaker": "KAVYA",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": 1,
+      "bbox": [
+        178.2,
+        479.2,
+        424.8,
+        519.1
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L8",
+      "kind": "dialogue",
+      "text": "Tere papa yeh kabhi nahi chahte the.",
+      "speaker": "SUDHA",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": 1,
+      "bbox": [
+        181.1,
+        545.4,
+        407.2,
+        585.0
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L9",
+      "kind": "dialogue",
+      "text": "Papa jail mein mar gaye, Maa. Unhone kya chaha, kisi ne poocha?",
+      "speaker": "KAVYA",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": 1,
+      "bbox": [
+        181.4,
+        612.0,
+        422.6,
+        651.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L10",
+      "kind": "action",
+      "text": "Sudha has no answer. She puts the plate down and leaves.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": 1,
+      "bbox": [
+        110.5,
+        655.6,
+        514.4,
+        680.4
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L11",
+      "kind": "transition",
+      "text": "CUT TO:",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": 1,
+      "bbox": [
+        493.9,
+        682.6,
+        547.9,
+        699.1
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L12",
+      "kind": "scene_heading",
+      "text": "INT. RATHORE GROUP OFFICE, ADITYA'S CABIN- DAY",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": 2,
+      "bbox": [
+        113.4,
+        64.4,
+        454.3,
+        89.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L13",
+      "kind": "action",
+      "text": "Glass walts. City view. ADITYA RATHORE (29), sleeves rolled up, flips through Kavya's resume.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": 2,
+      "bbox": [
+        112.0,
+        93.2,
+        539.3,
+        135.0
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L14",
+      "kind": "dialogue",
+      "text": "Kavya Mehra. MBA, gold medal. Phir bhi PA ki job? Kyun?",
+      "speaker": "ADITYA",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": 2,
+      "bbox": [
+        182.2,
+        160.6,
+        430.6,
+        199.4
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L15",
+      "kind": "dialogue",
+      "text": "Kyunki main seekhna chahti hoon, sir. Aur Rathore Group se accha school kaunsa hai?",
+      "speaker": "KAVYA",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": 2,
+      "bbox": [
+        180.0,
+        226.1,
+        412.9,
+        283.7
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L16",
+      "kind": "dialogue",
+      "text": "(smiling) Flattery se job nahi milti, Miss Mehra.",
+      "speaker": "ADITYA",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": 2,
+      "bbox": [
+        177.8,
+        311.4,
+        397.4,
+        348.5
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L17",
+      "kind": "dialogue",
+      "text": "Toh mera kaam dekh lijiye. Ek hafta. Pasand na aaye toh nikaal dena.",
+      "speaker": "KAVYA",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": 2,
+      "bbox": [
+        177.1,
+        376.6,
+        411.1,
+        430.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L18",
+      "kind": "action",
+      "text": "Aditya studies her. Something about her unsettles him.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": 2,
+      "bbox": [
+        104.0,
+        439.9,
+        492.8,
+        465.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L19",
+      "kind": "dialogue",
+      "text": "Monday se aa jao.",
+      "speaker": "ADITYA",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": 2,
+      "bbox": [
+        175.3,
+        488.5,
+        299.2,
+        508.7
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L20",
+      "kind": "action",
+      "text": "Kavya walks out. Her smile drops the moment the door closes.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": 2,
+      "bbox": [
+        102.2,
+        514.8,
+        535.0,
+        541.1
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L21",
+      "kind": "scene_heading",
+      "text": "INT.RATHORE GROUPOFFICE, VIKRAM'S CABIN- DAY",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S4",
+      "page": 2,
+      "bbox": [
+        101.2,
+        542.2,
+        443.5,
+        566.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L22",
+      "kind": "action",
+      "text": "VIKRAM RATHORE (58) watches Kavya on a CCTV screen. His right-hand man SHEKHAR (40) stands beside him.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S4",
+      "page": 2,
+      "bbox": [
+        100.4,
+        569.5,
+        499.7,
+        614.2
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L23",
+      "kind": "dialogue",
+      "text": "Yeh nayi ladki kaun hai?",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S4",
+      "page": 2,
+      "bbox": [
+        172.1,
+        638.3,
+        347.8,
+        658.1
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L24",
+      "kind": "dialogue",
+      "text": "Aditya baba ki nayi PA. Kavya Mehra.",
+      "speaker": "SHEKHAR",
+      "episode": 1,
+      "scene_id": "S4",
+      "page": 3,
+      "bbox": [
+        167.8,
+        68.0,
+        380.5,
+        108.4
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L25",
+      "kind": "action",
+      "text": "Vikram zooms in on her face. He goes very stitl.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S4",
+      "page": 3,
+      "bbox": [
+        96.1,
+        112.0,
+        442.4,
+        140.8
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L26",
+      "kind": "dialogue",
+      "text": "Mehra? Nahi, Shekhar. Yeh chehra maine pehle dekha hai. Pata karo yeh asli mein kaun hai.",
+      "speaker": "VIKRAM",
+      "episode": 1,
+      "scene_id": "S4",
+      "page": 3,
+      "bbox": [
+        171.0,
+        160.6,
+        405.0,
+        221.4
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L27",
+      "kind": "episode_marker",
+      "text": "EPISODE 2: Locker Number Saat",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S5",
+      "page": 3,
+      "bbox": [
+        100.8,
+        228.6,
+        313.9,
+        251.3
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L28",
+      "kind": "scene_heading",
+      "text": "INT. RATHORE GROUP OFFICE- DAY",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S6",
+      "page": 3,
+      "bbox": [
+        101.5,
+        255.2,
+        329.4,
+        279.4
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L29",
+      "kind": "action",
+      "text": "Kavya works fast. Files, meetings, calls. Aditya notices everything.",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S6",
+      "page": 3,
+      "bbox": [
+        101.9,
+        280.1,
+        508.3,
+        327.2
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L30",
+      "kind": "dialogue",
+      "text": "Tumne teen din mein woh kar diya jo meri pichti PA teen mahine mein nahi kar payi.",
+      "speaker": "ADITYA",
+      "episode": 2,
+      "scene_id": "S6",
+      "page": 3,
+      "bbox": [
+        175.7,
+        348.1,
+        430.6,
+        409.7
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L31",
+      "kind": "dialogue",
+      "text": "Aapne pichli PA ko kabhi thank you bola tha?",
+      "speaker": "KAVYA",
+      "episode": 2,
+      "scene_id": "S6",
+      "page": 3,
+      "bbox": [
+        178.2,
+        431.3,
+        427.3,
+        474.1
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L32",
+      "kind": "dialogue",
+      "text": "(laughing) Accha. Thank you,Miss Mehra.",
+      "speaker": "ADITYA",
+      "episode": 2,
+      "scene_id": "S6",
+      "page": 3,
+      "bbox": [
+        178.2,
+        497.5,
+        421.6,
+        538.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L33",
+      "kind": "dialogue",
+      "text": "Welcome,sir.",
+      "speaker": "KAVYA",
+      "episode": 2,
+      "scene_id": "S6",
+      "page": 3,
+      "bbox": [
+        181.4,
+        567.7,
+        277.9,
+        586.1
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L34",
+      "kind": "action",
+      "text": "A moment between them. Shebreaks it first.",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S6",
+      "page": 3,
+      "bbox": [
+        111.2,
+        590.8,
+        420.8,
+        616.0
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L35",
+      "kind": "scene_heading",
+      "text": "INT. RATHORE GROUP OFFICE, PANTRY DAY",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S7",
+      "page": 3,
+      "bbox": [
+        112.7,
+        619.2,
+        396.0,
+        644.4
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L36",
+      "kind": "action",
+      "text": "Kavya pours tea. Through the half-open door, she hears Shekhar on the phone.",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S7",
+      "page": 3,
+      "bbox": [
+        112.3,
+        643.7,
+        503.6,
+        690.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L37",
+      "kind": "dialogue",
+      "text": "(low) Haan, Saxena wali file locker number saat mein hai. Sahab ke study mein. Koi touch nahi karega.",
+      "speaker": "SHEKHAR",
+      "episode": 2,
+      "scene_id": "S7",
+      "page": 4,
+      "bbox": [
+        183.2,
+        87.5,
+        438.5,
+        144.7
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L38",
+      "kind": "action",
+      "text": "Kavya's cup trembles. Saxena. Her father's name.",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S7",
+      "page": 4,
+      "bbox": [
+        108.7,
+        150.8,
+        454.7,
+        173.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L39",
+      "kind": "scene_heading",
+      "text": "INT. RATHORE MANSION, PARTY HALL- NIGHT",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S8",
+      "page": 4,
+      "bbox": [
+        108.7,
+        178.6,
+        400.0,
+        200.2
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L40",
+      "kind": "action",
+      "text": "Vikram's birthday party. Chandeliers, music, a hundred guests. Kavya arrives with Aditya, in a borrowed saree.",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S8",
+      "page": 4,
+      "bbox": [
+        108.0,
+        206.6,
+        504.0,
+        249.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L41",
+      "kind": "dialogue",
+      "text": "Toh aap hain Kavya. Aditya aapki bahut tareef karta hai.",
+      "speaker": "VIKRAM",
+      "episode": 2,
+      "scene_id": "S8",
+      "page": 4,
+      "bbox": [
+        178.6,
+        273.2,
+        412.9,
+        311.0
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L42",
+      "kind": "dialogue",
+      "text": "Aapke bete ka dil bada hai, Rathore sahab.",
+      "speaker": "KAVYA",
+      "episode": 2,
+      "scene_id": "S8",
+      "page": 4,
+      "bbox": [
+        176.8,
+        339.1,
+        432.4,
+        375.1
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L43",
+      "kind": "dialogue",
+      "text": "Aur aapka? Aapka dil kitna bada hai?",
+      "speaker": "VIKRAM",
+      "episode": 2,
+      "scene_id": "S8",
+      "page": 4,
+      "bbox": [
+        175.7,
+        405.7,
+        403.2,
+        439.9
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L44",
+      "kind": "dialogue",
+      "text": "Utna, jitni zaroorat ho.",
+      "speaker": "KAVYA",
+      "episode": 2,
+      "scene_id": "S8",
+      "page": 4,
+      "bbox": [
+        176.4,
+        470.2,
+        349.9,
+        490.7
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L45",
+      "kind": "action",
+      "text": "Vikram smiles. His eyes do not.",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S8",
+      "page": 4,
+      "bbox": [
+        104.0,
+        498.2,
+        325.8,
+        516.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L46",
+      "kind": "scene_heading",
+      "text": "INT. RATHORE MANSION, VIKRAM'S STUDY- NIGHT",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S9",
+      "page": 4,
+      "bbox": [
+        103.7,
+        524.5,
+        422.6,
+        546.8
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L47",
+      "kind": "action",
+      "text": "Dark, Kavya slips in. She finds a steel locker marked 7. She works a hairpin into the lock. ctick. Inside is a red file marked \"SAXENA LAND DEAL\". Her father's signature, written in someone else's hand.",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S9",
+      "page": 4,
+      "bbox": [
+        101.9,
+        553.3,
+        537.8,
+        640.4
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L48",
+      "kind": "dialogue",
+      "text": "(whispering) Papa ne sign kiya hi nahi tha...",
+      "speaker": "KAVYA",
+      "episode": 2,
+      "scene_id": "S9",
+      "page": 4,
+      "bbox": [
+        173.2,
+        667.4,
+        412.9,
+        703.1
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L49",
+      "kind": "action",
+      "text": "The lights snap on.",
+      "speaker": null,
+      "episode": 2,
+      "scene_id": "S9",
+      "page": 5,
+      "bbox": [
+        110.2,
+        65.9,
+        248.8,
+        86.8
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L50",
+      "kind": "dialogue",
+      "text": "Kavya? Tum Papa ke study mein kya kar rahi ho?",
+      "speaker": "ADITYA",
+      "episode": 2,
+      "scene_id": "S9",
+      "page": 5,
+      "bbox": [
+        180.4,
+        113.8,
+        421.6,
+        150.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L51",
+      "kind": "episode_marker",
+      "text": "EPISODE3:Jhooth",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S10",
+      "page": 5,
+      "bbox": [
+        109.1,
+        159.5,
+        236.2,
+        179.3
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L52",
+      "kind": "scene_heading",
+      "text": "INT. RATHORE MANSION, VIKRAM'S STUDY- CONTINUOUS",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S11",
+      "page": 5,
+      "bbox": [
+        109.1,
+        187.6,
+        463.3,
+        210.2
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L53",
+      "kind": "action",
+      "text": "Kavya slides the red file behind her back.",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S11",
+      "page": 5,
+      "bbox": [
+        107.3,
+        216.7,
+        410.8,
+        238.0
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L54",
+      "kind": "dialogue",
+      "text": "Main...",
+      "speaker": "KAVYA",
+      "episode": 3,
+      "scene_id": "S11",
+      "page": 5,
+      "bbox": [
+        179.3,
+        264.6,
+        242.3,
+        282.2
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L55",
+      "kind": "dialogue",
+      "text": "washroom dhoondh rahi thi. Yeh ghar toh bhool-bhulaiya hai.",
+      "speaker": "KAVYA",
+      "episode": 3,
+      "scene_id": "S11",
+      "page": 5,
+      "bbox": [
+        178.6,
+        265.7,
+        422.3,
+        304.2
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L56",
+      "kind": "dialogue",
+      "text": "Locker ke andar washroom?",
+      "speaker": "ADITYA",
+      "episode": 3,
+      "scene_id": "S11",
+      "page": 5,
+      "bbox": [
+        176.8,
+        330.5,
+        360.7,
+        348.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L57",
+      "kind": "dialogue",
+      "text": "Locker khula tha, sir. Maine bas band kiya.",
+      "speaker": "KAVYA",
+      "episode": 3,
+      "scene_id": "S11",
+      "page": 5,
+      "bbox": [
+        177.5,
+        376.6,
+        410.4,
+        414.0
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L58",
+      "kind": "action",
+      "text": "Aditya looks at the locker. Then at her. He decides to believe her.",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S11",
+      "page": 5,
+      "bbox": [
+        104.0,
+        421.9,
+        495.0,
+        458.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L59",
+      "kind": "dialogue",
+      "text": "Papa ko pata chala toh hum dono ki class lag jayegi. Chalo, bahar.",
+      "speaker": "ADITYA",
+      "episode": 3,
+      "scene_id": "S11",
+      "page": 5,
+      "bbox": [
+        176.0,
+        489.6,
+        423.7,
+        528.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L60",
+      "kind": "scene_heading",
+      "text": "EXT. RATHORE MANSION, GARDEN- NIGHT",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 5,
+      "bbox": [
+        103.3,
+        533.9,
+        365.4,
+        555.1
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L61",
+      "kind": "action",
+      "text": "Fairy lights. The party noise is far away. Aditya hands her a glass of juice.",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 5,
+      "bbox": [
+        101.5,
+        563.0,
+        529.2,
+        601.2
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L62",
+      "kind": "dialogue",
+      "text": "Sach bataun? Mujhe yeh parties pasand nahi hain. Sab log Papa ko khush karne aate hain.",
+      "speaker": "ADITYA",
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 5,
+      "bbox": [
+        173.5,
+        630.0,
+        412.6,
+        685.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L63",
+      "kind": "dialogue",
+      "text": "Auraap?",
+      "speaker": "KAVYA",
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        175.7,
+        90.4,
+        237.6,
+        106.9
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L64",
+      "kind": "dialogue",
+      "text": "Main bhi. Bachpan se.",
+      "speaker": "ADITYA",
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        174.2,
+        137.5,
+        327.2,
+        151.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L65",
+      "kind": "dialogue",
+      "text": "Kabhi unke against gaye ho?",
+      "speaker": "KAVYA",
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        175.3,
+        181.8,
+        373.3,
+        200.2
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L66",
+      "kind": "dialogue",
+      "text": "Ek baar. Paanch saal pehle. Unhone ek builder ko jail bhijwaya tha. Mujhe laga kuch galat hai.",
+      "speaker": "ADITYA",
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        176.4,
+        229.0,
+        423.4,
+        284.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L67",
+      "kind": "action",
+      "text": "Kavya stops breathing.",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        103.7,
+        296.3,
+        262.8,
+        313.2
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L68",
+      "kind": "dialogue",
+      "text": "Phir?",
+      "speaker": "KAVYA",
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        176.8,
+        341.6,
+        217.4,
+        358.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L69",
+      "kind": "dialogue",
+      "text": "Phir Papa ne kaha, business mein sawal mat poochho. Aur mainenahi poocha.",
+      "speaker": "ADITYA",
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        177.1,
+        388.8,
+        417.6,
+        444.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L70",
+      "kind": "dialogue",
+      "text": "(softly) Kabhi kabhi sawal na poochhna bhi gunah hota hai.",
+      "speaker": "KAVYA",
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        177.8,
+        471.6,
+        391.0,
+        509.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L71",
+      "kind": "action",
+      "text": "Aditya looksat her for a long time.",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        107.3,
+        519.8,
+        364.7,
+        537.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L72",
+      "kind": "dialogue",
+      "text": "Tum baaki sab se alag ho, Kavya.",
+      "speaker": "ADITYA",
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        177.8,
+        566.3,
+        409.3,
+        583.2
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L73",
+      "kind": "action",
+      "text": "She looks away. There is guilt in her eyes.",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S12",
+      "page": 6,
+      "bbox": [
+        106.6,
+        593.3,
+        417.2,
+        612.4
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L74",
+      "kind": "scene_heading",
+      "text": "INT.KAVYA'S ROOM, CHAWL-NIGHT",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S13",
+      "page": 6,
+      "bbox": [
+        106.9,
+        620.3,
+        341.3,
+        641.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L75",
+      "kind": "action",
+      "text": "Kavya hides the red file under her mattress. Sudha is asleep. Kavya Lies down and stares at the ceiling fan.",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S13",
+      "page": 6,
+      "bbox": [
+        107.6,
+        648.4,
+        495.0,
+        687.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L76",
+      "kind": "dialogue",
+      "text": "(to herself) Bahut thak gayi hoon. Kal dekhte hain.",
+      "speaker": "KAVYA",
+      "episode": 3,
+      "scene_id": "S13",
+      "page": 7,
+      "bbox": [
+        172.8,
+        86.8,
+        417.6,
+        125.3
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L77",
+      "kind": "action",
+      "text": "She switches off the light and goes to sleep.",
+      "speaker": null,
+      "episode": 3,
+      "scene_id": "S13",
+      "page": 7,
+      "bbox": [
+        101.2,
+        133.9,
+        422.6,
+        155.9
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L78",
+      "kind": "episode_marker",
+      "text": "EPISODE 4:Pehchaan",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S14",
+      "page": 7,
+      "bbox": [
+        102.2,
+        165.6,
+        241.2,
+        182.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L79",
+      "kind": "scene_heading",
+      "text": "INT. RATHORE GROUP OFFICE, LOBBY - DAY",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S15",
+      "page": 7,
+      "bbox": [
+        101.9,
+        189.4,
+        379.4,
+        211.7
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L80",
+      "kind": "action",
+      "text": "Kavya swipes her access card. Red Light. Denied. Shekhar waits by the gate.",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S15",
+      "page": 7,
+      "bbox": [
+        101.9,
+        215.6,
+        507.6,
+        259.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L81",
+      "kind": "dialogue",
+      "text": "Sahab ne bulaya hai. Abhi.",
+      "speaker": "SHEKHAR",
+      "episode": 4,
+      "scene_id": "S15",
+      "page": 7,
+      "bbox": [
+        176.4,
+        284.4,
+        363.2,
+        303.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L82",
+      "kind": "scene_heading",
+      "text": "INT. RATHORE GROUP OFFICE, VIKRAM'S CABIN - DAY",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 7,
+      "bbox": [
+        104.8,
+        310.3,
+        446.0,
+        334.1
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L83",
+      "kind": "action",
+      "text": "Vikram sits behind his desk. On it lies Kavya's old college ID. The name on it is Kavya Saxena.",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 7,
+      "bbox": [
+        103.3,
+        337.3,
+        530.6,
+        379.4
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L84",
+      "kind": "dialogue",
+      "text": "Baitho, Kavya Saxena.",
+      "speaker": "VIKRAM",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 7,
+      "bbox": [
+        178.2,
+        407.5,
+        328.7,
+        425.5
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L85",
+      "kind": "action",
+      "text": "Kavya does not sit.",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 7,
+      "bbox": [
+        105.5,
+        436.0,
+        244.8,
+        456.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L86",
+      "kind": "dialogue",
+      "text": "Toh aapko pata chal gaya.",
+      "speaker": "KAVYA",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 7,
+      "bbox": [
+        179.3,
+        481.3,
+        360.4,
+        501.5
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L87",
+      "kind": "dialogue",
+      "text": "Pehte din se. Tumhari aankhein bilkul tumhare baap jaisi hain. Ziddi.",
+      "speaker": "VIKRAM",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 7,
+      "bbox": [
+        179.6,
+        527.8,
+        402.5,
+        583.9
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L88",
+      "kind": "dialogue",
+      "text": "Aapne mere papa ko fasaaya. Unke signature forge karke.",
+      "speaker": "KAVYA",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 7,
+      "bbox": [
+        181.4,
+        611.3,
+        415.1,
+        650.9
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L89",
+      "kind": "dialogue",
+      "text": "Mujhe chor bol rahi ho? Mere hi office mein, mere bete ki jhoothi PA?",
+      "speaker": "VIKRAM",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 8,
+      "bbox": [
+        178.6,
+        68.4,
+        420.5,
+        122.4
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L90",
+      "kind": "dialogue",
+      "text": "Ulta chor kotwal ko daante.",
+      "speaker": "KAVYA",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 8,
+      "bbox": [
+        180.4,
+        152.6,
+        375.1,
+        172.1
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L91",
+      "kind": "dialogue",
+      "text": "Saboot hai tumhare paas?",
+      "speaker": "VIKRAM",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 8,
+      "bbox": [
+        180.0,
+        200.2,
+        355.7,
+        218.2
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L92",
+      "kind": "dialogue",
+      "text": "Locker number saat ki red file.",
+      "speaker": "KAVYA",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 8,
+      "bbox": [
+        179.6,
+        246.6,
+        403.6,
+        264.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L93",
+      "kind": "action",
+      "text": "Vikram laughs. He opens a drawer and drops the red file on the desk.",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 8,
+      "bbox": [
+        106.9,
+        274.0,
+        526.3,
+        309.2
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L94",
+      "kind": "dialogue",
+      "text": "Yeh wali? Tumhare mattress ke neeche se mili. Tumhari Maa ne Shekhar ko bahut acchi chai pilayi.",
+      "speaker": "VIKRAM",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 8,
+      "bbox": [
+        177.5,
+        339.8,
+        429.1,
+        397.4
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L95",
+      "kind": "action",
+      "text": "Kavya's blood runs cold.",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 8,
+      "bbox": [
+        104.0,
+        406.1,
+        279.7,
+        422.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L96",
+      "kind": "dialogue",
+      "text": "Maa kahan hai?",
+      "speaker": "KAVYA",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 8,
+      "bbox": [
+        176.8,
+        452.9,
+        281.2,
+        469.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L97",
+      "kind": "dialogue",
+      "text": "Safe hai. Abhi tak. Aaj raat sheher chhod do.",
+      "speaker": "VIKRAM",
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 8,
+      "bbox": [
+        176.0,
+        499.7,
+        431.3,
+        535.3
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L98",
+      "kind": "action",
+      "text": "Kavya grabs the desk phone. The line is dead.",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S16",
+      "page": 8,
+      "bbox": [
+        104.4,
+        545.0,
+        428.8,
+        564.8
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L99",
+      "kind": "scene_heading",
+      "text": "INT. RATHORE GROUP OFFICE, CORRIDOR - DAY",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S17",
+      "page": 8,
+      "bbox": [
+        102.2,
+        572.4,
+        402.1,
+        593.3
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L100",
+      "kind": "action",
+      "text": "Kavya runs and crashes straight into Aditya.",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S17",
+      "page": 8,
+      "bbox": [
+        101.5,
+        601.6,
+        419.8,
+        621.7
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L101",
+      "kind": "dialogue",
+      "text": "Kavya? Kya hua? Tum ro kyun rahi ho?",
+      "speaker": "ADITYA",
+      "episode": 4,
+      "scene_id": "S17",
+      "page": 8,
+      "bbox": [
+        173.9,
+        648.4,
+        408.2,
+        684.4
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L102",
+      "kind": "dialogue",
+      "text": "Tumhare papa ne meri Maa ko utha liya hai.",
+      "speaker": "KAVYA",
+      "episode": 4,
+      "scene_id": "S17",
+      "page": 9,
+      "bbox": [
+        182.9,
+        87.1,
+        416.2,
+        123.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L103",
+      "kind": "dialogue",
+      "text": "Kya bakwaas hai yeh?",
+      "speaker": "ADITYA",
+      "episode": 4,
+      "scene_id": "S17",
+      "page": 9,
+      "bbox": [
+        181.4,
+        153.0,
+        328.7,
+        170.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L104",
+      "kind": "dialogue",
+      "text": "Mera naam Kavya Mehra nahi hai, Aditya. Main Mohan Saxena ki beti hoon.",
+      "speaker": "KAVYA",
+      "episode": 4,
+      "scene_id": "S17",
+      "page": 9,
+      "bbox": [
+        180.0,
+        199.4,
+        420.5,
+        253.4
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L105",
+      "kind": "action",
+      "text": "Aditya steps back as if she has slapped him. Her phone buzzes.",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S17",
+      "page": 9,
+      "bbox": [
+        105.5,
+        263.2,
+        497.9,
+        298.8
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L106",
+      "kind": "action",
+      "text": "ON SCREEN: Message from Maa's number:\"Ek ghante mein Rathore farmhouse. Akeli aana. Police ko bataya toh Maa gayi.\"",
+      "speaker": null,
+      "episode": 4,
+      "scene_id": "S17",
+      "page": 9,
+      "bbox": [
+        105.1,
+        309.6,
+        504.4,
+        366.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L107",
+      "kind": "episode_marker",
+      "text": "EPISODE 5: Hisaab",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S18",
+      "page": 9,
+      "bbox": [
+        104.0,
+        374.4,
+        231.1,
+        393.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L108",
+      "kind": "scene_heading",
+      "text": "EXT. RATHORE FARMHOUSE NIGHT",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 9,
+      "bbox": [
+        105.8,
+        404.3,
+        323.3,
+        422.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L109",
+      "kind": "action",
+      "text": "Floodlights. Kavya walks in alone. Sudha sits tied to a chair, frightened but unhurt. Vikram and Shekhar wait.",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 9,
+      "bbox": [
+        103.3,
+        431.3,
+        503.3,
+        473.0
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L110",
+      "kind": "dialogue",
+      "text": "Smart ladki ho. Akeli aayi.",
+      "speaker": "VIKRAM",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 9,
+      "bbox": [
+        176.4,
+        498.6,
+        369.4,
+        518.4
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L111",
+      "kind": "dialogue",
+      "text": "Maa ko jaane do. Mere saath jo karna hai, karo.",
+      "speaker": "KAVYA",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 9,
+      "bbox": [
+        175.3,
+        545.4,
+        393.1,
+        582.5
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L112",
+      "kind": "dialogue",
+      "text": "Tum mujhe kya de sakti ho, Kavya? Tumhare paas kuch nahi bacha.",
+      "speaker": "VIKRAM",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 9,
+      "bbox": [
+        173.5,
+        611.3,
+        413.3,
+        649.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L113",
+      "kind": "dialogue",
+      "text": "Bas ek sawal ka jawab. Phir main sheher chhod dungi. Papa hi kyun?",
+      "speaker": "KAVYA",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 9,
+      "bbox": [
+        172.8,
+        675.7,
+        412.2,
+        716.4
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L114",
+      "kind": "dialogue",
+      "text": "Kyunki tumhara baap zameen bechne ko taiyaar nahi tha. Aur mujhe na sunne ki aadat nahi hai.",
+      "speaker": "VIKRAM",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        178.2,
+        88.9,
+        418.7,
+        142.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L115",
+      "kind": "dialogue",
+      "text": "Isliye unke signature forge kiye. Unhe jail bhijwaya.",
+      "speaker": "KAVYA",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        177.8,
+        172.4,
+        414.4,
+        209.2
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L116",
+      "kind": "dialogue",
+      "text": "Aur jail mein woh heart attack.. woh bhi maine arrange kiya tha. Khush?",
+      "speaker": "VIKRAM",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        176.0,
+        239.4,
+        410.8,
+        292.0
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L117",
+      "kind": "action",
+      "text": "Silence. Then a voice from the dark.",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        106.2,
+        303.8,
+        364.3,
+        320.4
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L118",
+      "kind": "dialogue",
+      "text": "Bahut khush, Papa.",
+      "speaker": "ADITYA",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        178.6,
+        350.3,
+        308.2,
+        367.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L119",
+      "kind": "action",
+      "text": "Aditya steps into the light, his phone raised. Recording.",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        105.5,
+        376.9,
+        514.1,
+        397.4
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L120",
+      "kind": "dialogue",
+      "text": "Aditya! Yeh ladki tumhe use kar rahi hai!",
+      "speaker": "VIKRAM",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        177.5,
+        425.2,
+        403.2,
+        459.7
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L121",
+      "kind": "dialogue",
+      "text": "Shayad. Lekin sach aapne khud bola. Live. Commissioner sahab sun rahe hain.",
+      "speaker": "ADITYA",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        176.4,
+        492.1,
+        427.7,
+        545.0
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L122",
+      "kind": "action",
+      "text": "Sirens rise in the distance. Shekhar runs for the car. Police jeeps block the gate.",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        105.8,
+        556.2,
+        492.5,
+        592.9
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L123",
+      "kind": "action",
+      "text": "Vikram sinks into a chair, staring at his son.",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        105.8,
+        603.7,
+        434.9,
+        620.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L124",
+      "kind": "dialogue",
+      "text": "Apne hi baap ke saath yeh?",
+      "speaker": "VIKRAM",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 10,
+      "bbox": [
+        177.5,
+        650.2,
+        367.9,
+        667.1
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L125",
+      "kind": "dialogue",
+      "text": "Aapne kisi ke baap ke saath kya kiya tha?",
+      "speaker": "ADITYA",
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 11,
+      "bbox": [
+        176.0,
+        68.8,
+        402.5,
+        105.8
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L126",
+      "kind": "action",
+      "text": "Police lead Vikram away. Kavya unties Sudha. They hold each other and cry.",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S19",
+      "page": 11,
+      "bbox": [
+        102.2,
+        115.6,
+        531.0,
+        152.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L127",
+      "kind": "scene_heading",
+      "text": "EXT. RATHORE FARMHOUSE, GATE- NIGHT",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S20",
+      "page": 11,
+      "bbox": [
+        104.8,
+        162.4,
+        366.8,
+        180.7
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L128",
+      "kind": "action",
+      "text": "Red and blue lights flash across Aditya's and Kavya's faces.",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S20",
+      "page": 11,
+      "bbox": [
+        104.0,
+        190.4,
+        538.9,
+        209.9
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L129",
+      "kind": "dialogue",
+      "text": "Tumne mujhse jhooth bola. Pehle din se.",
+      "speaker": "ADITYA",
+      "episode": 5,
+      "scene_id": "S20",
+      "page": 11,
+      "bbox": [
+        173.2,
+        237.2,
+        432.7,
+        274.3
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L130",
+      "kind": "dialogue",
+      "text": "Haan. Aur tumne phir bhi mera saath diya. Kyun?",
+      "speaker": "KAVYA",
+      "episode": 5,
+      "scene_id": "S20",
+      "page": 11,
+      "bbox": [
+        176.4,
+        303.5,
+        431.6,
+        340.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L131",
+      "kind": "dialogue",
+      "text": "Kyunki kabhi kabhi sawal na poochhna bhi gunah hota hai. Tumne hi kaha tha.",
+      "speaker": "ADITYA",
+      "episode": 5,
+      "scene_id": "S20",
+      "page": 11,
+      "bbox": [
+        177.5,
+        370.1,
+        425.2,
+        424.1
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L132",
+      "kind": "action",
+      "text": "she almost smiles. Her phone rings. Unknown number. She answers.",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S20",
+      "page": 11,
+      "bbox": [
+        106.2,
+        434.5,
+        503.6,
+        470.5
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L133",
+      "kind": "dialogue",
+      "text": "Kavya... beta, main hoon. Tera papa.",
+      "speaker": "MOHAN",
+      "episode": 5,
+      "scene_id": "S20",
+      "page": 11,
+      "bbox": [
+        177.5,
+        500.8,
+        396.4,
+        538.6
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L134",
+      "kind": "action",
+      "text": "The phone slips from her fingers. Sudha turns, white as a sheet.",
+      "speaker": null,
+      "episode": 5,
+      "scene_id": "S20",
+      "page": 11,
+      "bbox": [
+        106.9,
+        546.1,
+        518.4,
+        583.6
+      ],
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L135",
+      "kind": "dialogue",
+      "text": "Main zinda hoon. Aur Vikram akela nahi tha.",
+      "speaker": "MOHAN",
+      "episode": 5,
+      "scene_id": "S20",
+      "page": 11,
+      "bbox": [
+        178.9,
+        613.8,
+        418.0,
+        648.7
+      ],
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    }
+  ]
+}

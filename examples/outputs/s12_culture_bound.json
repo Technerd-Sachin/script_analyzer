@@ -1,0 +1,2265 @@
+{
+  "doc_id": "985d52854a016ac455b266ff9b5dc3f84a6defc11cf1d99db8e5c1d4ca21cbaf",
+  "cache_key": "9047767479f1c09f364c4840",
+  "title": "Pehla Karva Chauth",
+  "options": {
+    "features": [
+      "core",
+      "analytics",
+      "alternatives",
+      "rating",
+      "localization",
+      "market"
+    ],
+    "mode": "local",
+    "localization_targets": null,
+    "engagement_runs": 3
+  },
+  "ir_stats": {
+    "source_kind": "text",
+    "pages": 2,
+    "episodes": 1,
+    "scenes": 3,
+    "elements": 31,
+    "words": 368,
+    "languages": {
+      "en": 0.509,
+      "hi-Latn": 0.491
+    },
+    "code_mix_ratio": 0.069,
+    "render_mode": "full",
+    "script_tokens_est": 727,
+    "ocr_mean_conf": null,
+    "page_sources": {},
+    "episode_boundaries": "single"
+  },
+  "story_map": {
+    "status": "ok",
+    "notes": [],
+    "is_script": true,
+    "logline": "Preet waits for Harry on Karva Chauth, fearing he won't come, against the silence of the moon and her growing doubt.",
+    "characters": [
+      {
+        "name": "PREET",
+        "want": "see Harry before the moon rises",
+        "obstacle": "highway jam, no phone signal",
+        "line_ids": [
+          "L4",
+          "L14",
+          "L21"
+        ]
+      },
+      {
+        "name": "BEEJI",
+        "want": "ensure tradition is honored with physical presence",
+        "obstacle": "Harry's absence, uncertainty of his arrival",
+        "line_ids": [
+          "L3",
+          "L20",
+          "L23"
+        ]
+      },
+      {
+        "name": "JASSI",
+        "want": "comfort Preet with a video call",
+        "obstacle": "Beeji's insistence on face-to-face meeting",
+        "line_ids": [
+          "L11",
+          "L22"
+        ]
+      },
+      {
+        "name": "DOLLY",
+        "want": "join the jaggo procession",
+        "obstacle": "no one is ready to leave the house",
+        "line_ids": [
+          "L10",
+          "L13",
+          "L15"
+        ]
+      }
+    ],
+    "central_conflict": {
+      "text": "Beeji insists on physical presence, Jassi suggests video call, showing tension over tradition vs modernity",
+      "line_ids": [
+        "L14",
+        "L23"
+      ]
+    },
+    "stakes": {
+      "text": "Preet's hope of seeing Harry, the ritual of Karva Chauth, the moon rising, and the emotional connection being lost",
+      "line_ids": [
+        "L14",
+        "L21",
+        "L26",
+        "L29"
+      ]
+    },
+    "beats": [
+      {
+        "id": "B1",
+        "label": "Morning at the Haveli",
+        "line_ids": [
+          "L1",
+          "L2",
+          "L3",
+          "L4",
+          "L5",
+          "L6",
+          "L7"
+        ]
+      },
+      {
+        "id": "B2",
+        "label": "Sangeet and Jaggo",
+        "line_ids": [
+          "L8",
+          "L9",
+          "L10",
+          "L11",
+          "L12",
+          "L13",
+          "L14",
+          "L15",
+          "L16",
+          "L17"
+        ]
+      },
+      {
+        "id": "B3",
+        "label": "Moonrise and Wait",
+        "line_ids": [
+          "L18",
+          "L19",
+          "L20",
+          "L21",
+          "L22",
+          "L23",
+          "L24",
+          "L25",
+          "L26",
+          "L27"
+        ]
+      },
+      {
+        "id": "B4",
+        "label": "Phone call and relief",
+        "line_ids": [
+          "L28",
+          "L29",
+          "L30",
+          "L31"
+        ]
+      }
+    ],
+    "premise_tags": [
+      "second chance",
+      "tradition vs modernity",
+      "emotional connection",
+      "ritual suspense"
+    ],
+    "devanagari_language": "none"
+  },
+  "summary": {
+    "status": "ok",
+    "notes": [],
+    "text": "Preet, a new bride, waits for her husband Harry on Karva Chauth, fearing he won't come. She checks her phone, sees no signal, and watches the moon rise. When she finally hears Harry's voice, she learns he is bathing, not at home. The script ends with her lowering her chhanni as the diya flickers out, leaving the question of whether she will believe him or not.",
+    "line_ids": [
+      "L3",
+      "L4",
+      "L14",
+      "L25",
+      "L29",
+      "L31"
+    ]
+  },
+  "episodes": {
+    "status": "ok",
+    "notes": [],
+    "items": [
+      {
+        "number": 1,
+        "one_line_summary": "Preet waits for Harry on Karva Chauth, fearing he won't come, as the moon rises and her phone finally connects to him.",
+        "scene_tension": [
+          {
+            "scene_id": "S1",
+            "tension": 3
+          },
+          {
+            "scene_id": "S2",
+            "tension": 4
+          },
+          {
+            "scene_id": "S3",
+            "tension": 9
+          }
+        ],
+        "ending_line_ids": [
+          "L29",
+          "L30",
+          "L31"
+        ],
+        "ending_hook_strength": 2,
+        "ending_rationale": "The ending resolves Preet's anxiety with a phone call, satisfying closure but lacking emotional or plot escalation to drive viewer engagement.",
+        "cliffhanger_candidate_line_id": "L31"
+      }
+    ]
+  },
+  "emotion": {
+    "status": "partial",
+    "notes": [
+      "emotion: 0 invalid items dropped after one repair round"
+    ],
+    "dominant": [
+      {
+        "emotion": "joy",
+        "share": 0.4
+      },
+      {
+        "emotion": "fear",
+        "share": 0.3
+      },
+      {
+        "emotion": "trust",
+        "share": 0.3
+      }
+    ],
+    "arc": [],
+    "arc_shape": "fall_rise",
+    "narrative": "The morning scene (L1-L7) opens with joy and trust as Preet and Beeji share a warm, familiar bond, with Beeji expressing faith in Harry's return (L7). The sangeet (L8-L17) amplifies joy and surprise as the women laugh and celebrate, with Dolly's teasing (L10) and the jaggo procession (L16) creating a vibrant, communal energy. As the moon rises (L18-L27), fear and sadness grow as Preet waits in silence, her dry lips (L26) and the empty stairs (L26) reflect her anxiety and isolation. The phone call (L28-L31) brings relief and joy, with Preet's voice (L29) confirming Harry's presence, ending with a flicker of hope as the diya dies (L31)."
+  },
+  "engagement": {
+    "status": "ok",
+    "notes": [],
+    "factors": [
+      {
+        "name": "opening_hook",
+        "evidence_line_ids": [
+          "L1",
+          "L3",
+          "L4"
+        ],
+        "weakness": "L3 is generic and vague, offering no urgent question tied to Preet's personal stakes",
+        "rationale": "The hook fails to create immediate tension or a specific question the viewer needs to answer",
+        "score": 2.0,
+        "weight": 0.2,
+        "run_scores": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "central_conflict",
+        "evidence_line_ids": [
+          "L14",
+          "L23",
+          "L24"
+        ],
+        "weakness": "L23 is a moral assertion, not dramatized opposition; no clear want or blockage shown in action",
+        "rationale": "No personal opposition with clear wants; conflict is stated, not dramatized through action or dialogue",
+        "score": 3.0,
+        "weight": 0.15,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "tension_escalation",
+        "evidence_line_ids": [
+          "L14",
+          "L15",
+          "L25"
+        ],
+        "weakness": "L25 is a delayed reveal; pressure stalls after the initial laughter and phone check",
+        "rationale": "Tension rises only once, then drops; no sustained build-up or reversal in exchanges",
+        "score": 3.0,
+        "weight": 0.15,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "cliffhanger_pull",
+        "evidence_line_ids": [
+          "L29",
+          "L30",
+          "L31"
+        ],
+        "weakness": "L31 is a flat reversal with no recontextualization; the viewer gains no new insight about Harry or the situation",
+        "rationale": "Ending reveals a phone call but doesn't reframe prior events or demand next episode",
+        "score": 3.0,
+        "weight": 0.15,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "stakes",
+        "evidence_line_ids": [
+          "L21",
+          "L22",
+          "L27"
+        ],
+        "weakness": "L21 is vague; Preet's loss is not tied to a concrete, personal consequence like family honour or marriage",
+        "rationale": "Stakes are abstract and not clearly linked to a personal loss or family reputation",
+        "score": 3.0,
+        "weight": 0.1,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "character_clarity",
+        "evidence_line_ids": [
+          "L3",
+          "L4",
+          "L20"
+        ],
+        "weakness": "Preet's wound is only hinted; no past hurt or clear motivation shown in dialogue",
+        "rationale": "No visible wound or past pain; characters lack distinct emotional drivers",
+        "score": 3.0,
+        "weight": 0.1,
+        "run_scores": [
+          3,
+          3,
+          2
+        ]
+      },
+      {
+        "name": "dialogue_quality",
+        "evidence_line_ids": [
+          "L3",
+          "L4",
+          "L10"
+        ],
+        "weakness": "L3 and L4 are expository; no subtext or sharp retorts in dialogue",
+        "rationale": "Lines are on-the-nose and lack character-specific subtext or Hinglish nuance",
+        "score": 3.0,
+        "weight": 0.1,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "pacing",
+        "evidence_line_ids": [
+          "L1",
+          "L2",
+          "L3"
+        ],
+        "weakness": "L1–L3 establish setup without moving conflict; no action-driven progression",
+        "rationale": "Opening beats are static; no scene advances the central conflict or tension",
+        "score": 3.0,
+        "weight": 0.05,
+        "run_scores": [
+          3,
+          3,
+          3
+        ]
+      }
+    ],
+    "overall": 4.5,
+    "confidence": 0.97,
+    "runs": 3,
+    "per_run_overall": [
+      4.5,
+      4.5,
+      4.2
+    ]
+  },
+  "cliffhanger": {
+    "status": "partial",
+    "notes": [
+      "cliffhanger: 0 invalid items dropped after one repair round"
+    ],
+    "line_id": "L31",
+    "quote": "Preet slowly lowers the chhanni. The diya on her thali flickers out.",
+    "technique": "reversal",
+    "why_it_works": "It reverses the expectation of Harry's presence, reveals he's not at the event, and recontextualizes the entire scene, the viewer must know who is really speaking and why.",
+    "strength": 4
+  },
+  "suggestions": {
+    "status": "ok",
+    "notes": [],
+    "items": [
+      {
+        "id": "G1",
+        "category": "hook",
+        "linked_factor": "opening_hook",
+        "target_line_ids": [
+          "L1",
+          "L3",
+          "L4"
+        ],
+        "issue": "L1-L3 lack immediate tension; L4's question is generic and not emotionally charged.",
+        "fix": "Anchor the hook in a specific, urgent need that creates viewer curiosity about Harry's absence.",
+        "example_rewrite": "INT. DHILLON HAVELI, KITCHEN - DAWN (CLOSE ON PREET'S EYES)\\nL3: BEEJI: Kha le, puttar. Aaj suraj se chaand tak, paani ki ek boond bhi nahi.\\nL4: PREET: Beeji, mera pehla Karva Chauth hai... aur Harry nahi aa raha. Kya hua?",
+        "impact": "high"
+      },
+      {
+        "id": "G2",
+        "category": "emotion",
+        "linked_factor": "character_clarity",
+        "target_line_ids": [
+          "L4",
+          "L20",
+          "L27"
+        ],
+        "issue": "No visible emotional wound; characters lack past trauma or personal stakes tied to Harry's absence.",
+        "fix": "Introduce a past incident where Harry failed to show up, linking his absence to a family wound.",
+        "example_rewrite": "PREET: Beeji, mera pehla Karva Chauth hai... aur Harry ne pahle bhi chhod diya tha. Aaj woh bhi chhod raha hai.\\nL20: BEEJI: Chaand nikalne wala hai. Harry kahan hai? Woh aaj bhi nahi aa raha, jaise pahle baar.\\nL27: PREET: Beeji, ek baar aur try karti hoon... jaise pahle baar, jab woh bhi chhod gaya tha.",
+        "impact": "high"
+      },
+      {
+        "id": "G3",
+        "category": "cliffhanger",
+        "linked_factor": "cliffhanger_pull",
+        "target_line_ids": [
+          "L29",
+          "L30",
+          "L31"
+        ],
+        "issue": "Ending reveals a call but doesn't reframe prior events or create a need to watch next episode.",
+        "fix": "Reveal that the call is a lie, and Harry is not actually at home, setting up a contradiction that demands resolution.",
+        "example_rewrite": "PREET: (relieved) Harry! Kahan ho tum? Chaand nikal aaya hai.\\nL30: WOMAN: Harry naha raha hai. Aap kaun bol rahi hain? Aapki baat nahi, woh aaj bhi nahi aa raha.\\nL31: PREET: (stares at phone, then at the stairs) Ek baar... ek baar woh nahi aa raha. Aaj bhi nahi.",
+        "impact": "high"
+      },
+      {
+        "id": "G4",
+        "category": "conflict",
+        "linked_factor": "central_conflict",
+        "target_line_ids": [
+          "L14",
+          "L15",
+          "L16"
+        ],
+        "issue": "No dramatized opposition; characters react passively to Harry's absence without active resistance.",
+        "fix": "Make the women physically and emotionally resist the procession, showing their internal conflict.",
+        "example_rewrite": "PREET: (staring at phone) Harry ka phone switch off aa raha hai. Aaj bhi nahi aa raha.\\nL15: DOLLY: Bhabhi, jaggo nikalne wali hai. Par kya? Pehle bhi nahi nikal gayi thi.\\nL16: (women hesitate, one drops the gaagar) DOLLY: Jaggo aayi aa! Jaagde raho! Par hume koi nahi dekha...",
+        "impact": "medium"
+      },
+      {
+        "id": "G5",
+        "category": "dialogue",
+        "linked_factor": "dialogue_quality",
+        "target_line_ids": [
+          "L3",
+          "L10",
+          "L23"
+        ],
+        "issue": "Lines are flat and generic; lack Hinglish nuance or emotional subtext behind words.",
+        "fix": "Inject Hinglish slang and emotional subtext to reveal character dynamics and tensions.",
+        "example_rewrite": "BEEJI: Kha le, puttar. Aaj suraj se chaand tak, paani ki ek boond bhi nahi. Aaj bhi woh nahi aa raha, jaise pahle baar.\\nL10: DOLLY: Naach na jaane aangan tedha, Pai ji! Aaj bhi woh nahi aaya, jaise pahle baar.\\nL23: BEEJI: Video call pe vrat nahi khulta, Jassi. Mard saamne hona chahiye. Woh aaj bhi nahi aa raha, jaise pahle baar.",
+        "impact": "medium"
+      },
+      {
+        "id": "G6",
+        "category": "pacing",
+        "linked_factor": "pacing",
+        "target_line_ids": [
+          "L1",
+          "L2",
+          "L3"
+        ],
+        "issue": "Opening is static; no action or movement that advances tension or character state.",
+        "fix": "Start with a physical action that shows tension, like a hand trembling or a plate slipping, to initiate motion.",
+        "example_rewrite": "INT. DHILLON HAVELI, KITCHEN - DAWN (CLOSE ON PREET'S HANDS)\\nL2: (hand shakes slightly) PREET: (whispers) Harry... aaj bhi nahi aa raha.\\nL3: BEEJI: Kha le, puttar. Aaj suraj se chaand tak, paani ki ek boond bhi nahi. Aaj bhi woh nahi aa raha.",
+        "impact": "medium"
+      }
+    ]
+  },
+  "analytics": {
+    "status": "ok",
+    "notes": [],
+    "runtime_s_by_episode": {
+      "1": {
+        "page_based": 120.0,
+        "word_based": 105.6
+      }
+    },
+    "runtime_s_total": {
+      "page_based": 120.0,
+      "word_based": 105.6
+    },
+    "dialogue_share": [
+      {
+        "speaker": "PREET",
+        "lines": 6,
+        "words": 67,
+        "share": 0.376
+      },
+      {
+        "speaker": "BEEJI",
+        "lines": 5,
+        "words": 52,
+        "share": 0.292
+      },
+      {
+        "speaker": "DOLLY",
+        "lines": 5,
+        "words": 29,
+        "share": 0.163
+      },
+      {
+        "speaker": "JASSI",
+        "lines": 2,
+        "words": 21,
+        "share": 0.118
+      },
+      {
+        "speaker": "WOMAN",
+        "lines": 1,
+        "words": 9,
+        "share": 0.051
+      }
+    ],
+    "network_nodes": [
+      "PREET",
+      "BEEJI",
+      "DOLLY",
+      "JASSI",
+      "WOMAN"
+    ],
+    "network_edges": [
+      {
+        "a": "BEEJI",
+        "b": "PREET",
+        "weight": 7
+      },
+      {
+        "a": "DOLLY",
+        "b": "PREET",
+        "weight": 5
+      },
+      {
+        "a": "DOLLY",
+        "b": "JASSI",
+        "weight": 4
+      },
+      {
+        "a": "JASSI",
+        "b": "PREET",
+        "weight": 3
+      },
+      {
+        "a": "BEEJI",
+        "b": "JASSI",
+        "weight": 2
+      },
+      {
+        "a": "BEEJI",
+        "b": "DOLLY",
+        "weight": 2
+      },
+      {
+        "a": "PREET",
+        "b": "WOMAN",
+        "weight": 2
+      },
+      {
+        "a": "BEEJI",
+        "b": "WOMAN",
+        "weight": 1
+      },
+      {
+        "a": "DOLLY",
+        "b": "WOMAN",
+        "weight": 1
+      },
+      {
+        "a": "JASSI",
+        "b": "WOMAN",
+        "weight": 1
+      }
+    ],
+    "scene_stats": {
+      "count": 3.0,
+      "avg_lines": 10.3,
+      "dialogue_action_ratio": 2.11
+    },
+    "time_to_first_conflict_s": 45.0
+  },
+  "continuity": {
+    "status": "ok",
+    "notes": [],
+    "issues": [
+      {
+        "type": "timeline",
+        "line_ids": [
+          "L4",
+          "L14"
+        ],
+        "explanation": "Preet says her first Karva Chauth is today and that Harry promised to arrive before the moon rises. But at L14, she checks her phone and sees Harry's phone is off, contradicting the promise. Severity: high",
+        "severity": "high"
+      }
+    ],
+    "name_variant_candidates": []
+  },
+  "alternatives": {
+    "status": "ok",
+    "notes": [],
+    "targets": [
+      {
+        "id": "T1",
+        "kind": "opening",
+        "episode": 1,
+        "factor": "opening_hook",
+        "replaces_line_ids": [
+          "L2",
+          "L3",
+          "L4"
+        ],
+        "variants": [
+          {
+            "id": "A1.1",
+            "strategy": "in_medias_res",
+            "elements": [
+              {
+                "id": "A1.1.1",
+                "kind": "action",
+                "speaker": null,
+                "text": "Preet stumbles, phone dead. Beeji grabs her wrist. L22: Fikar na kar, Preet. Video call pe chhanni se dekh lena."
+              },
+              {
+                "id": "A1.1.2",
+                "kind": "dialogue",
+                "speaker": "BEEJI",
+                "text": "Aaj bhi chaand nikalne se pehle, nahi aaya? L7: Mere Harry ka promise? Rab rakha."
+              },
+              {
+                "id": "A1.1.3",
+                "kind": "action",
+                "speaker": null,
+                "text": "The dhol blares. Jassi stumbles into the courtyard. L13: Shava shava! Balle balle!"
+              }
+            ],
+            "replaces_line_ids": [
+              "L2",
+              "L3",
+              "L4"
+            ],
+            "pays_off_line_ids": [],
+            "rationale": "Starts mid-action with tension; viewer jumps into urgency without setup.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "original",
+              "variant"
+            ],
+            "score_before": 3.0,
+            "score_after": 4.0,
+            "delta": 1.0,
+            "coherence_ok": true,
+            "coherence_reason": "L22 poses a direct, urgent question about Harry's absence, tied to Preet's emotional stakes. It appears early and creates immediate tension. L7 is vague and delayed. | L22: Fikar na kar, Preet. Video call pe chhanni se dekh lena. establishes urgent tension with a specific question tied to Preet's stakes. L7 and L13 add intrigue but arrive later. Hook is clear, urgent, and character-driven.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A1.3",
+            "strategy": "conflict_first_line",
+            "elements": [
+              {
+                "id": "A1.3.1",
+                "kind": "dialogue",
+                "speaker": "BEEJI",
+                "text": "Harry ne kaha tha, chaand nikalne se pehle aa jayega. Ab kya karein? L7: Mere Harry ka promise? Rab rakha."
+              },
+              {
+                "id": "A1.3.2",
+                "kind": "dialogue",
+                "speaker": "PREET",
+                "text": "Maine usne promise kiya tha. Ab woh kaha? L6: Harry ne promise kiya hai, chaand nikalne se pehle aa jayega."
+              }
+            ],
+            "replaces_line_ids": [
+              "L2",
+              "L3",
+              "L4"
+            ],
+            "pays_off_line_ids": [],
+            "rationale": "Immediate clash establishes tension; sets up power dynamics between characters.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "original",
+              "variant"
+            ],
+            "score_before": 3.0,
+            "score_after": 4.0,
+            "delta": 1.0,
+            "coherence_ok": false,
+            "coherence_reason": "L6 in X poses a specific, urgent question about Harry's arrival tied to Preet's vow; stakes are clear. L7 in Y is vague and delayed. Hook in X is stronger and earlier. | EXCERPT X opens with a direct, urgent question: 'Ab kya karein? L7: Mere Harry ka promise? Rab rakha.' This creates immediate tension and stakes tied to a character's emotional commitment. L6 and L7 establish a specific, urgent query with clear emotional weight.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          }
+        ],
+        "dropped": [
+          "mystery_question (length)"
+        ]
+      },
+      {
+        "id": "T2",
+        "kind": "ending",
+        "episode": 1,
+        "factor": "cliffhanger_pull",
+        "replaces_line_ids": [
+          "L29",
+          "L30",
+          "L31"
+        ],
+        "variants": [
+          {
+            "id": "A2.1",
+            "strategy": "revelation",
+            "elements": [
+              {
+                "id": "A2.1.1",
+                "kind": "dialogue",
+                "speaker": "WOMAN",
+                "text": "Harry naha raha hai. Aap kaun bol rahi hain? (Harry is dead. The phone is his mother's.)"
+              },
+              {
+                "id": "A2.1.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Preet stares at the empty stairs, then at her mother-in-law, who slowly closes her eyes."
+              }
+            ],
+            "replaces_line_ids": [
+              "L29",
+              "L30",
+              "L31"
+            ],
+            "pays_off_line_ids": [
+              "L6",
+              "L20",
+              "L25"
+            ],
+            "rationale": "Harry's promise is revealed as a lie; earlier lines about his absence now make sense as a setup for deception.",
+            "pairwise": "win",
+            "judge_votes": [
+              "variant",
+              "variant"
+            ],
+            "score_before": 3.0,
+            "score_after": 3.0,
+            "delta": 0.0,
+            "coherence_ok": true,
+            "coherence_reason": "Y's ending reveals Harry is dead, recontextualizing the entire setup and demanding continuation. The line 'Harry naha raha hai. Aap kaun bol rahi hain?' is a sharp reversal with high stakes. Line ID: L12. | X ends with a reveal that contradicts prior setup; Preet's call answers as a dead voice, recontextualizing Harry's absence. Y ends with a false hope, resolving the call as a misheard line. X has higher stakes and reversal. Line IDs: L12, L13, L14 in X; L12, L13, L14 in Y.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A2.2",
+            "strategy": "reversal",
+            "elements": [
+              {
+                "id": "A2.2.1",
+                "kind": "dialogue",
+                "speaker": "PREET",
+                "text": "Harry? Jassi, tumne highway pe kya kya kiya?"
+              },
+              {
+                "id": "A2.2.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Jassi slowly pulls out a phone, shows a map with a red mark at the highway."
+              }
+            ],
+            "replaces_line_ids": [
+              "L29",
+              "L30",
+              "L31"
+            ],
+            "pays_off_line_ids": [
+              "L10",
+              "L11",
+              "L14",
+              "L15"
+            ],
+            "rationale": "Jassi's joke about the contractor reveals he's the one who blocked the highway, flipping the plan and making Harry's absence a cover-up.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "original",
+              "variant"
+            ],
+            "score_before": 3.0,
+            "score_after": 3.0,
+            "delta": 0.0,
+            "coherence_ok": false,
+            "coherence_reason": "X ends with a reveal that recontextualizes Harry's absence, his phone call shows he's on highway, not missing. It shifts stakes and demands continuation. Y ends with a mild question about highway actions, no reversal or recontextualization. Line IDs: L12 (X), L13 (Y). | X ends with a reveal that recontextualizes Harry's absence, his presence is now in a bath, not at the rooftop. This sharp reversal demands continuation. Y ends with a simple exchange, no reversal, low stakes. L12 in X is key; L13 in Y is neutral.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A2.3",
+            "strategy": "threat",
+            "elements": [
+              {
+                "id": "A2.3.1",
+                "kind": "dialogue",
+                "speaker": "WOMAN",
+                "text": "Harry naha raha hai. Aap kaun bol rahi hain? (He's in a house. The woman is his sister.)"
+              },
+              {
+                "id": "A2.3.2",
+                "kind": "action",
+                "speaker": null,
+                "text": "Preet's hand trembles as she lowers the chhanni. The diya flickers and dies."
+              }
+            ],
+            "replaces_line_ids": [
+              "L29",
+              "L30",
+              "L31"
+            ],
+            "pays_off_line_ids": [
+              "L24",
+              "L28",
+              "L30"
+            ],
+            "rationale": "The phone call reveals a hidden danger, Harry is being held, and Preet is now in danger of being targeted.",
+            "pairwise": "loss",
+            "judge_votes": [
+              "original",
+              "original"
+            ],
+            "score_before": 3.0,
+            "score_after": 3.0,
+            "delta": 0.0,
+            "coherence_ok": false,
+            "coherence_reason": "X ends with a reveal that recontextualizes Harry's absence, his sister answers, not Harry, shifting stakes and demanding continuation. Y's ending is weaker; the reveal is predictable and lacks emotional weight. Line IDs: L12, L13, L14 in X; L12, L13, L14 in Y. | X ends with a dead-end reveal: Harry is in a house, not present. The twist is low-stakes and predictable. Y ends with a sharp reversal: Preet thinks Harry is present, but is answered by his sister. This recontextualizes the entire setup and demands next episode. Line IDs: L12, L13, L14 in X; L12, L13, L14 in Y.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          }
+        ],
+        "dropped": []
+      }
+    ]
+  },
+  "rating": {
+    "status": "ok",
+    "notes": [],
+    "rating": "U/A 7+",
+    "descriptors": [
+      "Discrimination",
+      "Theme"
+    ],
+    "findings": [
+      {
+        "category": "discrimination",
+        "severity": "mild",
+        "mode": "referenced",
+        "treatment": "neutral",
+        "substance": "none",
+        "line_ids": [
+          "L3"
+        ],
+        "rationale": "Beeji's statement about 'mehendi wale haath' reflects a gendered expectation, not endorsed or condemned.",
+        "band": "U"
+      },
+      {
+        "category": "theme",
+        "severity": "mild",
+        "mode": "depicted",
+        "treatment": "neutral",
+        "substance": "none",
+        "line_ids": [
+          "L21",
+          "L22",
+          "L23",
+          "L24",
+          "L25",
+          "L26",
+          "L27",
+          "L28",
+          "L29",
+          "L30",
+          "L31"
+        ],
+        "rationale": "Women wait for moon, phone call fails, then connects, emotional tension, absence of Harry, but no trauma or abuse.",
+        "band": "U/A 7+"
+      }
+    ],
+    "rating_drivers": [
+      1
+    ],
+    "access_controls": [],
+    "notices": [],
+    "legal_risk_flags": [],
+    "lower_rating_edits": [
+      {
+        "driver": "theme/mild",
+        "line_ids": [
+          "L21",
+          "L22",
+          "L23",
+          "L24"
+        ],
+        "edit": "Replace emotional tension with neutral observation of absence without implying distress or trauma",
+        "rewrite": "Harry nahi hai, Beeji. Highway pe jam hai, last message mein likha tha."
+      }
+    ],
+    "lower_rating_band": "U",
+    "prescan": {},
+    "disclaimer": "Estimate to support editors. Not a certification and not legal advice. Knowledge files are unverified until reviewed."
+  },
+  "localization": {
+    "status": "ok",
+    "notes": [
+      "localization[ta]: 0 invalid items dropped after one repair round"
+    ],
+    "source_languages": {
+      "en": 0.509,
+      "hi-Latn": 0.491
+    },
+    "code_mix_ratio": 0.069,
+    "source_subtitle_flags": [
+      {
+        "line_id": "L4",
+        "flags": [
+          "needs 3 lines of 42 chars (max 2)"
+        ]
+      }
+    ],
+    "targets": [
+      {
+        "lang": "hi",
+        "status": "ok",
+        "fit_score": 3,
+        "fit_rationale": "The script contains several regional and cultural references that require adaptation for a Hindi-speaking audience, especially in idioms and food terms. While the core festival rituals are recognizable, the humor and speech patterns are Punjabi-specific and may not translate well without modification.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2"
+            ],
+            "type": "food",
+            "severity": "medium",
+            "explanation": "'Sargi' and 'mathri' are regional foods not widely recognized in Hindi-speaking markets; 'sargi' is a specific Punjabi dish, and 'mathri' is a term used in rural Punjab but not standard in Hindi cuisine.",
+            "adaptation": "सरगी और माथरी खाएं"
+          },
+          {
+            "line_ids": [
+              "L3"
+            ],
+            "type": "culture_bound_reference",
+            "severity": "medium",
+            "explanation": "'Puttar' is a colloquial term for daughter-in-law in Punjabi, not used in standard Hindi; it may be perceived as disrespectful or outdated in a Hindi audience.",
+            "adaptation": "बेटी की बेटी"
+          },
+          {
+            "line_ids": [
+              "L10"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "high",
+            "explanation": "'Naach na jaane aangan tedha, Pai ji!' is a Punjabi-origin idiom with humor and regional flavor; 'Pai ji' is a respectful term for elder, but 'aangan tedha' is not idiomatic in Hindi and may not translate well to a Hindi audience.",
+            "adaptation": "नाच नहीं जाने आंगन तेहा, पाई जी!"
+          },
+          {
+            "line_ids": [
+              "L13"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "high",
+            "explanation": "'Shava shava, balle balle' is a Punjabi folk idiom used for playful teasing; it lacks a direct Hindi equivalent and may not resonate with Hindi-speaking audiences.",
+            "adaptation": "शव शव, बल्ले बल्ले"
+          }
+        ],
+        "transcreations": [
+          {
+            "line_id": "L2",
+            "source_text": "Still dark outside. PREET (24), a new bride with fresh chooda on her wrists, eats sargi with her mother-in-law BEEJI (62). Mathri, pheniyan, a glass of milk.",
+            "target_text": "सरगी और माथरी खाएं",
+            "back_translation": "Eat sargi and mathri",
+            "notes": "Standardizes regional food terms into widely understood Hindi expressions.",
+            "subtitle_flags": [
+              "event 10.8s exceeds 7.0s: split it"
+            ]
+          },
+          {
+            "line_id": "L31",
+            "source_text": "Preet slowly lowers the chhanni. The diya on her thali flickers out.",
+            "target_text": "हर्री नहा रहा है",
+            "back_translation": "Harry is bathing",
+            "notes": "Maintains the festival ritual context while using natural Hindi phrasing.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L10",
+            "source_text": "Naach na jaane aangan tedha, Pai ji!",
+            "target_text": "नाच नहीं जाने आंगन तेहा, पाई जी!",
+            "back_translation": "Can't dance in the courtyard, Paaji!",
+            "notes": "Preserves the humor and regional tone with a Hindi-appropriate idiom.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L13",
+            "source_text": "Shava shava! Balle balle!",
+            "target_text": "शव शव, बल्ले बल्ले",
+            "back_translation": "Shava shava, balle balle",
+            "notes": "Keeps the playful tone but uses a Hindi-acceptable form of the idiom.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L15",
+            "source_text": "Bhabhi, jaggo nikalne wali hai. Chalo, gaagar uthao!",
+            "target_text": "जग्गो निकल रही है",
+            "back_translation": "Jaggo is coming",
+            "notes": "Adapts the ritual name to natural Hindi usage in context.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L22",
+            "source_text": "Fikar na kar, Preet. Video call pe chhanni se dekh lena.",
+            "target_text": "चहनी से देख लें",
+            "back_translation": "See via chhanni",
+            "notes": "Replaces the video call reference with a more culturally grounded ritual action.",
+            "subtitle_flags": []
+          }
+        ]
+      },
+      {
+        "lang": "ta",
+        "status": "partial",
+        "fit_score": 3,
+        "fit_rationale": "The script contains multiple culture-specific rituals, foods, and honorifics that are not part of Tamil cultural lexicon. While the core emotional arc is universal, the premise relies on North Indian traditions that have no parallel in Tamil society. Without transcreation, the script would feel alien and disconnected to Tamil audiences.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2"
+            ],
+            "type": "food",
+            "severity": "high",
+            "explanation": "Sargi and mathri are North Indian foods not familiar in Tamil households; 'sargi' is a specific dish with no local equivalent and may confuse or alienate Tamil audiences.",
+            "adaptation": "idli, nee kozhukkupam"
+          },
+          {
+            "line_ids": [
+              "L3"
+            ],
+            "type": "culture_bound_reference",
+            "severity": "high",
+            "explanation": "'Puttar' is a Hindi term for daughter-in-law, not used in Tamil; it carries a caste-based social weight and is not part of Tamil familial address systems.",
+            "adaptation": "kuzhali"
+          },
+          {
+            "line_ids": [
+              "L4"
+            ],
+            "type": "festival_ritual",
+            "severity": "medium",
+            "explanation": "'Karva Chauth' and 'sangeet' are rituals from North India; Tamil audience has no cultural memory of these events, making the premise feel foreign and disconnected.",
+            "adaptation": "Pongal, thiruvizha"
+          },
+          {
+            "line_ids": [
+              "L10"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "medium",
+            "explanation": "'Naach na jaane aangan tedha, Pai ji!' uses Hindi-style humor and a non-Tamil phrase; 'Pai ji' is a respectful title not used in Tamil kinship structures.",
+            "adaptation": "Naach na kada, akkaiya!"
+          },
+          {
+            "line_ids": [
+              "L13"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "medium",
+            "explanation": "'Shava shava, balle balle' is a Hindi-originated bhangra chant with no Tamil equivalent; it lacks local linguistic rhythm and cultural resonance.",
+            "adaptation": "Ponni ponni, kattu kattu"
+          },
+          {
+            "line_ids": [
+              "L15"
+            ],
+            "type": "festival_ritual",
+            "severity": "medium",
+            "explanation": "'Jaggo' is a North Indian ritual with no Tamil parallel; the concept of a 'jaggo' procession is unfamiliar and may not resonate with Tamil audience.",
+            "adaptation": "Pongal puvvai"
+          },
+          {
+            "line_ids": [
+              "L19"
+            ],
+            "type": "festival_ritual",
+            "severity": "medium",
+            "explanation": "'Chhanni' is a North Indian ritual object; Tamil culture uses 'thiruvizha' or 'kuzhali' as marriage symbols, not chhanni.",
+            "adaptation": "kuzhali"
+          },
+          {
+            "line_ids": [
+              "L24"
+            ],
+            "type": "food",
+            "severity": "medium",
+            "explanation": "'Sarson da saag' and 'makki di roti' are North Indian dishes; Tamil audiences are familiar with idli, dosa, filter coffee, not these items.",
+            "adaptation": "idli, nee kozhukkupam, filter coffee"
+          },
+          {
+            "line_ids": [
+              "L31"
+            ],
+            "type": "festival_ritual",
+            "severity": "high",
+            "explanation": "'Chhanni' is a ritual object used in North Indian weddings; Tamil audience does not recognize this symbol or its function.",
+            "adaptation": "kuzhali"
+          }
+        ],
+        "transcreations": []
+      },
+      {
+        "lang": "te",
+        "status": "ok",
+        "fit_score": 3,
+        "fit_rationale": "The script relies on North Indian cultural rituals and food that are unfamiliar to Telugu audiences. Multiple festival and food references require transcreation or replacement to align with Telugu cultural markers. Without adaptation, the premise and emotional core will not resonate.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2"
+            ],
+            "type": "food",
+            "severity": "high",
+            "explanation": "Sargi and mathri are North Indian foods not familiar to Telugu audiences; 'sargi' is not a recognized dish in Telugu cuisine.",
+            "adaptation": "పులిహోరా మరియు పెసరాట్టు తాగిన మాంసం తో పెట్టిన మాంసం"
+          },
+          {
+            "line_ids": [
+              "L3"
+            ],
+            "type": "culture_bound_reference",
+            "severity": "high",
+            "explanation": "'Puttar' is a Hindi term for daughter-in-law, not used in Telugu; 'Beeji' is a caste-specific honorific not common in Telugu-speaking regions.",
+            "adaptation": "అందరికి పెద్ద పెద్ద మాటలు చెప్పాలి"
+          },
+          {
+            "line_ids": [
+              "L4"
+            ],
+            "type": "festival_ritual",
+            "severity": "high",
+            "explanation": "'Karva Chauth' and 'Sangeet' are unfamiliar festivals in Telugu culture; Telugu audiences know Sankranti, Ugadi, Bathukamma, not Karva Chauth.",
+            "adaptation": "ఉగాడి సంవత్సరం నా పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పె"
+          },
+          {
+            "line_ids": [
+              "L10"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "medium",
+            "explanation": "'Naach na jaane aangan tedha' is a Hindi idiom not used in Telugu; 'Pai ji' is a caste-based honorific not common in Telugu culture.",
+            "adaptation": "నాచ్ చేయకుండా అంగన్ తెద్దా"
+          },
+          {
+            "line_ids": [
+              "L13"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "medium",
+            "explanation": "'Shava shava, balle balle' is a Hindi-style playful phrase not used in Telugu; lacks regional flavor and punch.",
+            "adaptation": "స్యావా స్యావా, బాల్లు బాల్లు"
+          },
+          {
+            "line_ids": [
+              "L15"
+            ],
+            "type": "festival_ritual",
+            "severity": "medium",
+            "explanation": "'Jaggo' is a North Indian ritual not known in Telugu culture; Telugu audiences have no equivalent festival.",
+            "adaptation": "ఉగాడి పెట్టిన పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద"
+          },
+          {
+            "line_ids": [
+              "L24"
+            ],
+            "type": "food",
+            "severity": "medium",
+            "explanation": "'Sarson da saag' and 'makki di roti' are North Indian foods; Telugu audiences are familiar with pulihora, pesarattu, biryani, not saag and roti.",
+            "adaptation": "పులిహోరా మరియు పెసరాట్టు తాగిన మాంసం తో పెట్టిన మాంసం"
+          }
+        ],
+        "transcreations": [
+          {
+            "line_id": "L2",
+            "source_text": "Still dark outside. PREET (24), a new bride with fresh chooda on her wrists, eats sargi with her mother-in-law BEEJI (62). Mathri, pheniyan, a glass of milk.",
+            "target_text": "పులిహోరా మరియు పెసరాట్టు తాగిన మాంసం తో పెట్టిన మాంసం",
+            "back_translation": "Pulihora and pesarattu with meat served with rice",
+            "notes": "Replaces North Indian food with Telugu regional food; maintains cultural authenticity.",
+            "subtitle_flags": [
+              "event 10.8s exceeds 7.0s: split it"
+            ]
+          },
+          {
+            "line_id": "L31",
+            "source_text": "Preet slowly lowers the chhanni. The diya on her thali flickers out.",
+            "target_text": "హర్రీ నాహారు ఉన్నాడు. మీ కాంపెనీ ను చెప్పాలి",
+            "back_translation": "Harry is bathing. You should tell me",
+            "notes": "Adapts the line to Telugu context; replaces 'chhanni' with 'kāmpenī' (a common Telugu term for a family member or relative).",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L3",
+            "source_text": "Kha le, puttar. Aaj suraj se chaand tak, paani ki ek boond bhi nahi.",
+            "target_text": "అందరికి పెద్ద పెద్ద మాటలు చెప్పాలి",
+            "back_translation": "You should speak big words to everyone",
+            "notes": "Replaces 'puttar' with a culturally neutral phrase; avoids caste-specific honorifics.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L10",
+            "source_text": "Naach na jaane aangan tedha, Pai ji!",
+            "target_text": "నాచ్ చేయకుండా అంగన్ తెద్దా",
+            "back_translation": "Don't dance, the house is too big",
+            "notes": "Transcreates the idiom into Telugu with regional flavor; uses local speech pattern.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L13",
+            "source_text": "Shava shava! Balle balle!",
+            "target_text": "స్యావా స్యావా, బాల్లు బాల్లు",
+            "back_translation": "Shava shava, balle balle",
+            "notes": "Uses Telugu-style playful phrase; maintains humor and rhythm.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L15",
+            "source_text": "Bhabhi, jaggo nikalne wali hai. Chalo, gaagar uthao!",
+            "target_text": "ఉగాడి పెట్టిన పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద పెద్ద",
+            "back_translation": "Ugadi is celebrated with big events",
+            "notes": "Replaces 'jaggo' with a Telugu festival; maintains cultural relevance.",
+            "subtitle_flags": [
+              "needs 12 lines of 42 chars (max 2)",
+              "reading speed 130 cps exceeds 17 cps"
+            ]
+          }
+        ]
+      }
+    ],
+    "disclaimer": "Machine transcreation. Native-speaker review required."
+  },
+  "market": {
+    "status": "ok",
+    "notes": [],
+    "comps": [
+      {
+        "title": "Jab Harry Met Sejal",
+        "year": 2017,
+        "language": "Hindi",
+        "rating": 5.1,
+        "votes": 24566,
+        "similarity": 0.557,
+        "why_similar": "Preet and Harry are a couple; Harry is absent, waiting for her on Karva Chauth like in the film.",
+        "differentiator": "Script focuses on emotional wait and doubt, not a narrative of love or conflict.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Jab_Harry_Met_Sejal"
+      },
+      {
+        "title": "Karle Pyaar Karle",
+        "year": 2014,
+        "language": "Hindi",
+        "rating": 2.4,
+        "votes": 174,
+        "similarity": 0.56,
+        "why_similar": "Both feature Preet as a central character in a romantic, emotional relationship with a male figure.",
+        "differentiator": "Script centers on Karva Chauth ritual and emotional tension, not rebellion or games.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Karle_Pyaar_Karle"
+      },
+      {
+        "title": "Farhana (film)",
+        "year": 2023,
+        "language": "Tamil",
+        "rating": 6.3,
+        "votes": 901,
+        "similarity": 0.605,
+        "why_similar": "Women wait for a man, family tension, and emotional strain during a ritual event.",
+        "differentiator": "Script is ritual-based with moon and waiting, not financial or family crisis.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Farhana_(film)"
+      },
+      {
+        "title": "Paper Boy",
+        "year": 2018,
+        "language": "Telugu",
+        "rating": 6.4,
+        "votes": 494,
+        "similarity": 0.607,
+        "why_similar": "A woman waits for a man, emotional connection, and a ritual-like moment of hope.",
+        "differentiator": "Script is grounded in cultural ritual, not a diary or life purpose journey.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Paper_Boy"
+      },
+      {
+        "title": "Do Deewane Seher Mein",
+        "year": 2026,
+        "language": "Hindi",
+        "rating": 6.1,
+        "votes": 6185,
+        "similarity": 0.602,
+        "why_similar": "A couple faces emotional struggles, but script focuses on ritual and waiting, not confidence issues.",
+        "differentiator": "Script is about waiting for a partner during a festival, not self-confidence or marriage fears.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Do_Deewane_Seher_Mein"
+      }
+    ],
+    "originality_flag": false,
+    "originality_note": "",
+    "tropes": [
+      {
+        "trope_id": "scheming_in_law",
+        "name": "Scheming in-law",
+        "line_ids": [
+          "L3",
+          "L7",
+          "L23"
+        ],
+        "rationale": "Beeji opposes video call, insists face-to-face, showing traditional in-law control over ritual.",
+        "confidence": 0.98,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "dowry_harassment",
+        "name": "Dowry harassment",
+        "line_ids": [
+          "L3",
+          "L4",
+          "L5"
+        ],
+        "rationale": "Beeji emphasizes no water, links to bride's hunger, reflects dowry-related pressure on new bride.",
+        "confidence": 0.92,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "sacrificial_love",
+        "name": "Sacrificial love",
+        "line_ids": [
+          "L26",
+          "L27",
+          "L28"
+        ],
+        "rationale": "Preet waits, calls repeatedly, shows emotional sacrifice for Harry's return.",
+        "confidence": 0.85,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "forced_marriage",
+        "name": "Forced marriage",
+        "line_ids": [
+          "L6",
+          "L14",
+          "L15"
+        ],
+        "rationale": "Harry's promise, jaggo procession, shows marriage ritual enforced by family expectations.",
+        "confidence": 0.78,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "hidden_identity",
+        "name": "Hidden identity",
+        "line_ids": [
+          "L16",
+          "L17",
+          "L18"
+        ],
+        "rationale": "Jaggi and others perform rituals, suggesting hidden roles in family hierarchy.",
+        "confidence": 0.65,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "revenge",
+        "name": "Revenge",
+        "line_ids": [
+          "L10",
+          "L11",
+          "L12"
+        ],
+        "rationale": "Jassi mocks contractor, shows resistance to family power, hints at hidden anger.",
+        "confidence": 0.55,
+        "momentum": "declining",
+        "as_of": "2026-10-19",
+        "stale": false
+      }
+    ],
+    "trend_snapshot_as_of": "2026-10-19"
+  },
+  "meta": {
+    "models_by_node": {
+      "continuity": "qwen3:4b-instruct-2507-q4_K_M",
+      "rating_classify": "qwen3:4b-instruct-2507-q4_K_M",
+      "story_map": "qwen3:4b-instruct-2507-q4_K_M",
+      "rating_lower": "qwen3:4b-instruct-2507-q4_K_M",
+      "episode_map": "qwen3:4b-instruct-2507-q4_K_M",
+      "emotion": "qwen3:4b-instruct-2507-q4_K_M",
+      "summary": "qwen3:4b-instruct-2507-q4_K_M",
+      "cliffhanger": "qwen3:4b-instruct-2507-q4_K_M",
+      "tropes": "qwen3:4b-instruct-2507-q4_K_M",
+      "engagement": "qwen3:4b-instruct-2507-q4_K_M",
+      "comps_explain": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_generate": "qwen3:4b-instruct-2507-q4_K_M",
+      "localization": "qwen3:4b-instruct-2507-q4_K_M",
+      "suggestions": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_rescore": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_judge": "qwen3:4b-instruct-2507-q4_K_M"
+    },
+    "prompt_versions": {
+      "_preamble": "1.1",
+      "alternatives_generate": "1.0",
+      "alternatives_judge": "1.0",
+      "alternatives_rescore": "1.2",
+      "cliffhanger": "1.1",
+      "comps_explain": "1.0",
+      "continuity": "1.2",
+      "emotion": "1.0",
+      "engagement": "1.2",
+      "episode_map": "1.1",
+      "localization": "1.2",
+      "rating_classify": "1.1",
+      "rating_lower": "1.0",
+      "story_map": "1.0",
+      "suggestions": "1.1",
+      "summary": "1.2",
+      "tropes": "1.0"
+    },
+    "knowledge_version": "07141e9787bc654b",
+    "tokens": {
+      "prompt": 86434,
+      "completion": 18129,
+      "calls": 41,
+      "repairs": 4
+    },
+    "cost_usd": 0.0,
+    "latency_ms_by_node": {
+      "continuity": 2682,
+      "rating_classify": 7235,
+      "story_map": 17207,
+      "rating_lower": 11867,
+      "episode_map": 4047,
+      "emotion": 25582,
+      "summary": 16330,
+      "cliffhanger": 57824,
+      "tropes": 10165,
+      "engagement": 123455,
+      "comps_explain": 55004,
+      "alternatives_generate": 76670,
+      "localization": 326821,
+      "suggestions": 55517,
+      "alternatives_rescore": 134675,
+      "alternatives_judge": 167798
+    },
+    "total_latency_ms": 490826,
+    "calls": [
+      {
+        "node": "continuity",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1484,
+        "completion_tokens": 76,
+        "latency_ms": 2682,
+        "prompt_eval_ms": 686,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "rating_classify",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2078,
+        "completion_tokens": 170,
+        "latency_ms": 7235,
+        "prompt_eval_ms": 543,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "story_map",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1814,
+        "completion_tokens": 411,
+        "latency_ms": 17207,
+        "prompt_eval_ms": 381,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "rating_lower",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1480,
+        "completion_tokens": 68,
+        "latency_ms": 11867,
+        "prompt_eval_ms": 175,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "episode_map[1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1676,
+        "completion_tokens": 159,
+        "latency_ms": 4047,
+        "prompt_eval_ms": 301,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "emotion",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1981,
+        "completion_tokens": 380,
+        "latency_ms": 13438,
+        "prompt_eval_ms": 483,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "summary",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1421,
+        "completion_tokens": 117,
+        "latency_ms": 16330,
+        "prompt_eval_ms": 133,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "emotion",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2476,
+        "completion_tokens": 353,
+        "latency_ms": 12144,
+        "prompt_eval_ms": 772,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "cliffhanger",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1503,
+        "completion_tokens": 83,
+        "latency_ms": 2254,
+        "prompt_eval_ms": 197,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "tropes",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2261,
+        "completion_tokens": 309,
+        "latency_ms": 10165,
+        "prompt_eval_ms": 647,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3395,
+        "completion_tokens": 559,
+        "latency_ms": 26726,
+        "prompt_eval_ms": 1395,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3395,
+        "completion_tokens": 568,
+        "latency_ms": 41238,
+        "prompt_eval_ms": 25,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3395,
+        "completion_tokens": 556,
+        "latency_ms": 55491,
+        "prompt_eval_ms": 25,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "cliffhanger",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1644,
+        "completion_tokens": 83,
+        "latency_ms": 55570,
+        "prompt_eval_ms": 266,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "comps_explain",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3862,
+        "completion_tokens": 272,
+        "latency_ms": 55004,
+        "prompt_eval_ms": 1716,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1884,
+        "completion_tokens": 324,
+        "latency_ms": 8032,
+        "prompt_eval_ms": 426,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[hi]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2383,
+        "completion_tokens": 771,
+        "latency_ms": 27255,
+        "prompt_eval_ms": 718,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "suggestions",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1919,
+        "completion_tokens": 1178,
+        "latency_ms": 55517,
+        "prompt_eval_ms": 437,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2310,
+        "completion_tokens": 445,
+        "latency_ms": 58864,
+        "prompt_eval_ms": 688,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[ta]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2412,
+        "completion_tokens": 1025,
+        "latency_ms": 65358,
+        "prompt_eval_ms": 739,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1481,
+        "completion_tokens": 85,
+        "latency_ms": 28560,
+        "prompt_eval_ms": 691,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[ta]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3511,
+        "completion_tokens": 1017,
+        "latency_ms": 31468,
+        "prompt_eval_ms": 1971,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.1.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2139,
+        "completion_tokens": 59,
+        "latency_ms": 31388,
+        "prompt_eval_ms": 1093,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[te]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2406,
+        "completion_tokens": 4000,
+        "latency_ms": 110434,
+        "prompt_eval_ms": 1262,
+        "repaired": false,
+        "stop_reason": "length"
+      },
+      {
+        "node": "alternatives_judge[A1.1.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2139,
+        "completion_tokens": 82,
+        "latency_ms": 110951,
+        "prompt_eval_ms": 1089,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[te]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2406,
+        "completion_tokens": 3361,
+        "latency_ms": 92306,
+        "prompt_eval_ms": 1254,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1465,
+        "completion_tokens": 91,
+        "latency_ms": 92017,
+        "prompt_eval_ms": 678,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.3.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2121,
+        "completion_tokens": 63,
+        "latency_ms": 2736,
+        "prompt_eval_ms": 1067,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.3.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2121,
+        "completion_tokens": 85,
+        "latency_ms": 3252,
+        "prompt_eval_ms": 1082,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1444,
+        "completion_tokens": 79,
+        "latency_ms": 2644,
+        "prompt_eval_ms": 676,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1787,
+        "completion_tokens": 383,
+        "latency_ms": 9774,
+        "prompt_eval_ms": 858,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1474,
+        "completion_tokens": 82,
+        "latency_ms": 2699,
+        "prompt_eval_ms": 686,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.1.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2137,
+        "completion_tokens": 75,
+        "latency_ms": 3042,
+        "prompt_eval_ms": 1085,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.1.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2137,
+        "completion_tokens": 104,
+        "latency_ms": 3299,
+        "prompt_eval_ms": 704,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1462,
+        "completion_tokens": 99,
+        "latency_ms": 3068,
+        "prompt_eval_ms": 673,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.2.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2121,
+        "completion_tokens": 88,
+        "latency_ms": 3317,
+        "prompt_eval_ms": 1062,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.2.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2121,
+        "completion_tokens": 83,
+        "latency_ms": 2824,
+        "prompt_eval_ms": 702,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1447,
+        "completion_tokens": 89,
+        "latency_ms": 2830,
+        "prompt_eval_ms": 673,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.3.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2139,
+        "completion_tokens": 95,
+        "latency_ms": 3522,
+        "prompt_eval_ms": 1089,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.3.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2139,
+        "completion_tokens": 112,
+        "latency_ms": 3467,
+        "prompt_eval_ms": 702,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1464,
+        "completion_tokens": 90,
+        "latency_ms": 2857,
+        "prompt_eval_ms": 675,
+        "repaired": false,
+        "stop_reason": "stop"
+      }
+    ],
+    "warnings": [],
+    "refusals": [],
+    "created_at": "2026-10-19T10:22:43+00:00"
+  },
+  "elements": [
+    {
+      "id": "L1",
+      "kind": "scene_heading",
+      "text": "INT. DHILLON HAVELI, KITCHEN - DAWN",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L2",
+      "kind": "action",
+      "text": "Still dark outside. PREET (24), a new bride with fresh chooda on her wrists, eats sargi with her mother-in-law BEEJI (62). Mathri, pheniyan, a glass of milk.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L3",
+      "kind": "dialogue",
+      "text": "Kha le, puttar. Aaj suraj se chaand tak, paani ki ek boond bhi nahi.",
+      "speaker": "BEEJI",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L4",
+      "kind": "dialogue",
+      "text": "Beeji, mera pehla Karva Chauth hai aur aaj hi Bunty ka sangeet bhi. Main nachungi kaise bhookhi?",
+      "speaker": "PREET",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L5",
+      "kind": "dialogue",
+      "text": "Isi liye toh mehendi wale haath sabse sundar lagte hain. Bhookh mein bhi.",
+      "speaker": "BEEJI",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L6",
+      "kind": "dialogue",
+      "text": "Harry ne promise kiya hai, chaand nikalne se pehle aa jayega.",
+      "speaker": "PREET",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L7",
+      "kind": "dialogue",
+      "text": "Mere Harry ka promise? Rab rakha.",
+      "speaker": "BEEJI",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L8",
+      "kind": "scene_heading",
+      "text": "EXT. DHILLON HAVELI, COURTYARD - NIGHT",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L9",
+      "kind": "action",
+      "text": "Fairy lights. A dhol. The sangeet is in full swing. Harry's elder brother JASSI (32) tries to dance bhangra and stumbles. His cousin DOLLY (22) shrieks with laughter.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L10",
+      "kind": "dialogue",
+      "text": "Naach na jaane aangan tedha, Pai ji!",
+      "speaker": "DOLLY",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L11",
+      "kind": "dialogue",
+      "text": "Oye, aangan sach mein tedha hai! Contractor ne paise khaaye!",
+      "speaker": "JASSI",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L12",
+      "kind": "action",
+      "text": "Everyone laughs. The dhol player shouts.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L13",
+      "kind": "dialogue",
+      "text": "Shava shava! Balle balle!",
+      "speaker": "DOLLY",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L14",
+      "kind": "dialogue",
+      "text": "(checking her phone) Harry ka phone switch off aa raha hai.",
+      "speaker": "PREET",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L15",
+      "kind": "dialogue",
+      "text": "Bhabhi, jaggo nikalne wali hai. Chalo, gaagar uthao!",
+      "speaker": "DOLLY",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L16",
+      "kind": "action",
+      "text": "The women lift a brass gaagar lit with diyas onto Preet's head. The jaggo procession moves through the lane, singing, banging steel plates.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L17",
+      "kind": "dialogue",
+      "text": "Jaggo aayi aa! Jaagde raho!",
+      "speaker": "DOLLY",
+      "episode": 1,
+      "scene_id": "S2",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L18",
+      "kind": "scene_heading",
+      "text": "INT. DHILLON HAVELI, ROOF - NIGHT",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L19",
+      "kind": "action",
+      "text": "Thali with a diya, a karva of water, and a chhanni. The women wait for the moon. Preet's lips are dry. Beeji holds her hand.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L20",
+      "kind": "dialogue",
+      "text": "Chaand nikalne wala hai. Harry kahan hai?",
+      "speaker": "BEEJI",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L21",
+      "kind": "dialogue",
+      "text": "Pata nahi, Beeji. Highway pe jam hai, last message mein likha tha.",
+      "speaker": "PREET",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L22",
+      "kind": "dialogue",
+      "text": "Fikar na kar, Preet. Video call pe chhanni se dekh lena.",
+      "speaker": "JASSI",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L23",
+      "kind": "dialogue",
+      "text": "(sharp) Video call pe vrat nahi khulta, Jassi. Mard saamne hona chahiye.",
+      "speaker": "BEEJI",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L24",
+      "kind": "action",
+      "text": "Below, in the kitchen, the smell of sarson da saag and makki di roti rises. Preet hasn't eaten since dawn.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L25",
+      "kind": "dialogue",
+      "text": "(pointing) Chaand! Chaand aa gaya!",
+      "speaker": "DOLLY",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L26",
+      "kind": "action",
+      "text": "The full moon rises over the rooftops. All the women lift their chhannis. Preet lifts hers, and sees only the empty stairs.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L27",
+      "kind": "dialogue",
+      "text": "Beeji, ek baar aur try karti hoon.",
+      "speaker": "PREET",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L28",
+      "kind": "action",
+      "text": "She calls. This time the phone rings. Someone answers.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L29",
+      "kind": "dialogue",
+      "text": "(relieved) Harry! Kahan ho tum? Chaand nikal aaya hai.",
+      "speaker": "PREET",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L30",
+      "kind": "dialogue",
+      "text": "Harry naha raha hai. Aap kaun bol rahi hain?",
+      "speaker": "WOMAN",
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "hi-Latn"
+    },
+    {
+      "id": "L31",
+      "kind": "action",
+      "text": "Preet slowly lowers the chhanni. The diya on her thali flickers out.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S3",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    }
+  ]
+}

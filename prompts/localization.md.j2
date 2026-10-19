@@ -1,0 +1,21 @@
+---
+id: localization
+version: "1.2"
+output_schema: LocalizationOut
+---
+TASK: Assess how well this script travels to the {{ target_name }} ({{ target }}) market, as a dub or subtitled release.
+
+TARGET PROFILE
+{{ profile }}
+
+Source languages: {{ source_langs }}. Code-mix ratio (English tokens inside Hindi dialogue): {{ code_mix }}.
+
+{% if candidates %}
+Candidate lines found by a lexicon scan (check each one first; report it as an issue if it would not travel to this market, citing that exact line ID):
+{% for c in candidates %}
+- {{ c }}
+{% endfor %}
+{% endif %}
+- issues: lines that need transcreation or adaptation for this market. type is one of: culture_bound_reference, festival_ritual, food, idiom_wordplay, humor, honorific_register, name_or_place, religious_caste_sensitivity, regional_stereotype, song_lyric_quote, on_screen_text (phone messages, chats, signs that need graphics localization), dub_sync_risk, subtitle_length. Give line_ids, a short explanation, a suggested adaptation, severity.
+- fit_rationale then fit_score: 5 = travels as-is with subtitles or dub; 3 = several lines need transcreation; 1 = the premise depends on culture-specific elements and needs rewriting.
+- transcreations: transcreate these lines into {{ target_name }} in native script: {{ lines_to_transcreate }}, plus the lines of your 2 most severe issues. For each: line_id, target_text written in {{ target_script }} script (never in Latin or Devanagari letters), back_translation (English), notes.

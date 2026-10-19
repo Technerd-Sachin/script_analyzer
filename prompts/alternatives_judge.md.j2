@@ -1,0 +1,10 @@
+---
+id: alternatives_judge
+version: "1.0"
+output_schema: JudgeOut
+---
+TASK: Two versions of the same script excerpt are shown above as EXCERPT X and EXCERPT Y. They differ only in the {{ target_label }}. Judge which one is stronger on this criterion:
+
+{{ criterion }}
+
+First give reasoning (at most 40 words). Then: x_coherent and y_coherent (true if that version is consistent with the rest of its excerpt and its characters), then winner: X, Y, or tie if they are equally strong. Judge only the criterion, not length or style preferences.

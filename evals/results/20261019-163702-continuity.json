@@ -1,0 +1,50 @@
+{
+  "suite": "continuity",
+  "started": "2026-10-19T16:35:14",
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "scripts": {
+    "s16_continuity:continuity": {
+      "latency_s": 108.4,
+      "pages": 2,
+      "calls": 11,
+      "repairs": 1,
+      "completion_tokens": 4269,
+      "grounding_errors": 0,
+      "partial_sections": [
+        "emotion"
+      ],
+      "report": "e3c2f2cfb982011fdcd8ab20",
+      "overall": 5.0,
+      "confidence": 0.91,
+      "group": "neutral",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {},
+      "episodes_detected": 1,
+      "episodes_expected": 1,
+      "continuity": {
+        "recall": 0.75,
+        "found": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "issues": 4
+      }
+    }
+  },
+  "aggregate": {
+    "schema_valid": "1/1",
+    "grounding_valid": "1/1",
+    "cliffhanger_strict": "1/1",
+    "cliffhanger_lenient": "1/1",
+    "continuity_recall": 0.75,
+    "latency_s_mean": 108.4,
+    "latency_s_p95": 108.4,
+    "cost_usd": 0.0
+  },
+  "finished": "2026-10-19T16:37:02"
+}

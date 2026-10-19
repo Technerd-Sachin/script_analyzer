@@ -1,0 +1,97 @@
+# Narcotics lexicon (MIB 2026 notice trigger candidates). Whole-word, case-insensitive.
+# Noisy terms kept for recall, the LLM must disambiguate:
+#   md (also managing director), maal (also goods or slang), coke (also cola), bhang (festival use).
+# Excluded as too noisy: joint ("joint family"), pot, crack.
+drugs
+drug
+druggie
+drug addict
+junkie
+addict
+peddler
+narcotics
+narcotic
+ndps
+nasha
+nashe
+nashedi
+nasheda
+ganja
+gaanja
+ganjedi
+weed
+marijuana
+cannabis
+hash
+hashish
+charas
+charsi
+bhang
+spliff
+bong
+chillum
+kush
+stoned
+smack
+smackia
+brown sugar
+heroin
+chitta
+cocaine
+coke
+md
+mephedrone
+meow meow
+mdma
+ecstasy
+lsd
+meth
+methamphetamine
+crystal meth
+ketamine
+fentanyl
+opium
+afeem
+afim
+doda
+doda post
+poppy husk
+whitener
+maal
+line maar
+line maaro
+line marna
+sniff
+snort
+puriya
+pudiya
+dope
+rave party
+गांजा
+गाँजा
+गंजेड़ी
+चरस
+चरसी
+भांग
+भाँग
+अफ़ीम
+अफीम
+हेरोइन
+कोकीन
+स्मैक
+ब्राउन शुगर
+चिट्टा
+डोडा
+नशा
+नशे
+नशेड़ी
+नशेडी
+ड्रग्स
+ड्रग
+एमडी
+म्याऊ म्याऊ
+पुड़िया
+पुडिया
+चिलम
+नशीले पदार्थ
+मादक पदार्थ

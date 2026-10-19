@@ -1,0 +1,15 @@
+---
+id: story_map
+version: "1.0"
+output_schema: StoryMapOut
+---
+TASK: Build a story map of the script above. It has {{ n_lines }} lines, {{ first_id }} to {{ last_id }}, in {{ n_episodes }} episode(s).
+
+- is_script: false only if the text is clearly not a screenplay or story scene (for example a recipe or an invoice).
+- logline: one sentence, at most 30 words: who wants what, against what obstacle.
+- characters: the main characters (at most 6). For each: name as written in the script, line_ids where their want or obstacle is shown (1 to 3 IDs), want, obstacle.
+- central_conflict: the core opposition, with the 1 to 3 line IDs where it is dramatized.
+- stakes: what can be lost, with line IDs.
+- beats: split the script into consecutive story beats that cover it in order, from {{ first_id }} to {{ last_id }}. Each beat is a contiguous range start_line..end_line with a label of at most 8 words. Use {{ beat_hint }} beats.
+- premise_tags: 3 to 6 short lowercase tags (for example "second chance", "hidden truth").
+- devanagari_language: "hi" or "mr" if the script is written in Devanagari, otherwise "none".

@@ -1,0 +1,1530 @@
+{
+  "doc_id": "fbb7adf3c315105ba18957d20e6a7adf1e64d776ca403c0718a12a58902bf6f2",
+  "cache_key": "09d5174f89623b2949c525da",
+  "title": "The Last Message",
+  "options": {
+    "features": [
+      "core",
+      "analytics",
+      "alternatives",
+      "rating",
+      "localization",
+      "market"
+    ],
+    "mode": "local",
+    "localization_targets": null,
+    "engagement_runs": 3
+  },
+  "ir_stats": {
+    "source_kind": "text",
+    "pages": 1,
+    "episodes": 1,
+    "scenes": 1,
+    "elements": 6,
+    "words": 27,
+    "languages": {
+      "en": 1.0
+    },
+    "code_mix_ratio": null,
+    "render_mode": "full",
+    "script_tokens_est": 98,
+    "ocr_mean_conf": null,
+    "page_sources": {},
+    "episode_boundaries": "single"
+  },
+  "story_map": {
+    "status": "ok",
+    "notes": [],
+    "is_script": true,
+    "logline": "Riya wants to know why Arjun messages her after five years, against the obstacle of his past guilt over an accident.",
+    "characters": [
+      {
+        "name": "RIYA",
+        "want": "know why Arjun messages her after five years",
+        "obstacle": "the accident was blamed on her",
+        "line_ids": [
+          "L3",
+          "L5"
+        ]
+      },
+      {
+        "name": "ARJUN",
+        "want": "clear his guilt about the accident",
+        "obstacle": "the accident was blamed on Riya",
+        "line_ids": [
+          "L4",
+          "L6"
+        ]
+      }
+    ],
+    "central_conflict": {
+      "text": "Arjun says the accident wasn't Riya's fault, challenging the past blame.",
+      "line_ids": [
+        "L4",
+        "L5",
+        "L6"
+      ]
+    },
+    "stakes": {
+      "text": "Riya loses the belief that she caused the accident; Arjun loses his guilt.",
+      "line_ids": [
+        "L6"
+      ]
+    },
+    "beats": [
+      {
+        "id": "B1",
+        "label": "Riya gets message",
+        "line_ids": [
+          "L1",
+          "L2"
+        ]
+      },
+      {
+        "id": "B2",
+        "label": "Riya questions motive",
+        "line_ids": [
+          "L3",
+          "L4"
+        ]
+      },
+      {
+        "id": "B3",
+        "label": "Arjun reveals truth",
+        "line_ids": [
+          "L5",
+          "L6"
+        ]
+      }
+    ],
+    "premise_tags": [
+      "second chance",
+      "hidden truth",
+      "past guilt"
+    ],
+    "devanagari_language": "none"
+  },
+  "summary": {
+    "status": "ok",
+    "notes": [],
+    "text": "Riya receives a message from her ex-boyfriend Arjun after five years. He says he learned the truth today. The truth is that the accident wasn't her fault. This raises the open question of why he messages her now, after years of silence.",
+    "line_ids": [
+      "L3",
+      "L4",
+      "L5",
+      "L6"
+    ]
+  },
+  "episodes": {
+    "status": "ok",
+    "notes": [],
+    "items": [
+      {
+        "number": 1,
+        "one_line_summary": "Riya receives a message from her ex after five years; Arjun reveals the accident wasn't her fault.",
+        "scene_tension": [
+          {
+            "scene_id": "S1",
+            "tension": 8
+          }
+        ],
+        "ending_line_ids": [
+          "L6"
+        ],
+        "ending_hook_strength": 3,
+        "ending_rationale": "The ending resolves the core conflict with a clear statement, satisfying closure without new mystery.",
+        "cliffhanger_candidate_line_id": "L6"
+      }
+    ]
+  },
+  "emotion": {
+    "status": "partial",
+    "notes": [
+      "emotion: 0 invalid items dropped after one repair round"
+    ],
+    "dominant": [
+      {
+        "emotion": "trust",
+        "share": 0.4
+      },
+      {
+        "emotion": "surprise",
+        "share": 0.3
+      },
+      {
+        "emotion": "sadness",
+        "share": 0.3
+      }
+    ],
+    "arc": [],
+    "arc_shape": "fall_rise",
+    "narrative": "Riya is surprised to receive a message after five years (L2), triggering a moment of fear as she questions Arjun's motive (L3). The revelation that the accident wasn't her fault shifts the tone to trust (L6), easing the emotional tension and introducing a sense of relief, though underlying sadness remains from the past."
+  },
+  "engagement": {
+    "status": "ok",
+    "notes": [],
+    "factors": [
+      {
+        "name": "opening_hook",
+        "evidence_line_ids": [
+          "L3",
+          "L4"
+        ],
+        "weakness": "L3 is a vague question with no immediate stakes; it fails to create urgency in the first 3 seconds",
+        "rationale": "The hook lacks urgency and specificity; viewers don't feel a need to know why now",
+        "score": 2.0,
+        "weight": 0.2,
+        "run_scores": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "central_conflict",
+        "evidence_line_ids": [
+          "L6"
+        ],
+        "weakness": "L6 states a truth but does not dramatize opposition or show a personal want or block",
+        "rationale": "No clear opposition with wants or blocking forces is dramatized in dialogue or action",
+        "score": 2.0,
+        "weight": 0.15,
+        "run_scores": [
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "tension_escalation",
+        "evidence_line_ids": [
+          "L4",
+          "L6"
+        ],
+        "weakness": "L4 and L6 are repeated statements with no new pressure or reversal",
+        "rationale": "No rising tension; the exchange is flat and reiterates without escalation",
+        "score": 2.0,
+        "weight": 0.15,
+        "run_scores": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "cliffhanger_pull",
+        "evidence_line_ids": [
+          "L6"
+        ],
+        "weakness": "L6 ends with a revelation but does not recontextualize prior lines or demand next episode",
+        "rationale": "The revelation is not tied to prior content and does not shift viewer expectation",
+        "score": 2.0,
+        "weight": 0.15,
+        "run_scores": [
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "stakes",
+        "evidence_line_ids": [
+          "L6"
+        ],
+        "weakness": "L6 mentions 'accident' but doesn't show personal loss or emotional cost",
+        "rationale": "No concrete personal loss is stated; the stakes remain abstract and vague",
+        "score": 2.0,
+        "weight": 0.1,
+        "run_scores": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "character_clarity",
+        "evidence_line_ids": [
+          "L3",
+          "L4"
+        ],
+        "weakness": "Riya and Arjun sound interchangeable; no distinct voice or wound is shown",
+        "rationale": "Both characters speak in generic terms; no visible past hurt or motivation",
+        "score": 2.0,
+        "weight": 0.1,
+        "run_scores": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "dialogue_quality",
+        "evidence_line_ids": [
+          "L3",
+          "L4",
+          "L5"
+        ],
+        "weakness": "Lines are expository and lack subtext; no natural Hinglish or sharp retorts",
+        "rationale": "Dialogue is flat and on-the-nose; no subtext or character-specific tone",
+        "score": 2.0,
+        "weight": 0.1,
+        "run_scores": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "name": "pacing",
+        "evidence_line_ids": [
+          "L2"
+        ],
+        "weakness": "L2 is setup-only and adds no movement to conflict",
+        "rationale": "No action or exchange moves the story; it's a static setup with no progression",
+        "score": 2.0,
+        "weight": 0.05,
+        "run_scores": [
+          2,
+          3,
+          2
+        ]
+      }
+    ],
+    "overall": 2.5,
+    "confidence": 0.91,
+    "runs": 3,
+    "per_run_overall": [
+      3.2,
+      2.6,
+      2.5
+    ]
+  },
+  "cliffhanger": {
+    "status": "ok",
+    "notes": [],
+    "line_id": "L6",
+    "quote": "That the accident wasn't your fault.",
+    "technique": "reversal",
+    "why_it_works": "It recontextualizes the accident as not Riya's fault, overturning the prior assumption, and forces viewers to question what really happened and why Arjun is speaking now.",
+    "strength": 4
+  },
+  "suggestions": {
+    "status": "ok",
+    "notes": [],
+    "items": [
+      {
+        "id": "G1",
+        "category": "hook",
+        "linked_factor": "opening_hook",
+        "target_line_ids": [
+          "L2",
+          "L3"
+        ],
+        "issue": "The opening lacks urgency and specificity; no reason for the message now is given.",
+        "fix": "Anchor the message in a concrete event or timeline to create immediate relevance and emotional pull.",
+        "example_rewrite": "Riya gets a message at 3:07 PM, the exact time her ex died in the accident.\nRIYA: Why now? It's the same time... the same time as the accident.",
+        "impact": "high"
+      },
+      {
+        "id": "G2",
+        "category": "emotion",
+        "linked_factor": "stakes",
+        "target_line_ids": [
+          "L6"
+        ],
+        "issue": "No personal loss is stated; the revelation feels abstract and detached from pain.",
+        "fix": "Link the truth to a specific, painful memory or loss to ground the stakes in emotion.",
+        "example_rewrite": "ARJUN: That the accident wasn't your fault, it was the rain, the road, the night I saw you crying in the car.",
+        "impact": "high"
+      },
+      {
+        "id": "G3",
+        "category": "dialogue",
+        "linked_factor": "dialogue_quality",
+        "target_line_ids": [
+          "L4",
+          "L5"
+        ],
+        "issue": "Dialogue is flat and generic; no subtext, tone, or emotional undercurrents are present.",
+        "fix": "Add emotional subtext and character-specific tone to reveal inner conflict and past pain.",
+        "example_rewrite": "ARJUN: Because today I learned the truth, I found your diary.\nRIYA: Your diary? What did it say?",
+        "impact": "medium"
+      },
+      {
+        "id": "G4",
+        "category": "conflict",
+        "linked_factor": "central_conflict",
+        "target_line_ids": [
+          "L4",
+          "L6"
+        ],
+        "issue": "No opposition or blocking force is dramatized; characters lack motivation or resistance.",
+        "fix": "Introduce a hidden conflict, ARJUN's guilt or Riya's denial, to create tension and opposition.",
+        "example_rewrite": "ARJUN: Because today I learned the truth, I found your diary, and you wrote: 'I didn't want to blame you.'\nRIYA: Then why didn't you say anything?",
+        "impact": "medium"
+      },
+      {
+        "id": "G5",
+        "category": "cliffhanger",
+        "linked_factor": "cliffhanger_pull",
+        "target_line_ids": [
+          "L6"
+        ],
+        "issue": "The revelation doesn't shift viewer expectation or create a narrative pivot.",
+        "fix": "End with a question that implies future danger or a hidden truth, not just relief.",
+        "example_rewrite": "ARJUN: That the accident wasn't your fault, but I didn't tell you because I was afraid you'd hate me.",
+        "impact": "medium"
+      },
+      {
+        "id": "G6",
+        "category": "pacing",
+        "linked_factor": "pacing",
+        "target_line_ids": [
+          "L2",
+          "L3"
+        ],
+        "issue": "No action or progression; the scene feels static and unspooled.",
+        "fix": "Add a physical action or sensory detail to break the static setup and move the scene forward.",
+        "example_rewrite": "Riya sees the message on her phone, the screen flickers with a photo of the accident.\nRIYA: Why now? It's the same photo... from the night of the crash.",
+        "impact": "low"
+      }
+    ]
+  },
+  "analytics": {
+    "status": "ok",
+    "notes": [],
+    "runtime_s_by_episode": {
+      "1": {
+        "page_based": 60.0,
+        "word_based": 8.4
+      }
+    },
+    "runtime_s_total": {
+      "page_based": 60.0,
+      "word_based": 8.4
+    },
+    "dialogue_share": [
+      {
+        "speaker": "ARJUN",
+        "lines": 2,
+        "words": 12,
+        "share": 0.75
+      },
+      {
+        "speaker": "RIYA",
+        "lines": 2,
+        "words": 4,
+        "share": 0.25
+      }
+    ],
+    "network_nodes": [
+      "ARJUN",
+      "RIYA"
+    ],
+    "network_edges": [
+      {
+        "a": "ARJUN",
+        "b": "RIYA",
+        "weight": 4
+      }
+    ],
+    "scene_stats": {
+      "count": 1.0,
+      "avg_lines": 6.0,
+      "dialogue_action_ratio": 4.0
+    },
+    "time_to_first_conflict_s": 2.8
+  },
+  "continuity": {
+    "status": "ok",
+    "notes": [],
+    "issues": [],
+    "name_variant_candidates": []
+  },
+  "alternatives": {
+    "status": "ok",
+    "notes": [],
+    "targets": [
+      {
+        "id": "T1",
+        "kind": "opening",
+        "episode": 1,
+        "factor": "opening_hook",
+        "replaces_line_ids": [
+          "L2",
+          "L3",
+          "L4"
+        ],
+        "variants": [
+          {
+            "id": "A1.1",
+            "strategy": "in_medias_res",
+            "elements": [
+              {
+                "id": "A1.1.1",
+                "kind": "action",
+                "speaker": null,
+                "text": "Riya stares at her phone. The message blinks: 'I found out today.'"
+              },
+              {
+                "id": "A1.1.2",
+                "kind": "dialogue",
+                "speaker": "RIYA",
+                "text": "Why now?"
+              }
+            ],
+            "replaces_line_ids": [
+              "L2",
+              "L3",
+              "L4"
+            ],
+            "pays_off_line_ids": [],
+            "rationale": "Starts mid-action with Riya reacting to a message, forcing viewer to catch up instantly.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "original",
+              "variant"
+            ],
+            "score_before": 3.0,
+            "score_after": 3.0,
+            "delta": 0.0,
+            "coherence_ok": true,
+            "coherence_reason": "L1: 'Why now?' poses a specific, urgent question tied to Riya's stakes. L2: 'I found out today' hints at truth with stakes. Both lines create immediate need for answer. | L1: 'I found out today' poses a specific, urgent question tied to Riya's stakes. L2: 'Why now?' immediately creates tension. L3: 'What truth?' deepens intrigue. All lines are urgent and character-driven.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A1.3",
+            "strategy": "conflict_first_line",
+            "elements": [
+              {
+                "id": "A1.3.1",
+                "kind": "dialogue",
+                "speaker": "RIYA",
+                "text": "You’re lying. You never saw that accident."
+              },
+              {
+                "id": "A1.3.2",
+                "kind": "dialogue",
+                "speaker": "ARJUN",
+                "text": "I saw it. And I know who was at fault."
+              }
+            ],
+            "replaces_line_ids": [
+              "L2",
+              "L3",
+              "L4"
+            ],
+            "pays_off_line_ids": [],
+            "rationale": "Direct clash establishes tension; Riya’s denial meets Arjun’s claim, creating instant friction.",
+            "pairwise": "loss",
+            "judge_votes": [
+              "original",
+              "original"
+            ],
+            "score_before": 3.0,
+            "score_after": 3.0,
+            "delta": 0.0,
+            "coherence_ok": false,
+            "coherence_reason": "L1: 'Why now?' poses a specific, urgent question tied to Riya's stakes. L2: 'Because today I learned the truth' hints at stakes without resolution. Both lines create immediate tension. L1 is stronger as it directly engages viewer with a question about cause and consequence. | EXCERPT Y opens with a specific, urgent question 'Why now?' tied to Riya's stakes, making the viewer need an answer. Line ID: L1. EXCERPT X starts with a claim 'You’re lying' but lacks immediate stakes or urgency. Line ID: L1.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          }
+        ],
+        "dropped": [
+          "mystery_question (length)"
+        ]
+      },
+      {
+        "id": "T2",
+        "kind": "ending",
+        "episode": 1,
+        "factor": "cliffhanger_pull",
+        "replaces_line_ids": [
+          "L5",
+          "L6"
+        ],
+        "variants": [
+          {
+            "id": "A2.3",
+            "strategy": "threat",
+            "elements": [
+              {
+                "id": "A2.3.1",
+                "kind": "dialogue",
+                "speaker": "ARJUN",
+                "text": "I'm not who I seem. I'm coming back."
+              }
+            ],
+            "replaces_line_ids": [
+              "L5",
+              "L6"
+            ],
+            "pays_off_line_ids": [
+              "L1",
+              "L2"
+            ],
+            "rationale": "A new danger emerges, ARJUN is not who he claims, setting up future episodes.",
+            "pairwise": "tie",
+            "judge_votes": [
+              "variant",
+              "original"
+            ],
+            "score_before": 3.0,
+            "score_after": 3.0,
+            "delta": 0.0,
+            "coherence_ok": false,
+            "coherence_reason": "EXCERPT Y's 'I'm not who I seem' introduces a sharp reversal with high stakes, recontextualizing Arjun's identity and demanding continuity. Line ARJUN: I'm not who I seem. I'm coming back (L3) meets criterion 5. EXCERPT X ends on a neutral truth with no narrative shift. L3: 'That the accident wasn't your fault' is low-stakes and resolved. | EXCERPT Y ends with a strong reversal (truth about accident) that recontextualizes prior events and demands continuation; line ARJUN: That the accident wasn't your fault (L3) has high stakes and shifts narrative weight.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          },
+          {
+            "id": "A2.2",
+            "strategy": "reversal",
+            "elements": [
+              {
+                "id": "A2.2.1",
+                "kind": "dialogue",
+                "speaker": "ARJUN",
+                "text": "I was texting, not driving. I caused it."
+              }
+            ],
+            "replaces_line_ids": [
+              "L5",
+              "L6"
+            ],
+            "pays_off_line_ids": [
+              "L2",
+              "L3"
+            ],
+            "rationale": "The plan to forgive backfires when ARJUN admits he caused the crash, reversing the emotional arc.",
+            "pairwise": "loss",
+            "judge_votes": [
+              "original",
+              "original"
+            ],
+            "score_before": 3.0,
+            "score_after": 3.0,
+            "delta": 0.0,
+            "coherence_ok": false,
+            "coherence_reason": "EXCERPT Y ends with a contradiction: ARJUN claims he was texting, not driving, yet earlier said the accident wasn't her fault. This inconsistency undermines credibility. Line ARJUN: I was texting, not driving. I caused it (L3) contradicts prior truth claim (L2). | EXCERPT Y ends with a strong reversal: 'That the accident wasn't your fault' recontextualizes the prior blame, creating high stakes and demanding continuation. Line ARJUN: That the accident wasn't your fault (L3) triggers a sharp reversal with clear emotional weight.",
+            "language_preserved": true,
+            "length_ok": true,
+            "ids_ok": true
+          }
+        ],
+        "dropped": [
+          "revelation (length)"
+        ]
+      }
+    ]
+  },
+  "rating": {
+    "status": "ok",
+    "notes": [],
+    "rating": "U/A 7+",
+    "descriptors": [
+      "Theme"
+    ],
+    "findings": [
+      {
+        "category": "theme",
+        "severity": "moderate",
+        "mode": "referenced",
+        "treatment": "neutral",
+        "substance": "none",
+        "line_ids": [
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "rationale": "Accident discussed as past event; truth about fault is revealed without graphic detail or emotional trauma.",
+        "band": "U/A 7+"
+      }
+    ],
+    "rating_drivers": [
+      0
+    ],
+    "access_controls": [],
+    "notices": [],
+    "legal_risk_flags": [],
+    "lower_rating_edits": [
+      {
+        "driver": "theme/moderate",
+        "line_ids": [
+          "L4",
+          "L5",
+          "L6"
+        ],
+        "edit": "Replace 'truth' with 'fact' to reduce emotional weight without altering meaning",
+        "rewrite": "L4 ARJUN: Because today I learned the fact.\nL5 RIYA: What fact?\nL6 ARJUN: That the accident wasn't your fault."
+      }
+    ],
+    "lower_rating_band": "U",
+    "prescan": {},
+    "disclaimer": "Estimate to support editors. Not a certification and not legal advice. Knowledge files are unverified until reviewed."
+  },
+  "localization": {
+    "status": "ok",
+    "notes": [
+      "localization[ta]: 0 invalid items dropped after one repair round",
+      "localization[te]: repaired after 1 validation errors"
+    ],
+    "source_languages": {
+      "en": 1.0
+    },
+    "code_mix_ratio": null,
+    "source_subtitle_flags": [],
+    "targets": [
+      {
+        "lang": "hi",
+        "status": "ok",
+        "fit_score": 3,
+        "fit_rationale": "The script has strong emotional beats but relies on English phrasing and register shifts that don't translate naturally into Hindi. Several lines require rephrasing for cultural and linguistic authenticity in Hindi-speaking markets.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2"
+            ],
+            "type": "dub_sync_risk",
+            "severity": "high",
+            "explanation": "The line 'Riya receives a message from her ex-boyfriend after five years' is long and complex in English, risking lip-sync issues in a Hindi dub due to vertical format and open vowel constraints. Hindi dubs require shorter, more rhythmic phrasing for visible lip-sync.",
+            "adaptation": "रिया को अपने पुराने दोस्त से 5 साल बाद संदेश मिला"
+          },
+          {
+            "line_ids": [
+              "L6"
+            ],
+            "type": "honorific_register",
+            "severity": "medium",
+            "explanation": "The shift from 'tu' to 'aap' in Hindi is dramatic but not naturally mirrored in the original. 'The accident wasn't your fault' uses 'your' which in Hindi requires a respectful form like 'aapke' or 'tumhare', but the register mismatch may break emotional impact.",
+            "adaptation": "वाहन दुर्घटना आपकी गलती नहीं थी"
+          },
+          {
+            "line_ids": [
+              "L3"
+            ],
+            "type": "honorific_register",
+            "severity": "medium",
+            "explanation": "'Why now?' uses 'tu' in an intimate tone, which in Hindi should be 'kyun ab?' or 'ab kyun?' to match urban Hinglish rhythm, but 'tu' is not used in formal Hindi dubs for ex-lovers.",
+            "adaptation": "अब क्यूं?"
+          },
+          {
+            "line_ids": [
+              "L4"
+            ],
+            "type": "culture_bound_reference",
+            "severity": "medium",
+            "explanation": "'Because today I learned the truth' is a generic phrase with no cultural resonance in Hindi. Hindi audiences expect emotional or familial truths, like 'मैंने आज सुना था' or 'आज मैंने जाना था' for emotional weight.",
+            "adaptation": "आज मैंने जाना था"
+          }
+        ],
+        "transcreations": [
+          {
+            "line_id": "L2",
+            "source_text": "Riya receives a message from her ex-boyfriend after five years.",
+            "target_text": "रिया को अपने पुराने दोस्त से 5 साल बाद संदेश मिला",
+            "back_translation": "Riya receives a message from her ex-boyfriend after five years",
+            "notes": "Shortened and adapted for vertical lip-sync; uses common Hindi phrasing for 'ex-boyfriend' and 'after five years'.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L6",
+            "source_text": "That the accident wasn't your fault.",
+            "target_text": "वाहन दुर्घटना आपकी गलती नहीं थी",
+            "back_translation": "The accident wasn't your fault",
+            "notes": "Uses 'aapki' for respectful tone; 'vahan durghatana' is a common Hindi phrase for accident; avoids direct 'your' which is too blunt in Hindi.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L3",
+            "source_text": "Why now?",
+            "target_text": "अब क्यूं?",
+            "back_translation": "Why now?",
+            "notes": "Short, rhythmic, and matches urban Hinglish speech patterns; ideal for vertical close-up delivery.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L4",
+            "source_text": "Because today I learned the truth.",
+            "target_text": "आज मैंने जाना था",
+            "back_translation": "Because today I learned the truth",
+            "notes": "Uses a common Hindi emotional phrase; 'jaana tha' implies discovery, which resonates with family or emotional narratives.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L5",
+            "source_text": "What truth?",
+            "target_text": "क्या सच्चाई?",
+            "back_translation": "What truth?",
+            "notes": "Replaces 'truth' with 'sachchai' which is emotionally charged in Hindi; 'kyaa sachchai?' is a natural question in Indian dialogues.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L2",
+            "source_text": "Riya receives a message from her ex-boyfriend after five years.",
+            "target_text": "रिया को अपने पुराने दोस्त से 5 साल बाद संदेश मिला",
+            "back_translation": "Riya receives a message from her ex-boyfriend after five years",
+            "notes": "Duplicate entry; original L2 already covered. Only one instance needed.",
+            "subtitle_flags": []
+          }
+        ]
+      },
+      {
+        "lang": "ta",
+        "status": "partial",
+        "fit_score": 3,
+        "fit_rationale": "The script contains several cultural and linguistic mismatches that require transcreation for Tamil authenticity. While the emotional core is relatable, the dialogue structure and honorifics do not align with Tamil spoken language norms. A significant rewrite is needed to avoid cultural dissonance and ensure emotional resonance.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2"
+            ],
+            "type": "dub_sync_risk",
+            "severity": "high",
+            "explanation": "The line 'Riya receives a message from her ex-boyfriend after five years' is long and complex in Hindi, which strains lip-sync in Tamil close-ups. Tamil dialogue is typically shorter and more rhythmic, making this line prone to sync issues in dubbing.",
+            "adaptation": "Riya nee 5 saal baad ek saath message aaya"
+          },
+          {
+            "line_ids": [
+              "L6"
+            ],
+            "type": "honorific_register",
+            "severity": "high",
+            "explanation": "The phrase 'the accident wasn't your fault' uses a neutral, Hindi-style assertion that doesn't map to Tamil's honorific verb endings or familial address. Tamil speakers expect respectful, verb-structured expressions like 'neenga' or 'neenga kada' to show care and avoid blame.",
+            "adaptation": "Aaala kada neenga, nee kada aadu"
+          }
+        ],
+        "transcreations": []
+      },
+      {
+        "lang": "te",
+        "status": "ok",
+        "fit_score": 3,
+        "fit_rationale": "The script has strong emotional core but requires significant transcreation for Telugu market. Key lines need bold, punchy rephrasing with regional honorifics and rhythm. Without adaptation, it will feel flat and out of sync with Telugu audience expectations.",
+        "issues": [
+          {
+            "line_ids": [
+              "L2"
+            ],
+            "type": "honorific_register",
+            "severity": "high",
+            "explanation": "The phrase 'Riya receives a message from her ex-boyfriend after five years' uses neutral, Hindi-style phrasing. Telugu audiences expect stronger, more rhythmic, and emotionally charged language in such moments, especially with honorifics like 'meeru' or 'bava' to signal relationship dynamics.",
+            "adaptation": "Riya, aapka 5 saal baad ek prashn aaya hai"
+          },
+          {
+            "line_ids": [
+              "L6"
+            ],
+            "type": "idiom_wordplay",
+            "severity": "high",
+            "explanation": "'The accident wasn't your fault' is a generic, emotionally neutral statement. Telugu audiences expect punchy, confrontational lines with emotional weight, often using wordplay or direct address to build tension. This line lacks the boldness and rhythm expected in Telugu cinema.",
+            "adaptation": "Aapka ghatan koi baat nahi, bava"
+          },
+          {
+            "line_ids": [
+              "L3"
+            ],
+            "type": "honorific_register",
+            "severity": "medium",
+            "explanation": "'Why now?' is too casual and lacks the emotional gravity expected in Telugu romantic confrontations. The audience expects a more respectful or charged tone, especially when addressing an ex-partner.",
+            "adaptation": "Kyu ab?"
+          },
+          {
+            "line_ids": [
+              "L4"
+            ],
+            "type": "dub_sync_risk",
+            "severity": "medium",
+            "explanation": "'Because today I learned the truth' is a long, abstract line that may stretch beyond natural Telugu rhythm. Telugu dialogue tends to be shorter and more rhythmic, especially in climaxes. This line risks sync issues in dubbing.",
+            "adaptation": "Aaj maine sach jaana"
+          }
+        ],
+        "transcreations": [
+          {
+            "line_id": "L2",
+            "source_text": "Riya receives a message from her ex-boyfriend after five years.",
+            "target_text": "రియా, మీరు కొంత సంవత్సరాల తర్వాత ఒక ప్రశ్న వచ్చింది",
+            "back_translation": "Riya receives a message from her ex-boyfriend after five years",
+            "notes": "Uses 'మీరు' (meeru) for respectful address, 'కొంత సంవత్సరాల' (5 years), 'ప్రశ్న' (message), natural Telugu rhythm.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L6",
+            "source_text": "That the accident wasn't your fault.",
+            "target_text": "అప్పుడు గాయం మీకు కాదు, బావా",
+            "back_translation": "The accident wasn't your fault",
+            "notes": "'గాయం' = accident, 'కాదు' = not your fault, 'బావా' = bava, used for emotional weight and teasing tone common in Telugu romance scenes.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L3",
+            "source_text": "Why now?",
+            "target_text": "కుండా ఏం?",
+            "back_translation": "Why now?",
+            "notes": "Short, punchy, and uses 'కుండా' (now) in a colloquial Telugu form, common in mass-hero style dialogues.",
+            "subtitle_flags": []
+          },
+          {
+            "line_id": "L4",
+            "source_text": "Because today I learned the truth.",
+            "target_text": "అందువలన నాకు సచ్చి తెలిసింది",
+            "back_translation": "Because today I learned the truth",
+            "notes": "Uses 'సచ్చి' (truth), 'తెలిసింది' (learned), natural Telugu phrasing with emotional weight.",
+            "subtitle_flags": []
+          }
+        ]
+      }
+    ],
+    "disclaimer": "Machine transcreation. Native-speaker review required."
+  },
+  "market": {
+    "status": "ok",
+    "notes": [],
+    "comps": [
+      {
+        "title": "Kadhal Kasakuthaiya",
+        "year": 2017,
+        "language": "Tamil",
+        "rating": 6.6,
+        "votes": 145,
+        "similarity": 0.543,
+        "why_similar": "Riya and Arjun reconnect after years; Arjun's past accident guilt is central to their reunion.",
+        "differentiator": "Script focuses on truth about accident blame, not just reunion or guilt.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Kadhal_Kasakuthaiya"
+      },
+      {
+        "title": "Kshanam",
+        "year": 2016,
+        "language": "Telugu",
+        "rating": 8.1,
+        "votes": 6680,
+        "similarity": 0.562,
+        "why_similar": "Ex-partner reaches out after years; emotional connection post-accident is key.",
+        "differentiator": "Script centers on truth about accident fault, not just reconnection.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Kshanam"
+      },
+      {
+        "title": "Kargil (film)",
+        "year": 2018,
+        "language": "Tamil",
+        "rating": 6.9,
+        "votes": 88,
+        "similarity": 0.593,
+        "why_similar": "Arjun reconnects with lover after years; past relationship and emotional guilt present.",
+        "differentiator": "Script addresses accident blame, not marriage or emotional recovery.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Kargil_(film)"
+      },
+      {
+        "title": "Half Girlfriend (film)",
+        "year": 2017,
+        "language": "Hindi",
+        "rating": 4.7,
+        "votes": 8848,
+        "similarity": 0.579,
+        "why_similar": "Riya and Arjun meet through college; shared past and emotional bond form over time.",
+        "differentiator": "Script has no college setting or friendship origin; focuses on accident truth.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/Half_Girlfriend_(film)"
+      },
+      {
+        "title": "The Girl on the Train (2021 film)",
+        "year": 2021,
+        "language": "Hindi",
+        "rating": 4.0,
+        "votes": 15407,
+        "similarity": 0.579,
+        "why_similar": "Car accident causes amnesia; past relationship and emotional guilt are central.",
+        "differentiator": "Script does not involve amnesia; focuses on truth about accident fault.",
+        "near_identical": false,
+        "source_url": "https://en.wikipedia.org/wiki/The_Girl_on_the_Train_(2021_film)"
+      }
+    ],
+    "originality_flag": false,
+    "originality_note": "",
+    "tropes": [
+      {
+        "trope_id": "second_chance",
+        "name": "Second chance",
+        "line_ids": [
+          "L3",
+          "L4",
+          "L5"
+        ],
+        "rationale": "Former lovers reunite after five years, with Arjun explaining the truth about the accident.",
+        "confidence": 0.98,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "revenge",
+        "name": "Revenge",
+        "line_ids": [
+          "L6"
+        ],
+        "rationale": "Arjun reveals the accident wasn't Riya's fault, implying a past wrong that is now being corrected.",
+        "confidence": 0.75,
+        "momentum": "declining",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "hidden_identity",
+        "name": "Hidden identity",
+        "line_ids": [
+          "L4"
+        ],
+        "rationale": "Arjun says he 'learned the truth' suggesting a hidden revelation about the accident.",
+        "confidence": 0.6,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      },
+      {
+        "trope_id": "betrayal",
+        "name": "Betrayal",
+        "line_ids": [
+          "L6"
+        ],
+        "rationale": "The revelation that Riya wasn't at fault implies she was falsely blamed, a betrayal of trust.",
+        "confidence": 0.8,
+        "momentum": "unknown",
+        "as_of": "2026-10-19",
+        "stale": false
+      }
+    ],
+    "trend_snapshot_as_of": "2026-10-19"
+  },
+  "meta": {
+    "models_by_node": {
+      "continuity": "qwen3:4b-instruct-2507-q4_K_M",
+      "rating_classify": "qwen3:4b-instruct-2507-q4_K_M",
+      "story_map": "qwen3:4b-instruct-2507-q4_K_M",
+      "rating_lower": "qwen3:4b-instruct-2507-q4_K_M",
+      "episode_map": "qwen3:4b-instruct-2507-q4_K_M",
+      "emotion": "qwen3:4b-instruct-2507-q4_K_M",
+      "summary": "qwen3:4b-instruct-2507-q4_K_M",
+      "cliffhanger": "qwen3:4b-instruct-2507-q4_K_M",
+      "tropes": "qwen3:4b-instruct-2507-q4_K_M",
+      "engagement": "qwen3:4b-instruct-2507-q4_K_M",
+      "comps_explain": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_generate": "qwen3:4b-instruct-2507-q4_K_M",
+      "localization": "qwen3:4b-instruct-2507-q4_K_M",
+      "suggestions": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_rescore": "qwen3:4b-instruct-2507-q4_K_M",
+      "alternatives_judge": "qwen3:4b-instruct-2507-q4_K_M"
+    },
+    "prompt_versions": {
+      "_preamble": "1.1",
+      "alternatives_generate": "1.0",
+      "alternatives_judge": "1.0",
+      "alternatives_rescore": "1.2",
+      "cliffhanger": "1.1",
+      "comps_explain": "1.0",
+      "continuity": "1.2",
+      "emotion": "1.0",
+      "engagement": "1.2",
+      "episode_map": "1.1",
+      "localization": "1.2",
+      "rating_classify": "1.1",
+      "rating_lower": "1.0",
+      "story_map": "1.0",
+      "suggestions": "1.1",
+      "summary": "1.2",
+      "tropes": "1.0"
+    },
+    "knowledge_version": "07141e9787bc654b",
+    "tokens": {
+      "prompt": 43789,
+      "completion": 9473,
+      "calls": 38,
+      "repairs": 5
+    },
+    "cost_usd": 0.0,
+    "latency_ms_by_node": {
+      "continuity": 639,
+      "rating_classify": 2719,
+      "story_map": 8629,
+      "rating_lower": 7902,
+      "episode_map": 2869,
+      "emotion": 15603,
+      "summary": 10224,
+      "cliffhanger": 1855,
+      "tropes": 6693,
+      "engagement": 97726,
+      "comps_explain": 44406,
+      "alternatives_generate": 56754,
+      "localization": 126101,
+      "suggestions": 42941,
+      "alternatives_rescore": 52210,
+      "alternatives_judge": 48663
+    },
+    "total_latency_ms": 236497,
+    "calls": [
+      {
+        "node": "continuity",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 660,
+        "completion_tokens": 5,
+        "latency_ms": 639,
+        "prompt_eval_ms": 245,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "rating_classify",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1254,
+        "completion_tokens": 68,
+        "latency_ms": 2719,
+        "prompt_eval_ms": 497,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "story_map",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 986,
+        "completion_tokens": 255,
+        "latency_ms": 8629,
+        "prompt_eval_ms": 352,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "rating_lower",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 614,
+        "completion_tokens": 80,
+        "latency_ms": 7902,
+        "prompt_eval_ms": 137,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "episode_map[1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 842,
+        "completion_tokens": 114,
+        "latency_ms": 2869,
+        "prompt_eval_ms": 275,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "emotion",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1133,
+        "completion_tokens": 232,
+        "latency_ms": 8431,
+        "prompt_eval_ms": 428,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "summary",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 594,
+        "completion_tokens": 72,
+        "latency_ms": 10224,
+        "prompt_eval_ms": 123,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "emotion",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1461,
+        "completion_tokens": 208,
+        "latency_ms": 7172,
+        "prompt_eval_ms": 624,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "cliffhanger",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 678,
+        "completion_tokens": 70,
+        "latency_ms": 1855,
+        "prompt_eval_ms": 185,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "tropes",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1437,
+        "completion_tokens": 182,
+        "latency_ms": 6693,
+        "prompt_eval_ms": 613,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2571,
+        "completion_tokens": 485,
+        "latency_ms": 20679,
+        "prompt_eval_ms": 1302,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2571,
+        "completion_tokens": 487,
+        "latency_ms": 32605,
+        "prompt_eval_ms": 23,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "engagement[2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2571,
+        "completion_tokens": 481,
+        "latency_ms": 44442,
+        "prompt_eval_ms": 23,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "comps_explain",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 3069,
+        "completion_tokens": 247,
+        "latency_ms": 44406,
+        "prompt_eval_ms": 1635,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 871,
+        "completion_tokens": 285,
+        "latency_ms": 6509,
+        "prompt_eval_ms": 280,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[hi]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1277,
+        "completion_tokens": 952,
+        "latency_ms": 28484,
+        "prompt_eval_ms": 526,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "suggestions",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1041,
+        "completion_tokens": 641,
+        "latency_ms": 42941,
+        "prompt_eval_ms": 383,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T1]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1217,
+        "completion_tokens": 234,
+        "latency_ms": 42226,
+        "prompt_eval_ms": 481,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[ta]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1306,
+        "completion_tokens": 768,
+        "latency_ms": 38041,
+        "prompt_eval_ms": 538,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 704,
+        "completion_tokens": 85,
+        "latency_ms": 20063,
+        "prompt_eval_ms": 244,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[ta]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2151,
+        "completion_tokens": 460,
+        "latency_ms": 14234,
+        "prompt_eval_ms": 1101,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.1.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 738,
+        "completion_tokens": 65,
+        "latency_ms": 13838,
+        "prompt_eval_ms": 273,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[te]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1300,
+        "completion_tokens": 824,
+        "latency_ms": 21043,
+        "prompt_eval_ms": 592,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.1.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 738,
+        "completion_tokens": 74,
+        "latency_ms": 21241,
+        "prompt_eval_ms": 274,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "localization[te]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 2199,
+        "completion_tokens": 881,
+        "latency_ms": 24299,
+        "prompt_eval_ms": 1133,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 695,
+        "completion_tokens": 71,
+        "latency_ms": 24205,
+        "prompt_eval_ms": 242,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.3.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 743,
+        "completion_tokens": 81,
+        "latency_ms": 2173,
+        "prompt_eval_ms": 275,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A1.3.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 743,
+        "completion_tokens": 84,
+        "latency_ms": 2241,
+        "prompt_eval_ms": 272,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T1.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 700,
+        "completion_tokens": 58,
+        "latency_ms": 1656,
+        "prompt_eval_ms": 243,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 861,
+        "completion_tokens": 101,
+        "latency_ms": 2754,
+        "prompt_eval_ms": 341,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_generate[T2]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 1048,
+        "completion_tokens": 232,
+        "latency_ms": 5265,
+        "prompt_eval_ms": 61,
+        "repaired": true,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 697,
+        "completion_tokens": 63,
+        "latency_ms": 1760,
+        "prompt_eval_ms": 243,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.2.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 733,
+        "completion_tokens": 86,
+        "latency_ms": 2259,
+        "prompt_eval_ms": 274,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.2.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 733,
+        "completion_tokens": 81,
+        "latency_ms": 2140,
+        "prompt_eval_ms": 242,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 692,
+        "completion_tokens": 87,
+        "latency_ms": 2249,
+        "prompt_eval_ms": 242,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.3.orig_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 734,
+        "completion_tokens": 114,
+        "latency_ms": 2837,
+        "prompt_eval_ms": 273,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_judge[A2.3.variant_first]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 734,
+        "completion_tokens": 71,
+        "latency_ms": 1934,
+        "prompt_eval_ms": 241,
+        "repaired": false,
+        "stop_reason": "stop"
+      },
+      {
+        "node": "alternatives_rescore[T2.0]",
+        "model": "qwen3:4b-instruct-2507-q4_K_M",
+        "prompt_tokens": 693,
+        "completion_tokens": 89,
+        "latency_ms": 2277,
+        "prompt_eval_ms": 240,
+        "repaired": false,
+        "stop_reason": "stop"
+      }
+    ],
+    "warnings": [],
+    "refusals": [],
+    "created_at": "2026-10-19T09:59:30+00:00"
+  },
+  "elements": [
+    {
+      "id": "L1",
+      "kind": "scene_heading",
+      "text": "Scene",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L2",
+      "kind": "action",
+      "text": "Riya receives a message from her ex-boyfriend after five years.",
+      "speaker": null,
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L3",
+      "kind": "dialogue",
+      "text": "Why now?",
+      "speaker": "RIYA",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L4",
+      "kind": "dialogue",
+      "text": "Because today I learned the truth.",
+      "speaker": "ARJUN",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L5",
+      "kind": "dialogue",
+      "text": "What truth?",
+      "speaker": "RIYA",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    },
+    {
+      "id": "L6",
+      "kind": "dialogue",
+      "text": "That the accident wasn't your fault.",
+      "speaker": "ARJUN",
+      "episode": 1,
+      "scene_id": "S1",
+      "page": null,
+      "bbox": null,
+      "ocr_conf": null,
+      "lang": "en"
+    }
+  ]
+}

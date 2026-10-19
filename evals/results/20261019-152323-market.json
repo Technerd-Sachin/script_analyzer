@@ -1,0 +1,136 @@
+{
+  "suite": "market",
+  "started": "2026-10-19T15:16:07",
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "scripts": {
+    "s02_strong_three_episodes:market": {
+      "latency_s": 137.6,
+      "pages": 3,
+      "calls": 13,
+      "repairs": 0,
+      "completion_tokens": 5054,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "09970a0581fe2cb5d3bad0d1",
+      "overall": 4.2,
+      "confidence": 0.91,
+      "group": "strong",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {
+        "opening_hook>=4": false,
+        "cliffhanger_pull>=4": false
+      },
+      "episodes_detected": 3,
+      "episodes_expected": 3,
+      "originality_flag": false,
+      "originality_expected": false,
+      "tropes": [
+        "murder_mystery",
+        "betrayal",
+        "hidden_identity",
+        "crime_thriller",
+        "revenge",
+        "secret_child"
+      ],
+      "comps": [
+        "Deva (2025 film)",
+        "Blind Spot (2025 film)",
+        "HIT: The Second Case",
+        "Gaslight (2023 film)",
+        "Sadak 2"
+      ]
+    },
+    "s05_hinglish_revenge:market": {
+      "latency_s": 170.9,
+      "pages": 7,
+      "calls": 15,
+      "repairs": 0,
+      "completion_tokens": 5559,
+      "grounding_errors": 0,
+      "partial_sections": [],
+      "report": "14183165f52f72e2e2ace923",
+      "overall": 5.4,
+      "confidence": 0.91,
+      "group": "strong",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {
+        "opening_hook>=4": false
+      },
+      "episodes_detected": 5,
+      "episodes_expected": 5,
+      "originality_flag": false,
+      "originality_expected": false,
+      "tropes": [
+        "hidden_identity",
+        "ceo_romance",
+        "betrayal",
+        "workplace_drama",
+        "revenge",
+        "crime_thriller"
+      ],
+      "comps": [
+        "Vanamagan",
+        "Kadhai (film)",
+        "Khufiya",
+        "Gaslight (2023 film)",
+        "Sorry Daddy"
+      ]
+    },
+    "s15_near_copy:market": {
+      "latency_s": 127.4,
+      "pages": 4,
+      "calls": 14,
+      "repairs": 1,
+      "completion_tokens": 4661,
+      "grounding_errors": 0,
+      "partial_sections": [
+        "emotion"
+      ],
+      "report": "0c2d695c48ae0dd467f10ca9",
+      "overall": 4.0,
+      "confidence": 0.97,
+      "group": "neutral",
+      "cliffhanger": {
+        "strict": true,
+        "lenient": true
+      },
+      "factors": {},
+      "episodes_detected": 3,
+      "episodes_expected": 3,
+      "originality_flag": true,
+      "originality_expected": true,
+      "tropes": [
+        "crime_thriller",
+        "murder_mystery",
+        "betrayal",
+        "revenge",
+        "family_feud",
+        "hidden_identity"
+      ],
+      "comps": [
+        "Drushyam 2",
+        "Drishyam (2015 film)",
+        "Saagasam",
+        "Evaru",
+        "Blind Spot (2025 film)"
+      ]
+    }
+  },
+  "aggregate": {
+    "schema_valid": "3/3",
+    "grounding_valid": "3/3",
+    "cliffhanger_strict": "3/3",
+    "cliffhanger_lenient": "3/3",
+    "originality_flag_correct": "3/3",
+    "latency_s_mean": 145.3,
+    "latency_s_p95": 170.9,
+    "cost_usd": 0.0
+  },
+  "finished": "2026-10-19T15:23:23"
+}

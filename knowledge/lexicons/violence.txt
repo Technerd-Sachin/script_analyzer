@@ -1,0 +1,123 @@
+# Violence lexicon (violence and theme candidates). Whole-word, case-insensitive.
+# Noisy terms kept for recall: shot, dead, badla, supari (also betel nut), encounter.
+kill
+kills
+killed
+killing
+killer
+murder
+murdered
+murderer
+stab
+stabbed
+stabbing
+shoot
+shot
+shooting
+strangle
+strangled
+choke
+choked
+slap
+slapped
+punch
+punched
+beat up
+beaten
+assault
+attack
+attacked
+torture
+tortured
+kidnap
+kidnapped
+abduct
+abducted
+hostage
+blood
+bleeding
+corpse
+dead body
+dead
+lynch
+lynching
+riot
+acid attack
+bomb blast
+blast
+encounter
+burn alive
+maar dunga
+maar dungi
+maar daalunga
+maar daalungi
+maar dalunga
+maar dalungi
+maar diya
+maar dala
+jaan se maar
+jaan le lunga
+khatam kar dunga
+khatam kar dungi
+khoon
+khoon kar
+khoon kharaba
+katl
+qatl
+qatil
+katil
+hatya
+hatyara
+laash
+lash
+thappad
+chaanta
+chanta
+ghoonsa
+laat
+pitai
+pitaai
+peet
+maut
+zinda jala
+jala dunga
+gala ghont
+gala daba
+supari
+goonda
+gunda
+gundagardi
+dhamki
+badla
+danga
+dange
+apharan
+मार डालूंगा
+मार डालूँगा
+मार दूंगा
+मार दूँगा
+जान से मार
+खून
+ख़ून
+खून-खराबा
+कत्ल
+क़त्ल
+कातिल
+क़ातिल
+हत्या
+हत्यारा
+लाश
+थप्पड़
+चांटा
+घूंसा
+पिटाई
+मौत
+जला दूंगा
+गला घोंट
+सुपारी
+गुंडा
+धमकी
+बदला
+दंगा
+अपहरण
+किडनैप

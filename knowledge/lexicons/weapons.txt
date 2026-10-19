@@ -1,0 +1,96 @@
+# Weapons lexicon (violence and imitable behaviour candidates). Whole-word, case-insensitive.
+# Noisy terms kept for recall, the LLM must disambiguate:
+#   bullet (also the Royal Enfield motorcycle and the platform name), goli (also pill or marble), danda, acid.
+gun
+guns
+gunshot
+pistol
+revolver
+rifle
+shotgun
+machine gun
+ak-47
+ak47
+sniper
+trigger
+silencer
+bullet
+bullets
+cartridge
+kartoos
+goli
+goli maar
+goli chala
+bandook
+banduk
+bandooq
+katta
+desi katta
+tamancha
+knife
+knives
+chaku
+chaaku
+chakku
+churi
+chhuri
+chhura
+rampuri
+gupti
+dagger
+khanjar
+sword
+talwar
+axe
+kulhadi
+sickle
+hasiya
+daranti
+machete
+blade
+razor
+ustara
+lathi
+danda
+hockey stick
+baseball bat
+iron rod
+lohe ki rod
+bomb
+grenade
+explosive
+explosives
+dynamite
+petrol bomb
+acid
+tezaab
+tejab
+बंदूक
+बन्दूक
+पिस्तौल
+पिस्टल
+रिवॉल्वर
+राइफल
+गोली
+कारतूस
+कट्टा
+देसी कट्टा
+तमंचा
+चाकू
+छुरी
+छुरा
+रामपुरी
+गुप्ती
+खंजर
+तलवार
+कुल्हाड़ी
+कुल्हाडी
+हंसिया
+उस्तरा
+ब्लेड
+लाठी
+डंडा
+बम
+ग्रेनेड
+तेज़ाब
+तेजाब
