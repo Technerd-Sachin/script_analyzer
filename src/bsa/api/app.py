@@ -17,7 +17,7 @@ from bsa.ingest.detect import SUPPORTED, doc_hash
 from bsa.jobs.store import Store
 from bsa.jobs.worker import JobManager, QueueFull
 from bsa.knowledge import get_knowledge
-from bsa.pipeline.run import cache_key, load_cached
+from bsa.pipeline.run import cache_key, is_complete, load_cached
 from bsa.report_md import to_markdown
 
 cfg = get_config()
@@ -114,7 +114,8 @@ def _cached_report(doc_id: str, filename: str, data: bytes, opts: AnalysisOption
 
     probe = ScriptIR(doc_id=doc_id)
     key = cache_key(probe, opts, cfg, get_knowledge(), cfg.llm.model)
-    return key if load_cached(key, cfg) else None
+    report = load_cached(key, cfg)
+    return key if report is not None and is_complete(report) else None
 
 
 @app.get("/v1/jobs/{job_id}")

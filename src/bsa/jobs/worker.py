@@ -10,6 +10,7 @@ from bsa.config import Config
 from bsa.domain.options import AnalysisOptions
 from bsa.ingest.detect import IngestError, ingest_bytes
 from bsa.jobs.store import Store
+from bsa.llm.client import LLMUnavailable
 from bsa.pipeline.run import analyze_ir
 
 log = structlog.get_logger()
@@ -97,6 +98,10 @@ class JobManager:
         except IngestError as exc:
             self.store.update_job(job_id, status="failed", error=exc.message)
             self.store.add_event(job_id, "error", {"code": exc.code, "message": exc.message})
+            return
+        except LLMUnavailable as exc:
+            self.store.update_job(job_id, status="failed", error=str(exc))
+            self.store.add_event(job_id, "error", {"code": 503, "message": str(exc)})
             return
         for name in (
             "summary",

@@ -73,10 +73,12 @@ def page_analyze() -> None:
         if not files:
             st.info("No example reports in examples/outputs/ yet.")
             return
-        names = {f"{json.loads(f.read_text())['title'] or f.stem} ({f.stem})": f for f in files}
+        names = {
+            f"{json.loads(f.read_text(encoding='utf-8'))['title'] or f.stem} ({f.stem})": f for f in files
+        }
         choice = st.selectbox("Example report", list(names))
         if st.button("Load example", type="primary"):
-            st.session_state["report"] = json.loads(names[choice].read_text())
+            st.session_state["report"] = json.loads(names[choice].read_text(encoding="utf-8"))
             st.success("Loaded. Open Overview in the sidebar.")
         return
     up = st.file_uploader(

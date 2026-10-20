@@ -19,6 +19,9 @@ class FakeLLM:
         self.calls: list[tuple[str, list[Message]]] = []
         self._idx: dict[str, int] = {}
 
+    async def preflight(self) -> str | None:
+        return None
+
     async def structured[T: BaseModel](
         self, *, node: str, messages: list[Message], schema: type[T], temperature: float, num_predict: int
     ) -> LLMResult[T]:

@@ -6,31 +6,123 @@ Everything runs on one shared Linux VM with a T4 GPU using open-source models. N
 
 ![Overview page](examples/screenshots/kavya_overview.png)
 
-## Quickstart
+## Installation and quickstart
 
-**1. Browse results without running anything (demo mode).**
+### What you need
 
-```bash
+| To | You need | Notes |
+|---|---|---|
+| Browse the results (demo mode) | Python 3.12 and the packages in `uv.lock` | `uv` installs both. No model, GPU or key |
+| Analyze scripts | [Ollama](https://ollama.com) with `qwen3:4b-instruct-2507-q4_K_M` (2.5 GB) | An NVIDIA GPU is strongly recommended. CPU works but is much slower |
+| Similar titles (optional) | Ollama `bge-m3` (1.2 GB) and [Qdrant](https://qdrant.tech) | Without them the market section shows tropes only |
+| Scanned PDFs and photos (optional) | The `ocr` extra (NVIDIA GPU, CUDA 12.6) | See step 6 |
+
+### 1. Install
+
+Windows (PowerShell):
+
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+git clone https://github.com/Technerd-Sachin/script_analyzer.git
+cd script_analyzer
 uv sync
-uv run streamlit run ui/app.py      # open http://127.0.0.1:8501, demo mode is on when no API key is set
 ```
 
-Demo mode loads the reports in `examples/outputs/`. No model, GPU or key is needed.
-
-**2. Run the full system.** Needs Ollama with `qwen3:4b-instruct-2507-q4_K_M` (and `bge-m3` for comps), plus optionally the PaddleOCR service and Qdrant described in `config.yaml`.
+Linux and macOS:
 
 ```bash
-cp .env.example .env && chmod 600 .env   # set BSA_API_KEY to any long random string
-uv sync --extra ocr                      # local PaddleOCR (GPU build) for Devanagari pages
-uv run bsa analyze examples/inputs/the_last_message.txt --md report.md
-make dev                                 # API on 127.0.0.1:8100, UI on 127.0.0.1:8501
-uv run bsa corpus build                  # optional: comps corpus (Wikipedia, Wikidata, IMDb) into Qdrant
-uv run bsa trends refresh                # optional: trend snapshot from Wikimedia pageviews
-uv run bsa eval run --suite core         # evaluation suite (local model, no cost)
-make check                               # ruff and pyright (strict)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+git clone https://github.com/Technerd-Sachin/script_analyzer.git
+cd script_analyzer
+uv sync
 ```
 
-From a laptop: `ssh -L 8501:127.0.0.1:8501 -L 8100:127.0.0.1:8100 <user>@<vm>`, then open http://localhost:8501.
+`uv sync` downloads Python 3.12 if needed and installs the exact versions pinned in `uv.lock` into `.venv`.
+
+**With pip instead of uv:** use Python 3.12 and run from the repo root. Then drop the `uv run` prefix from the commands below.
+
+```bash
+python3.12 -m venv .venv          # Windows: py -3.12 -m venv .venv
+source .venv/bin/activate         # Windows: .venv\Scripts\activate
+pip install -r requirements.txt   # pinned versions, and this project in editable mode
+```
+
+The project must be installed in editable mode (`requirements.txt` does this with `-e .`), because the code reads `config.yaml`, `prompts/` and `knowledge/` from the repo folder.
+
+### 2. Browse the results (demo mode, no model)
+
+```bash
+uv run streamlit run ui/app.py
+```
+
+Open http://127.0.0.1:8501. Demo mode is on when no API key is set. It loads the reports in `examples/outputs/`, including a scanned PDF whose findings are highlighted on the page images.
+
+### 3. Analyze a script with the local model
+
+Install Ollama from https://ollama.com, then:
+
+```bash
+ollama pull qwen3:4b-instruct-2507-q4_K_M
+uv run bsa ingest examples/inputs/the_last_message.txt --show-ir     # parse only, no model
+uv run bsa analyze examples/inputs/the_last_message.txt --md report.md
+uv run bsa analyze my_script.pdf --features core                      # faster: core analysis only
+```
+
+If Ollama is not running or the model is not pulled, `bsa analyze` stops and says which. Model calls run one at a time. On a T4 a full report takes about 4 to 10 minutes (see [Cost and latency](#cost-and-latency)). On a CPU expect it to be several times slower, so start with `--features core`.
+
+### 4. Run the API and the UI (live mode)
+
+Create `.env` from the template and set `BSA_API_KEY` to any long random string. The API and the UI both read it, and the UI starts in live mode when it is set.
+
+```bash
+cp .env.example .env && chmod 600 .env    # Windows: Copy-Item .env.example .env
+```
+
+Linux and macOS: `make dev`. Windows: use two terminals.
+
+```powershell
+uv run bsa serve                 # API on http://127.0.0.1:8100
+uv run streamlit run ui/app.py   # UI on http://127.0.0.1:8501
+```
+
+From a laptop to a remote server: `ssh -L 8501:127.0.0.1:8501 -L 8100:127.0.0.1:8100 <user>@<server>`, then open http://localhost:8501.
+
+### 5. Optional: similar titles
+
+```bash
+ollama pull bge-m3
+docker run -d -p 6333:6333 qdrant/qdrant
+uv run bsa corpus build          # Wikipedia + Wikidata + IMDb ratings into Qdrant (bsa_comps); slow, about 1 Wikipedia request per second
+```
+
+The trend snapshot in `knowledge/trends/` is committed. `uv run bsa trends refresh` rebuilds it from the corpus.
+
+### 6. Optional: scanned PDFs and photos
+
+```bash
+uv sync --extra ocr     # PaddleOCR, GPU build (NVIDIA GPU, CUDA 12.6), used for Devanagari pages
+```
+
+In the original deployment, Latin-script scanned pages go to a separate PaddleOCR service at `ocr.doc_qna_url` in `config.yaml`. That service is not part of this repo. Without it, every scanned page goes to the local Devanagari recognizer, which is not built for English pages. Text, Fountain, Final Draft, Word and digital PDF files need no OCR.
+
+### Development checks
+
+```bash
+uv run ruff check src ui evals && uv run ruff format --check src ui evals && uv run pyright   # or: make check
+uv run bsa eval run --suite core    # evaluation suite on the local model
+```
+
+`requirements.txt` is generated from `uv.lock`. After changing dependencies, regenerate it with `uv export --no-dev --no-hashes --format requirements-txt -o requirements.txt`.
+
+### Troubleshooting
+
+| Message | Fix |
+|---|---|
+| `error 503: Ollama is not reachable` | Start Ollama (open the Ollama app, or run `ollama serve`) |
+| `Model '...' is not available in Ollama` | Run the `ollama pull` command shown in the message |
+| `error 413`, `415` or `422` | More than 20 pages or 25 MB, an unsupported file type, or no readable script text |
+| The same result comes back after a change | Reports are cached per file, options, prompts, knowledge and model. Add `--no-cache` |
+| The UI shows `BSA_API_KEY is not configured on the server` | Create `.env` (step 4), or switch Demo mode on |
 
 ## What you get for the brief's example
 

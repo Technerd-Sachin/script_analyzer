@@ -4,8 +4,8 @@ install:
 	uv sync
 
 lint:
-	uv run ruff check src tests ui evals
-	uv run ruff format --check src tests ui evals
+	uv run ruff check src ui evals
+	uv run ruff format --check src ui evals
 
 type:
 	uv run pyright

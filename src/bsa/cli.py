@@ -56,6 +56,7 @@ def analyze(
     """Run the full analysis pipeline in-process."""
     from bsa.domain.options import AnalysisOptions
     from bsa.ingest.detect import IngestError, ingest_path
+    from bsa.llm.client import LLMUnavailable
     from bsa.pipeline.run import analyze_ir
     from bsa.report_md import to_markdown
 
@@ -73,7 +74,13 @@ def analyze(
     def progress(stage: str, status: str, elapsed_ms: int) -> None:
         typer.echo(f"  [{status:>7}] {stage} ({elapsed_ms / 1000:.1f}s)", err=True)
 
-    report = asyncio.run(analyze_ir(ir, opts, progress=progress, record_dir=record, use_cache=not no_cache))
+    try:
+        report = asyncio.run(
+            analyze_ir(ir, opts, progress=progress, record_dir=record, use_cache=not no_cache)
+        )
+    except LLMUnavailable as exc:
+        typer.echo(f"error 503: {exc}", err=True)
+        raise typer.Exit(1) from exc
     data = report.model_dump(mode="json")
     if out:
         out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")

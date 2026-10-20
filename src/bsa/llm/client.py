@@ -35,8 +35,14 @@ class Message:
     content: str
 
 
+class LLMUnavailable(Exception):
+    """The model server is down or the configured model is not pulled; raised before any work starts."""
+
+
 class LLMPort(Protocol):
     model: str
+
+    async def preflight(self) -> str | None: ...
 
     async def structured[T: BaseModel](
         self,
@@ -101,6 +107,22 @@ class OllamaClient:
         self._sem = asyncio.Semaphore(cfg.concurrency)
         self._record_dir = record_dir
         self._record_counts: dict[str, int] = {}
+
+    async def preflight(self) -> str | None:
+        """Return a readable problem when Ollama is unreachable or the model is not pulled, else None."""
+        try:
+            async with httpx.AsyncClient(timeout=5) as client:
+                resp = await client.get(f"{self.cfg.base_url}/api/tags")
+                resp.raise_for_status()
+                names = {str(m.get("name")) for m in resp.json().get("models", [])}
+        except (httpx.HTTPError, ValueError) as exc:
+            return (
+                f"Ollama is not reachable at {self.cfg.base_url} ({type(exc).__name__}). "
+                "Install it from https://ollama.com and make sure it is running."
+            )
+        if self.model not in names and f"{self.model}:latest" not in names:
+            return f"Model '{self.model}' is not available in Ollama. Run: ollama pull {self.model}"
+        return None
 
     async def structured[T: BaseModel](
         self,

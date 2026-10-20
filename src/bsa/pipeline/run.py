@@ -17,7 +17,7 @@ from bsa.ingest.detect import IngestError
 from bsa.ingest.episodes import apply_boundaries, heuristic_boundaries, needs_split
 from bsa.ingest.render import estimate_tokens, render_script
 from bsa.knowledge import Knowledge, get_knowledge
-from bsa.llm.client import LLMPort, OllamaClient
+from bsa.llm.client import LLMPort, LLMUnavailable, OllamaClient
 from bsa.llm.prompts import split_front_matter
 from bsa.pipeline.context import Progress, RunContext, timer
 from bsa.pipeline.graph import build_graph
@@ -85,6 +85,17 @@ def load_cached(key: str, cfg: Config | None = None) -> AnalysisReport | None:
     return None
 
 
+def is_complete(report: AnalysisReport) -> bool:
+    """Reusable from the cache only if no model call hit a transport error and no node crashed.
+
+    A report from a run where Ollama was down is still stored (the API serves it by key), but a later
+    run of the same script analyzes again instead of returning the empty result.
+    """
+    return not any(c.stop_reason == "error" for c in report.meta.calls) and not any(
+        w.startswith("node failed:") for w in report.meta.warnings
+    )
+
+
 async def split_episodes(ir: ScriptIR, ctx: RunContext) -> None:
     if not needs_split(ir):
         return
@@ -119,10 +130,12 @@ async def analyze_ir(
     kb = kb or get_knowledge()
     llm = llm or OllamaClient(cfg.llm, record_dir)
     key = cache_key(ir, opts, cfg, kb, llm.model)
-    if use_cache and (cached := load_cached(key, cfg)) is not None:
+    if use_cache and (cached := load_cached(key, cfg)) is not None and is_complete(cached):
         if progress:
             progress("cache", "hit", 0)
         return cached
+    if (problem := await llm.preflight()) is not None:
+        raise LLMUnavailable(problem)
     elapsed = timer()
     text, mode = render_script(ir, cfg.limits.script_token_budget)
     ctx = RunContext(
